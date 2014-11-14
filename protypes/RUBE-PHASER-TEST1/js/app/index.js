@@ -2,7 +2,7 @@ var game, cursors;
 var mode = {DEBUG:0, RELEASE: 1};
 
 
-var ball;
+var body;
 
 $(document).ready(function(){
 
@@ -13,27 +13,30 @@ $(document).ready(function(){
 
 function runGame(mmode) 
 {
-	game = new Phaser.Game(320, 240, (mmode === mode.DEBUG) ? Phaser.CANVAS : Phaser.AUTO, 'phaser-container', { preload: preload, create: create, update: update, render: render });
+	game = new Phaser.Game(600, 480, (mmode === mode.DEBUG) ? Phaser.CANVAS : Phaser.AUTO, 'phaser-container', { preload: preload, create: create, update: update, render: render });
         
     function preload () {
-        preload_rube('assets/data/rube/test2.json');        
+        preload_rube('assets/data/rube/test1.json');        
     }
     
     function create () {
         create_rube();        
         PTM = 18;
         setViewCenterWorld( {x:0, y:1} );        
-        ball = getNamedBody(world, 'circle');
+        body = getNamedBody(world, 'chasis');
         cursors = game.input.keyboard.createCursorKeys();    	
     }
     
     function update() {
     	if (cursors.left.isDown) {
-
+            body.ApplyImpulse(new b2Vec2(-5, 0), body.GetWorldCenter());
     	}
     	else if (cursors.right.isDown) {
-            var i = 10;
+            body.ApplyImpulse(new b2Vec2(3, 0), body.GetWorldCenter());
     	}
+        else if (cursors.up.isDown) {
+            body.ApplyImpulse(new b2Vec2(0, 5), body.GetWorldCenter());
+        }
 
         update_rube(45); //fps
     }
