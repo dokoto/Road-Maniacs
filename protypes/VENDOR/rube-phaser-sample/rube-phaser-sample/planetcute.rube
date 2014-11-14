@@ -1,0 +1,4546 @@
+
+{
+  "activeScript" : "select( getFixtures(\"pickup\") );",
+  "collisionbitplanes" : 
+  {
+    "names" : 
+    [
+      "ground",
+      "pickup",
+      "player",
+      "bitplane4",
+      "bitplane5",
+      "bitplane6",
+      "bitplane7",
+      "bitplane8",
+      "bitplane9",
+      "bitplane10",
+      "bitplane11",
+      "bitplane12",
+      "bitplane13",
+      "bitplane14",
+      "bitplane15",
+      "bitplane16",
+      "bitplane17",
+      "bitplane18",
+      "bitplane19",
+      "bitplane20",
+      "bitplane21",
+      "bitplane22",
+      "bitplane23",
+      "bitplane24",
+      "bitplane25",
+      "bitplane26",
+      "bitplane27",
+      "bitplane28",
+      "bitplane29",
+      "bitplane30",
+      "bitplane31",
+      "bitplane32"
+    ]
+  },
+  "customPropertyDefs" : 
+  [
+    
+    {
+      "class" : "fixture",
+      "displayName" : "Vertical bounce speed",
+      "name" : "verticalbouncespeed",
+      "type" : "float"
+    },
+    
+    {
+      "class" : "fixture",
+      "displayName" : "Bounce width",
+      "name" : "bouncewidth",
+      "type" : "float"
+    },
+    
+    {
+      "class" : "fixture",
+      "displayName" : "Pickup type",
+      "name" : "pickuptype",
+      "type" : "int"
+    },
+    
+    {
+      "class" : "fixture",
+      "displayName" : "Bounce height",
+      "name" : "bounceheight",
+      "type" : "float"
+    },
+    
+    {
+      "class" : "fixture",
+      "displayName" : "Horizontal bounce speed",
+      "name" : "horizontalbouncespeed",
+      "type" : "float"
+    }
+  ],
+  "metaworld" : 
+  {
+    "allowSleep" : true,
+    "autoClearForces" : true,
+    "continuousPhysics" : true,
+    "exportOptions" : 
+    {
+      "compactCommonFloats" : true,
+      "compactZeroVecs" : false,
+      "saveFullPathForImages" : false,
+      "saveFullPathForSamplerOutput" : true,
+      "saveImagePathsRelativeToRUBEFile" : false,
+      "saveSamplerOutputPathsRelativeToRUBEFile" : false,
+      "useHumanReadableFloats" : true,
+      "usePrettyPrint" : true
+    },
+    "gravity" : 
+    {
+      "x" : 0,
+      "y" : -20.0
+    },
+    "metabody" : 
+    [
+      
+      {
+        "angle" : 0.05163383483886719,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 1,
+            "friction" : 0.5,
+            "id" : 3,
+            "name" : "ground",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "line"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                41.28020477294922,
+                41.48288726806641,
+                39.59327316284180,
+                37.82002258300781,
+                35.95202255249023,
+                34.45628356933594,
+                34.79510879516602,
+                34.25777435302734,
+                34.12420654296875,
+                32.57719421386719,
+                32.47145080566406,
+                28.43933296203613,
+                28.21776199340820,
+                17.76243209838867,
+                17.98494720458984,
+                13.96558761596680,
+                13.91488552093506,
+                11.92421722412109,
+                11.87340259552002,
+                9.826792716979980,
+                9.615358352661133
+              ],
+              "y" : 
+              [
+                -5.813576698303223,
+                -1.891689538955688,
+                -1.711799144744873,
+                -1.739773750305176,
+                -1.575952053070068,
+                -1.543508648872375,
+                5.012765884399414,
+                5.040535449981689,
+                2.455978393554688,
+                2.535927534103394,
+                0.4898104667663574,
+                0.7051784992218018,
+                -3.582188844680786,
+                -3.056007385253906,
+                1.249652266502380,
+                1.460380077362061,
+                0.4793317317962646,
+                0.5855658054351807,
+                -0.3976672291755676,
+                -0.3029985427856445,
+                -4.394239902496338
+              ]
+            }
+          },
+          
+          {
+            "density" : 1,
+            "friction" : 0.5,
+            "id" : 6,
+            "name" : "ground",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "line"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                2.405904769897461,
+                2.618259668350220,
+                0.7169640064239502,
+                -1.060739994049072,
+                -2.856499910354614,
+                -5.092795372009277,
+                -5.717420101165771
+              ],
+              "y" : 
+              [
+                -3.993585586547852,
+                0.1154689937829971,
+                0.2706860005855560,
+                0.2720080018043518,
+                0.4211870133876801,
+                0.4164396226406097,
+                7.597229957580566
+              ]
+            }
+          }
+        ],
+        "id" : 1,
+        "linearVelocity" : 0,
+        "name" : "ground",
+        "position" : 
+        {
+          "x" : 0.02415704727172852,
+          "y" : 0.05252686142921448
+        },
+        "type" : "static"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixedRotation" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 1,
+            "friction" : 0.2,
+            "id" : 1,
+            "name" : "footsensor",
+            "sensor" : true,
+            "shapes" : 
+            [
+              
+              {
+                "radius" : 0.1497322618961334,
+                "type" : "circle"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ 0.0 ],
+              "y" : [ -0.3578454852104187 ]
+            }
+          },
+          
+          {
+            "density" : 1,
+            "filter-categoryBits" : 4,
+            "friction" : 0.1,
+            "id" : 2,
+            "name" : "player",
+            "shapes" : 
+            [
+              
+              {
+                "radius" : 0.45,
+                "type" : "circle"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ 0.0 ],
+              "y" : [ 0.0 ]
+            }
+          }
+        ],
+        "id" : 2,
+        "linearVelocity" : 0,
+        "massData-I" : 0.0008990316418930888,
+        "massData-center" : 
+        {
+          "x" : 0,
+          "y" : -0.03566964343190193
+        },
+        "massData-mass" : 0.7066062092781067,
+        "name" : "player",
+        "position" : 
+        {
+          "x" : -2.043461799621582,
+          "y" : 0.8461141586303711
+        },
+        "type" : "dynamic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 1,
+            "friction" : 0.5,
+            "id" : 4,
+            "name" : "bridge",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "polygon"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                -0.7192060947418213,
+                0.7192063331604004,
+                0.7192063331604004,
+                -0.7192060947418213
+              ],
+              "y" : 
+              [
+                -0.1799074560403824,
+                -0.1799074560403824,
+                0.1799074411392212,
+                0.1799074411392212
+              ]
+            }
+          }
+        ],
+        "id" : 3,
+        "linearVelocity" : 0,
+        "massData-I" : 0.09482158720493317,
+        "massData-center" : 
+        {
+          "x" : 1.192092895507812e-07,
+          "y" : -7.450580596923828e-09
+        },
+        "massData-mass" : 0.5175622105598450,
+        "name" : "bridge",
+        "position" : 
+        {
+          "x" : 3.307473659515381,
+          "y" : 0.09847059845924377
+        },
+        "type" : "dynamic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 1,
+            "friction" : 0.5,
+            "id" : 5,
+            "name" : "bridge",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "polygon"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                -0.7192058563232422,
+                0.7192068099975586,
+                0.7192068099975586,
+                -0.7192058563232422
+              ],
+              "y" : 
+              [
+                -0.1799074560403824,
+                -0.1799074560403824,
+                0.1799074709415436,
+                0.1799074709415436
+              ]
+            }
+          }
+        ],
+        "id" : 4,
+        "linearVelocity" : 0,
+        "massData-I" : 0.09482165426015854,
+        "massData-center" : 
+        {
+          "x" : 4.768371582031250e-07,
+          "y" : 7.450580596923828e-09
+        },
+        "massData-mass" : 0.5175623893737793,
+        "name" : "bridge",
+        "position" : 
+        {
+          "x" : 4.517776489257812,
+          "y" : 0.09847063571214676
+        },
+        "type" : "dynamic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "customProperties" : 
+            [
+              
+              {
+                "int" : 0,
+                "name" : "pickuptype"
+              },
+              
+              {
+                "float" : 0.1,
+                "name" : "bounceheight"
+              },
+              
+              {
+                "float" : 0.05,
+                "name" : "bouncewidth"
+              },
+              
+              {
+                "float" : 0.14,
+                "name" : "horizontalbouncespeed"
+              },
+              
+              {
+                "float" : 0.1,
+                "name" : "verticalbouncespeed"
+              }
+            ],
+            "density" : 1,
+            "filter-categoryBits" : 2,
+            "filter-maskBits" : 4,
+            "id" : 10,
+            "name" : "pickup",
+            "sensor" : true,
+            "shapes" : 
+            [
+              
+              {
+                "radius" : 0.2029935270547867,
+                "type" : "circle"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ 0.0 ],
+              "y" : [ 0.0 ]
+            }
+          }
+        ],
+        "id" : 5,
+        "linearVelocity" : 0,
+        "name" : "gem",
+        "position" : 
+        {
+          "x" : 6.352150440216064,
+          "y" : 2.985824108123779
+        },
+        "type" : "kinematic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : -0.2181661576032639,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 1,
+            "filter-maskBits" : 0,
+            "friction" : 0.2,
+            "id" : 13,
+            "name" : "wheel",
+            "shapes" : 
+            [
+              
+              {
+                "radius" : 3.954548120498657,
+                "type" : "circle"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ -1.335144042968750e-05 ],
+              "y" : [ 0.0 ]
+            }
+          }
+        ],
+        "id" : 9,
+        "linearVelocity" : 0,
+        "name" : "wheel",
+        "position" : 
+        {
+          "x" : 23.11873054504395,
+          "y" : 3.632820606231689
+        },
+        "type" : "kinematic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularDamping" : 0.2,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 10,
+            "friction" : 1,
+            "id" : 14,
+            "name" : "platform",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "polygon"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                -1.185831069946289,
+                1.185829162597656,
+                1.185829162597656,
+                -1.185831069946289
+              ],
+              "y" : 
+              [
+                -1.661957025527954,
+                -1.661957025527954,
+                -1.406552791595459,
+                -1.406552791595459
+              ]
+            }
+          },
+          
+          {
+            "density" : 1,
+            "id" : 24,
+            "name" : "roller",
+            "shapes" : 
+            [
+              
+              {
+                "radius" : 0.07186307758092880,
+                "type" : "circle"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ -1.114358901977539 ],
+              "y" : [ -1.661960124969482 ]
+            }
+          },
+          
+          {
+            "density" : 1,
+            "id" : 27,
+            "name" : "roller",
+            "shapes" : 
+            [
+              
+              {
+                "radius" : 0.07186307758092880,
+                "type" : "circle"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ 1.112792968750 ],
+              "y" : [ -1.661960124969482 ]
+            }
+          }
+        ],
+        "id" : 10,
+        "linearVelocity" : 0,
+        "massData-I" : 17.26068687438965,
+        "massData-center" : 
+        {
+          "x" : -5.120281002746196e-06,
+          "y" : -1.534935355186462
+        },
+        "massData-mass" : 6.089768886566162,
+        "name" : "hanger",
+        "position" : 
+        {
+          "x" : 19.16411018371582,
+          "y" : 3.632820606231689
+        },
+        "type" : "dynamic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularDamping" : 0.2,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 0.8,
+            "friction" : 0.85,
+            "id" : 15,
+            "name" : "crate",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "polygon"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                0.5101966857910156,
+                0.4176073074340820,
+                -0.4008474349975586,
+                -0.4941606521606445,
+                -0.4946699142456055,
+                -0.4020795822143555,
+                0.4163751602172852,
+                0.5096845626831055
+              ],
+              "y" : 
+              [
+                0.4163746833801270,
+                0.5096864700317383,
+                0.5101981163024902,
+                0.4176077842712402,
+                -0.4008479118347168,
+                -0.4941596984863281,
+                -0.4946703910827637,
+                -0.4020810127258301
+              ]
+            }
+          }
+        ],
+        "id" : 11,
+        "linearVelocity" : 0,
+        "massData-I" : 0.1296163797378540,
+        "massData-center" : 
+        {
+          "x" : 0.007762696128338575,
+          "y" : 0.007763824891299009
+        },
+        "massData-mass" : 0.7931630611419678,
+        "name" : "crate",
+        "position" : 
+        {
+          "x" : 12.88545131683350,
+          "y" : 6.365677833557129
+        },
+        "type" : "dynamic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularDamping" : 0.2,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 10,
+            "friction" : 1,
+            "id" : 16,
+            "name" : "platform",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "polygon"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                -1.185831069946289,
+                1.185829162597656,
+                1.185829162597656,
+                -1.185831069946289
+              ],
+              "y" : 
+              [
+                -1.661957025527954,
+                -1.661957025527954,
+                -1.406552791595459,
+                -1.406552791595459
+              ]
+            }
+          },
+          
+          {
+            "density" : 1,
+            "id" : 28,
+            "name" : "roller",
+            "shapes" : 
+            [
+              
+              {
+                "radius" : 0.07186307758092880,
+                "type" : "circle"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ 1.112792968750 ],
+              "y" : [ -1.661960124969482 ]
+            }
+          },
+          
+          {
+            "density" : 1,
+            "id" : 29,
+            "name" : "roller",
+            "shapes" : 
+            [
+              
+              {
+                "radius" : 0.07186307758092880,
+                "type" : "circle"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ -1.114358901977539 ],
+              "y" : [ -1.661960124969482 ]
+            }
+          }
+        ],
+        "id" : 12,
+        "linearVelocity" : 0,
+        "massData-I" : 17.26068687438965,
+        "massData-center" : 
+        {
+          "x" : -5.120281002746196e-06,
+          "y" : -1.534935355186462
+        },
+        "massData-mass" : 6.089768886566162,
+        "name" : "hanger",
+        "position" : 
+        {
+          "x" : 27.07314682006836,
+          "y" : 3.632820606231689
+        },
+        "type" : "dynamic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularDamping" : 0.2,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 10,
+            "friction" : 1,
+            "id" : 17,
+            "name" : "platform",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "polygon"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                -1.185831069946289,
+                1.185829162597656,
+                1.185829162597656,
+                -1.185831069946289
+              ],
+              "y" : 
+              [
+                -1.661957025527954,
+                -1.661957025527954,
+                -1.406552791595459,
+                -1.406552791595459
+              ]
+            }
+          },
+          
+          {
+            "density" : 1,
+            "id" : 30,
+            "name" : "roller",
+            "shapes" : 
+            [
+              
+              {
+                "radius" : 0.07186307758092880,
+                "type" : "circle"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ 1.112792968750 ],
+              "y" : [ -1.661960124969482 ]
+            }
+          },
+          
+          {
+            "density" : 1,
+            "id" : 31,
+            "name" : "roller",
+            "shapes" : 
+            [
+              
+              {
+                "radius" : 0.07186307758092880,
+                "type" : "circle"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ -1.114358901977539 ],
+              "y" : [ -1.661960124969482 ]
+            }
+          }
+        ],
+        "id" : 13,
+        "linearVelocity" : 0,
+        "massData-I" : 17.26068687438965,
+        "massData-center" : 
+        {
+          "x" : -5.120281002746196e-06,
+          "y" : -1.534935355186462
+        },
+        "massData-mass" : 6.089768886566162,
+        "name" : "hanger",
+        "position" : 
+        {
+          "x" : 23.11870002746582,
+          "y" : 7.587430000305176
+        },
+        "type" : "dynamic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularDamping" : 0.2,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 10,
+            "friction" : 1,
+            "id" : 18,
+            "name" : "platform",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "polygon"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                -1.185831069946289,
+                1.185829162597656,
+                1.185829162597656,
+                -1.185831069946289
+              ],
+              "y" : 
+              [
+                -1.661957025527954,
+                -1.661957025527954,
+                -1.406552791595459,
+                -1.406552791595459
+              ]
+            }
+          },
+          
+          {
+            "density" : 1,
+            "id" : 32,
+            "name" : "roller",
+            "shapes" : 
+            [
+              
+              {
+                "radius" : 0.07186307758092880,
+                "type" : "circle"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ 1.112792968750 ],
+              "y" : [ -1.661960124969482 ]
+            }
+          },
+          
+          {
+            "density" : 1,
+            "id" : 33,
+            "name" : "roller",
+            "shapes" : 
+            [
+              
+              {
+                "radius" : 0.07186307758092880,
+                "type" : "circle"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ -1.114358901977539 ],
+              "y" : [ -1.661960124969482 ]
+            }
+          }
+        ],
+        "id" : 14,
+        "linearVelocity" : 0,
+        "massData-I" : 17.26068687438965,
+        "massData-center" : 
+        {
+          "x" : -5.120281002746196e-06,
+          "y" : -1.534935355186462
+        },
+        "massData-mass" : 6.089768886566162,
+        "name" : "hanger",
+        "position" : 
+        {
+          "x" : 23.11870002746582,
+          "y" : -0.3217130005359650
+        },
+        "type" : "dynamic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "customProperties" : 
+            [
+              
+              {
+                "int" : 0,
+                "name" : "pickuptype"
+              },
+              
+              {
+                "float" : 0.1,
+                "name" : "bounceheight"
+              },
+              
+              {
+                "float" : 0.05,
+                "name" : "bouncewidth"
+              },
+              
+              {
+                "float" : 0.14,
+                "name" : "horizontalbouncespeed"
+              },
+              
+              {
+                "float" : 0.1,
+                "name" : "verticalbouncespeed"
+              }
+            ],
+            "density" : 1,
+            "filter-categoryBits" : 2,
+            "filter-maskBits" : 4,
+            "id" : 34,
+            "name" : "pickup",
+            "sensor" : true,
+            "shapes" : 
+            [
+              
+              {
+                "radius" : 0.2029935270547867,
+                "type" : "circle"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ 0.0 ],
+              "y" : [ 0.0 ]
+            }
+          }
+        ],
+        "id" : 15,
+        "linearVelocity" : 0,
+        "name" : "gem",
+        "position" : 
+        {
+          "x" : 23.64426040649414,
+          "y" : 9.065412521362305
+        },
+        "type" : "kinematic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "customProperties" : 
+            [
+              
+              {
+                "int" : 0,
+                "name" : "pickuptype"
+              },
+              
+              {
+                "float" : 0.1,
+                "name" : "bounceheight"
+              },
+              
+              {
+                "float" : 0.05,
+                "name" : "bouncewidth"
+              },
+              
+              {
+                "float" : 0.14,
+                "name" : "horizontalbouncespeed"
+              },
+              
+              {
+                "float" : 0.1,
+                "name" : "verticalbouncespeed"
+              }
+            ],
+            "density" : 1,
+            "filter-categoryBits" : 2,
+            "filter-maskBits" : 4,
+            "id" : 35,
+            "name" : "pickup",
+            "sensor" : true,
+            "shapes" : 
+            [
+              
+              {
+                "radius" : 0.2029935270547867,
+                "type" : "circle"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ 0.0 ],
+              "y" : [ 0.0 ]
+            }
+          }
+        ],
+        "id" : 16,
+        "linearVelocity" : 0,
+        "name" : "gem",
+        "position" : 
+        {
+          "x" : 27.89933776855469,
+          "y" : -1.548149466514587
+        },
+        "type" : "kinematic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 1,
+            "friction" : 0.5,
+            "id" : 19,
+            "name" : "bridge",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "polygon"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                -0.7192063331604004,
+                0.7192058563232422,
+                0.7192058563232422,
+                -0.7192063331604004
+              ],
+              "y" : 
+              [
+                -0.1799074411392212,
+                -0.1799074411392212,
+                0.1799074858427048,
+                0.1799074858427048
+              ]
+            }
+          }
+        ],
+        "id" : 17,
+        "linearVelocity" : 0,
+        "massData-I" : 0.09482154995203018,
+        "massData-center" : 
+        {
+          "x" : -2.384185791015625e-07,
+          "y" : 2.235174179077148e-08
+        },
+        "massData-mass" : 0.5175622105598450,
+        "name" : "bridge",
+        "position" : 
+        {
+          "x" : 5.728080272674561,
+          "y" : 0.09847067296504974
+        },
+        "type" : "dynamic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 1,
+            "friction" : 0.5,
+            "id" : 20,
+            "name" : "bridge",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "polygon"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                -0.7192058563232422,
+                0.7192063331604004,
+                0.7192063331604004,
+                -0.7192058563232422
+              ],
+              "y" : 
+              [
+                -0.1799074560403824,
+                -0.1799074560403824,
+                0.1799074709415436,
+                0.1799074709415436
+              ]
+            }
+          }
+        ],
+        "id" : 18,
+        "linearVelocity" : 0,
+        "massData-I" : 0.09482154995203018,
+        "massData-center" : 
+        {
+          "x" : 2.384185791015625e-07,
+          "y" : 7.450580596923828e-09
+        },
+        "massData-mass" : 0.5175622105598450,
+        "name" : "bridge",
+        "position" : 
+        {
+          "x" : 6.938383102416992,
+          "y" : 0.09847072511911392
+        },
+        "type" : "dynamic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 1,
+            "friction" : 0.5,
+            "id" : 21,
+            "name" : "bridge",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "polygon"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                -0.7192072868347168,
+                0.7192058563232422,
+                0.7192058563232422,
+                -0.7192072868347168
+              ],
+              "y" : 
+              [
+                -0.1799074560403824,
+                -0.1799074560403824,
+                0.1799074560403824,
+                0.1799074560403824
+              ]
+            }
+          }
+        ],
+        "id" : 19,
+        "linearVelocity" : 0,
+        "massData-I" : 0.09482173621654510,
+        "massData-center" : 
+        {
+          "x" : -7.152557373046875e-07,
+          "y" : 0
+        },
+        "massData-mass" : 0.5175625085830688,
+        "name" : "bridge",
+        "position" : 
+        {
+          "x" : 8.148687362670898,
+          "y" : 0.09847076237201691
+        },
+        "type" : "dynamic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 1,
+            "friction" : 0.5,
+            "id" : 22,
+            "name" : "bridge",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "polygon"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                -0.7192049026489258,
+                0.7192068099975586,
+                0.7192068099975586,
+                -0.7192049026489258
+              ],
+              "y" : 
+              [
+                -0.1799074411392212,
+                -0.1799074411392212,
+                0.1799074709415436,
+                0.1799074709415436
+              ]
+            }
+          }
+        ],
+        "id" : 20,
+        "linearVelocity" : 0,
+        "massData-I" : 0.09482146054506302,
+        "massData-center" : 
+        {
+          "x" : 9.536743164062500e-07,
+          "y" : 1.490116119384766e-08
+        },
+        "massData-mass" : 0.5175619721412659,
+        "name" : "bridge",
+        "position" : 
+        {
+          "x" : 9.358989715576172,
+          "y" : 0.09847079962491989
+        },
+        "type" : "dynamic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "customProperties" : 
+            [
+              
+              {
+                "int" : 0,
+                "name" : "pickuptype"
+              },
+              
+              {
+                "float" : 0.1,
+                "name" : "bounceheight"
+              },
+              
+              {
+                "float" : 0.05,
+                "name" : "bouncewidth"
+              },
+              
+              {
+                "float" : 0.14,
+                "name" : "horizontalbouncespeed"
+              },
+              
+              {
+                "float" : 0.1,
+                "name" : "verticalbouncespeed"
+              }
+            ],
+            "density" : 1,
+            "filter-categoryBits" : 2,
+            "filter-maskBits" : 4,
+            "id" : 23,
+            "name" : "pickup",
+            "sensor" : true,
+            "shapes" : 
+            [
+              
+              {
+                "radius" : 0.2029935270547867,
+                "type" : "circle"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ 0.0 ],
+              "y" : [ 0.0 ]
+            }
+          }
+        ],
+        "id" : 21,
+        "linearVelocity" : 0,
+        "name" : "gem",
+        "position" : 
+        {
+          "x" : -5.026647567749023,
+          "y" : 2.160904884338379
+        },
+        "type" : "kinematic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 1,
+            "friction" : 0.5,
+            "id" : 8,
+            "name" : "wall",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "loop"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                -0.9978017807006836,
+                0.4930868148803711,
+                0.4930868148803711,
+                -0.4976348876953125,
+                -0.4976348876953125,
+                -0.9978017807006836
+              ],
+              "y" : 
+              [
+                -0.2477917671203613,
+                -0.2453043460845947,
+                0.2489244937896729,
+                0.2472331523895264,
+                3.760977268218994,
+                3.767141342163086
+              ]
+            }
+          },
+          
+          {
+            "density" : 1,
+            "friction" : 0.2,
+            "id" : 9,
+            "name" : "ledge",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "loop"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                6.519414901733398,
+                0.5104541778564453,
+                0.5104541778564453,
+                6.519414901733398
+              ],
+              "y" : 
+              [
+                2.762050151824951,
+                2.761182308197021,
+                2.262521266937256,
+                2.268512248992920
+              ]
+            }
+          }
+        ],
+        "id" : 22,
+        "linearVelocity" : 0,
+        "name" : "wall",
+        "position" : 
+        {
+          "x" : 10.41880035400391,
+          "y" : 3.061089992523193
+        },
+        "type" : "static"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "customProperties" : 
+            [
+              
+              {
+                "int" : 0,
+                "name" : "pickuptype"
+              },
+              
+              {
+                "float" : 0.1,
+                "name" : "bounceheight"
+              },
+              
+              {
+                "float" : 0.05,
+                "name" : "bouncewidth"
+              },
+              
+              {
+                "float" : 0.14,
+                "name" : "horizontalbouncespeed"
+              },
+              
+              {
+                "float" : 0.1,
+                "name" : "verticalbouncespeed"
+              }
+            ],
+            "density" : 1,
+            "filter-categoryBits" : 2,
+            "filter-maskBits" : 4,
+            "id" : 25,
+            "name" : "pickup",
+            "sensor" : true,
+            "shapes" : 
+            [
+              
+              {
+                "radius" : 0.2029935270547867,
+                "type" : "circle"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ 0.0 ],
+              "y" : [ 0.0 ]
+            }
+          }
+        ],
+        "id" : 23,
+        "linearVelocity" : 0,
+        "name" : "gem",
+        "position" : 
+        {
+          "x" : 10.42057704925537,
+          "y" : 3.745597839355469
+        },
+        "type" : "kinematic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "customProperties" : 
+            [
+              
+              {
+                "int" : 0,
+                "name" : "pickuptype"
+              },
+              
+              {
+                "float" : 0.1,
+                "name" : "bounceheight"
+              },
+              
+              {
+                "float" : 0.05,
+                "name" : "bouncewidth"
+              },
+              
+              {
+                "float" : 0.14,
+                "name" : "horizontalbouncespeed"
+              },
+              
+              {
+                "float" : 0.1,
+                "name" : "verticalbouncespeed"
+              }
+            ],
+            "density" : 1,
+            "filter-categoryBits" : 2,
+            "filter-maskBits" : 4,
+            "id" : 36,
+            "name" : "pickup",
+            "sensor" : true,
+            "shapes" : 
+            [
+              
+              {
+                "radius" : 0.2029935270547867,
+                "type" : "circle"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ 0.0 ],
+              "y" : [ 0.0 ]
+            }
+          }
+        ],
+        "id" : 24,
+        "linearVelocity" : 0,
+        "name" : "gem",
+        "position" : 
+        {
+          "x" : 23.11018180847168,
+          "y" : 3.637777805328369
+        },
+        "type" : "kinematic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "customProperties" : 
+            [
+              
+              {
+                "int" : 1,
+                "name" : "pickuptype"
+              },
+              
+              {
+                "float" : 0.1,
+                "name" : "bounceheight"
+              },
+              
+              {
+                "float" : 0.05,
+                "name" : "bouncewidth"
+              },
+              
+              {
+                "float" : 0.14,
+                "name" : "horizontalbouncespeed"
+              },
+              
+              {
+                "float" : 0.1,
+                "name" : "verticalbouncespeed"
+              }
+            ],
+            "density" : 1,
+            "filter-categoryBits" : 2,
+            "filter-maskBits" : 4,
+            "id" : 39,
+            "name" : "pickup",
+            "sensor" : true,
+            "shapes" : 
+            [
+              
+              {
+                "radius" : 0.2029935270547867,
+                "type" : "circle"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ 0.0 ],
+              "y" : [ 0.0 ]
+            }
+          }
+        ],
+        "id" : 27,
+        "linearVelocity" : 0,
+        "name" : "star",
+        "position" : 
+        {
+          "x" : 33.29629898071289,
+          "y" : 6.846152782440186
+        },
+        "type" : "kinematic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "customProperties" : 
+            [
+              
+              {
+                "int" : 0,
+                "name" : "pickuptype"
+              },
+              
+              {
+                "float" : 0.1,
+                "name" : "bounceheight"
+              },
+              
+              {
+                "float" : 0.05,
+                "name" : "bouncewidth"
+              },
+              
+              {
+                "float" : 0.14,
+                "name" : "horizontalbouncespeed"
+              },
+              
+              {
+                "float" : 0.1,
+                "name" : "verticalbouncespeed"
+              }
+            ],
+            "density" : 1,
+            "filter-categoryBits" : 2,
+            "filter-maskBits" : 4,
+            "id" : 41,
+            "name" : "pickup",
+            "sensor" : true,
+            "shapes" : 
+            [
+              
+              {
+                "radius" : 0.2029935270547867,
+                "type" : "circle"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ 0.0 ],
+              "y" : [ 0.0 ]
+            }
+          }
+        ],
+        "id" : 29,
+        "linearVelocity" : 0,
+        "name" : "gem",
+        "position" : 
+        {
+          "x" : 14.82569885253906,
+          "y" : 6.330765247344971
+        },
+        "type" : "kinematic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "customProperties" : 
+            [
+              
+              {
+                "int" : 0,
+                "name" : "pickuptype"
+              },
+              
+              {
+                "float" : 0.1,
+                "name" : "bounceheight"
+              },
+              
+              {
+                "float" : 0.05,
+                "name" : "bouncewidth"
+              },
+              
+              {
+                "float" : 0.14,
+                "name" : "horizontalbouncespeed"
+              },
+              
+              {
+                "float" : 0.1,
+                "name" : "verticalbouncespeed"
+              }
+            ],
+            "density" : 1,
+            "filter-categoryBits" : 2,
+            "filter-maskBits" : 4,
+            "id" : 42,
+            "name" : "pickup",
+            "sensor" : true,
+            "shapes" : 
+            [
+              
+              {
+                "radius" : 0.2029935270547867,
+                "type" : "circle"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ 0.0 ],
+              "y" : [ 0.0 ]
+            }
+          }
+        ],
+        "id" : 30,
+        "linearVelocity" : 0,
+        "name" : "gem",
+        "position" : 
+        {
+          "x" : 16.29035186767578,
+          "y" : 2.694897651672363
+        },
+        "type" : "kinematic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "customProperties" : 
+            [
+              
+              {
+                "int" : 0,
+                "name" : "pickuptype"
+              },
+              
+              {
+                "float" : 0.1,
+                "name" : "bounceheight"
+              },
+              
+              {
+                "float" : 0.05,
+                "name" : "bouncewidth"
+              },
+              
+              {
+                "float" : 0.14,
+                "name" : "horizontalbouncespeed"
+              },
+              
+              {
+                "float" : 0.1,
+                "name" : "verticalbouncespeed"
+              }
+            ],
+            "density" : 1,
+            "filter-categoryBits" : 2,
+            "filter-maskBits" : 4,
+            "id" : 43,
+            "name" : "pickup",
+            "sensor" : true,
+            "shapes" : 
+            [
+              
+              {
+                "radius" : 0.2029935270547867,
+                "type" : "circle"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ 0.0 ],
+              "y" : [ 0.0 ]
+            }
+          }
+        ],
+        "id" : 31,
+        "linearVelocity" : 0,
+        "name" : "gem",
+        "position" : 
+        {
+          "x" : 33.30207443237305,
+          "y" : 4.804566383361816
+        },
+        "type" : "kinematic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "customProperties" : 
+            [
+              
+              {
+                "int" : 0,
+                "name" : "pickuptype"
+              },
+              
+              {
+                "float" : 0.1,
+                "name" : "bounceheight"
+              },
+              
+              {
+                "float" : 0.05,
+                "name" : "bouncewidth"
+              },
+              
+              {
+                "float" : 0.14,
+                "name" : "horizontalbouncespeed"
+              },
+              
+              {
+                "float" : 0.1,
+                "name" : "verticalbouncespeed"
+              }
+            ],
+            "density" : 1,
+            "filter-categoryBits" : 2,
+            "filter-maskBits" : 4,
+            "id" : 44,
+            "name" : "pickup",
+            "sensor" : true,
+            "shapes" : 
+            [
+              
+              {
+                "radius" : 0.2029935270547867,
+                "type" : "circle"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ 0.0 ],
+              "y" : [ 0.0 ]
+            }
+          }
+        ],
+        "id" : 32,
+        "linearVelocity" : 0,
+        "name" : "gem",
+        "position" : 
+        {
+          "x" : 30.38060951232910,
+          "y" : 2.829370737075806
+        },
+        "type" : "kinematic"
+      }
+    ],
+    "metaimage" : 
+    [
+      
+      {
+        "aspectScale" : 1.896680712699890,
+        "body" : 3,
+        "center" : 
+        {
+          "x" : 0,
+          "y" : 0.07930069416761398
+        },
+        "file" : "images/planetcute-narrowwood.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 1,
+        "name" : "image13",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 0.1897076815366745
+      },
+      
+      {
+        "angle" : 1.570796251296997,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 9.673936843872070,
+          "y" : 4.309688568115234
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 2,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 0.5
+      },
+      
+      {
+        "angle" : 1.570796251296997,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 9.673936843872070,
+          "y" : 5.308572292327881
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 3,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 0.5
+      },
+      
+      {
+        "angle" : -0.02788573503494263,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -2.034805059432983,
+          "y" : 0.2997424006462097
+        },
+        "file" : "images/shadow.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 4,
+        "name" : "shadow",
+        "opacity" : 1,
+        "renderOrder" : 14.0,
+        "scale" : 0.4819227457046509
+      },
+      
+      {
+        "aspectScale" : 2.300655603408813,
+        "body" : 12,
+        "center" : 
+        {
+          "x" : -0.002395193325355649,
+          "y" : -1.531888723373413
+        },
+        "file" : "images/planetcute-narrowwood.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 5,
+        "name" : "image13",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 0.2552753388881683
+      },
+      
+      {
+        "aspectScale" : 2.300655603408813,
+        "body" : 13,
+        "center" : 
+        {
+          "x" : -0.002395193325355649,
+          "y" : -1.531888723373413
+        },
+        "file" : "images/planetcute-narrowwood.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 6,
+        "name" : "image13",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 0.2552753388881683
+      },
+      
+      {
+        "aspectScale" : 2.300655603408813,
+        "body" : 14,
+        "center" : 
+        {
+          "x" : -0.002395193325355649,
+          "y" : -1.531888723373413
+        },
+        "file" : "images/planetcute-narrowwood.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 7,
+        "name" : "image13",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 0.2552753388881683
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 11.68853950500488,
+          "y" : -0.598607599735260
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 11,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 1.834386467933655
+      },
+      
+      {
+        "angle" : -0.3181394338607788,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -5.363426685333252,
+          "y" : 1.400296688079834
+        },
+        "file" : "images/planetcute-tree.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 12,
+        "name" : "image8",
+        "opacity" : 1,
+        "renderOrder" : 20.0,
+        "scale" : 1.761159062385559
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 4.354070186614990,
+          "y" : -2.780550718307495
+        },
+        "file" : "images/planetcute-water.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 13,
+        "name" : "image9",
+        "opacity" : 1,
+        "renderOrder" : 8,
+        "scale" : 2.058268308639526
+      },
+      
+      {
+        "angle" : -1.443815469741821,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -5.310596942901611,
+          "y" : 0.6101534366607666
+        },
+        "file" : "images/planetcute-wood.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 14,
+        "name" : "image10",
+        "opacity" : 1,
+        "renderOrder" : 18.0,
+        "scale" : 0.2913415133953094
+      },
+      
+      {
+        "aspectScale" : 1,
+        "body" : 2,
+        "center" : 
+        {
+          "x" : 0,
+          "y" : 0.1864646673202515
+        },
+        "file" : "images/planetcute-player.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 15,
+        "name" : "image11",
+        "opacity" : 1,
+        "renderOrder" : 15.0,
+        "scale" : 2.175303936004639
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -1.181429982185364,
+          "y" : -1.752140045166016
+        },
+        "file" : "images/planetcute-dirt.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 16,
+        "name" : "image1",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 3.787986755371094
+      },
+      
+      {
+        "aspectScale" : 1.896680712699890,
+        "body" : 4,
+        "center" : 
+        {
+          "x" : 0,
+          "y" : 0.07930067181587219
+        },
+        "file" : "images/planetcute-narrowwood.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 18,
+        "name" : "image13",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 0.1897076815366745
+      },
+      
+      {
+        "angle" : 1.570796251296997,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 9.673936843872070,
+          "y" : 6.313684463500977
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 19,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 0.5
+      },
+      
+      {
+        "angle" : -0.02004313468933105,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -1.950939893722534,
+          "y" : -0.1682152450084686
+        },
+        "file" : "images/planetcute-grass.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 20,
+        "name" : "image1",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 1
+      },
+      
+      {
+        "angle" : 0.05163383483886719,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -3.721701145172119,
+          "y" : -0.1904436945915222
+        },
+        "file" : "images/planetcute-grass.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 21,
+        "name" : "image1",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 1
+      },
+      
+      {
+        "angle" : 0.05163383483886719,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -0.1377079486846924,
+          "y" : -0.1450021117925644
+        },
+        "file" : "images/planetcute-grass.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 22,
+        "name" : "image1",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 1
+      },
+      
+      {
+        "angle" : -0.03803014755249023,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 1.607144117355347,
+          "y" : -0.1325236409902573
+        },
+        "file" : "images/planetcute-grass.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 23,
+        "name" : "image1",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 1
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -3.375022411346436,
+          "y" : 0.6013553142547607
+        },
+        "file" : "images/planetcute-tree.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 24,
+        "name" : "image8",
+        "opacity" : 1,
+        "renderOrder" : 20.0,
+        "scale" : 1.373164534568787
+      },
+      
+      {
+        "angle" : 0.6354659795761108,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -5.096024513244629,
+          "y" : 0.4064064025878906
+        },
+        "file" : "images/planetcute-tree.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 25,
+        "name" : "image8",
+        "opacity" : 1,
+        "renderOrder" : 20.0,
+        "scale" : 1.149751663208008
+      },
+      
+      {
+        "angle" : -0.1505519151687622,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -5.613048076629639,
+          "y" : -0.1236408948898315
+        },
+        "file" : "images/planetcute-grass.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 26,
+        "name" : "image1",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 1
+      },
+      
+      {
+        "angle" : -0.3070548176765442,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -2.853523254394531,
+          "y" : 0.4029088020324707
+        },
+        "file" : "images/planetcute-tree.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 27,
+        "name" : "image8",
+        "opacity" : 1,
+        "renderOrder" : 20.0,
+        "scale" : 0.8771167397499084
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -3.696832656860352,
+          "y" : 0.3463429212570190
+        },
+        "file" : "images/planetcute-rock.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 28,
+        "name" : "image5",
+        "opacity" : 1,
+        "renderOrder" : 19.0,
+        "scale" : 0.5394148826599121
+      },
+      
+      {
+        "angle" : 0.6217955350875854,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -3.896545648574829,
+          "y" : 0.2610334157943726
+        },
+        "file" : "images/planetcute-rock.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 29,
+        "name" : "image5",
+        "opacity" : 1,
+        "renderOrder" : 19.0,
+        "scale" : 0.3437170982360840
+      },
+      
+      {
+        "angle" : -0.5048942565917969,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -5.595876216888428,
+          "y" : 2.623481512069702
+        },
+        "file" : "images/planetcute-tree.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 30,
+        "name" : "image8",
+        "opacity" : 1,
+        "renderOrder" : 20.0,
+        "scale" : 3.493996143341064
+      },
+      
+      {
+        "angle" : 0.07906955480575562,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -7.117411136627197,
+          "y" : 1.530857563018799
+        },
+        "file" : "images/planetcute-tree.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 31,
+        "name" : "image8",
+        "opacity" : 1,
+        "renderOrder" : 20.0,
+        "scale" : 3.000991106033325
+      },
+      
+      {
+        "angle" : 0.07906955480575562,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -7.127541542053223,
+          "y" : 2.556189298629761
+        },
+        "file" : "images/planetcute-tree.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 32,
+        "name" : "image8",
+        "opacity" : 1,
+        "renderOrder" : 20.0,
+        "scale" : 2.715125799179077
+      },
+      
+      {
+        "angle" : -0.2428995966911316,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -6.864258289337158,
+          "y" : 3.863491296768188
+        },
+        "file" : "images/planetcute-tree.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 33,
+        "name" : "image8",
+        "opacity" : 1,
+        "renderOrder" : 20.0,
+        "scale" : 3.276784658432007
+      },
+      
+      {
+        "angle" : -5.827229499816895,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -8.674018859863281,
+          "y" : 3.326366424560547
+        },
+        "file" : "images/planetcute-tree.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 34,
+        "name" : "image8",
+        "opacity" : 1,
+        "renderOrder" : 20.0,
+        "scale" : 3.276784658432007
+      },
+      
+      {
+        "angle" : -2.934077501296997,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -5.989027976989746,
+          "y" : 0.2361347675323486
+        },
+        "file" : "images/planetcute-tree.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 35,
+        "name" : "image8",
+        "opacity" : 1,
+        "renderOrder" : 20.0,
+        "scale" : 2.673825979232788
+      },
+      
+      {
+        "angle" : -1.938814759254456,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -6.110330104827881,
+          "y" : 1.329145431518555
+        },
+        "file" : "images/planetcute-wood.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 36,
+        "name" : "image10",
+        "opacity" : 1,
+        "renderOrder" : 18.0,
+        "scale" : 0.2934377789497375
+      },
+      
+      {
+        "angle" : 2.19619894027710,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -8.993830680847168,
+          "y" : 0.4552409648895264
+        },
+        "file" : "images/planetcute-tree.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 37,
+        "name" : "image8",
+        "opacity" : 1,
+        "renderOrder" : 11.0,
+        "scale" : 5.953685760498047
+      },
+      
+      {
+        "angle" : 2.19619894027710,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -8.993830680847168,
+          "y" : 0.4552409648895264
+        },
+        "file" : "images/planetcute-tree.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 38,
+        "name" : "image8",
+        "opacity" : 1,
+        "renderOrder" : 11.0,
+        "scale" : 5.953685760498047
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -7.787413120269775,
+          "y" : -1.759378910064697
+        },
+        "file" : "images/planetcute-dirt.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 39,
+        "name" : "image1",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 3.787986755371094
+      },
+      
+      {
+        "angle" : 0.1209083795547485,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -7.378499507904053,
+          "y" : -0.07536017894744873
+        },
+        "file" : "images/planetcute-grass.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 40,
+        "name" : "image1",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 1
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 18.22841453552246,
+          "y" : -4.689063072204590
+        },
+        "file" : "images/planetcute-sky.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 41,
+        "name" : "image12",
+        "opacity" : 1,
+        "scale" : 96.23663330078125
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 1.295855045318604,
+          "y" : 0.3368793725967407
+        },
+        "file" : "images/planetcute-rock.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 42,
+        "name" : "image5",
+        "opacity" : 1,
+        "renderOrder" : 19.0,
+        "scale" : 0.5394148826599121
+      },
+      
+      {
+        "angle" : 0.2828656435012817,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 1.592470407485962,
+          "y" : 0.2058937549591064
+        },
+        "file" : "images/planetcute-rock.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 43,
+        "name" : "image5",
+        "opacity" : 1,
+        "renderOrder" : 19.0,
+        "scale" : 0.2188659310340881
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 12.87047767639160,
+          "y" : 0.7666550874710083
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 44,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 1
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 14.88163566589355,
+          "y" : 1.740810275077820
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 46,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 1
+      },
+      
+      {
+        "angle" : -1.563080787658691,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 13.75029563903809,
+          "y" : -3.040204524993896
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 47,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 11.0,
+        "scale" : 3.184530019760132
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 12.42553806304932,
+          "y" : 5.577018737792969
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 48,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 0.5
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 11.42665386199951,
+          "y" : 5.577017784118652
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 49,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 0.5
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 15.84098052978516,
+          "y" : 0.2651356458663940
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 50,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 2.025311708450317
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 16.88000869750977,
+          "y" : 1.734432697296143
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 51,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 1
+      },
+      
+      {
+        "angle" : 1.570796251296997,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 14.31252384185791,
+          "y" : 3.288928508758545
+        },
+        "colorTint" : [ 85, 85, 85, 128 ],
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 52,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 6,
+        "scale" : 3.030050754547119
+      },
+      
+      {
+        "angle" : 1.570796251296997,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 17.34028625488281,
+          "y" : 3.298401594161987
+        },
+        "colorTint" : [ 85, 85, 85, 128 ],
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 53,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 6,
+        "scale" : 3.030050754547119
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 11.41548156738281,
+          "y" : 6.602166175842285
+        },
+        "colorTint" : [ 85, 85, 85, 128 ],
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 54,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 6,
+        "scale" : 0.5060746073722839
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 13.42204666137695,
+          "y" : 6.602166175842285
+        },
+        "colorTint" : [ 85, 85, 85, 128 ],
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 55,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 6,
+        "scale" : 0.5060746073722839
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 17.47882843017578,
+          "y" : 6.602166175842285
+        },
+        "colorTint" : [ 85, 85, 85, 128 ],
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 56,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 6,
+        "scale" : 0.5060746073722839
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 15.47226333618164,
+          "y" : 6.602166175842285
+        },
+        "colorTint" : [ 85, 85, 85, 128 ],
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 57,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 6,
+        "scale" : 0.5060746073722839
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 14.43413639068604,
+          "y" : 5.577018737792969
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 58,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 0.5
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 13.43525218963623,
+          "y" : 5.577017784118652
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 59,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 0.5
+      },
+      
+      {
+        "aspectScale" : 1.896680712699890,
+        "body" : 17,
+        "center" : 
+        {
+          "x" : 0,
+          "y" : 0.0793006569147110
+        },
+        "file" : "images/planetcute-narrowwood.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 60,
+        "name" : "image13",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 0.1897076815366745
+      },
+      
+      {
+        "aspectScale" : 1.896680712699890,
+        "body" : 18,
+        "center" : 
+        {
+          "x" : 0,
+          "y" : 0.07930063456296921
+        },
+        "file" : "images/planetcute-narrowwood.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 61,
+        "name" : "image13",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 0.1897076815366745
+      },
+      
+      {
+        "aspectScale" : 1.896680712699890,
+        "body" : 19,
+        "center" : 
+        {
+          "x" : 0,
+          "y" : 0.07930061221122742
+        },
+        "file" : "images/planetcute-narrowwood.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 62,
+        "name" : "image13",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 0.1897076815366745
+      },
+      
+      {
+        "aspectScale" : 1.896680712699890,
+        "body" : 20,
+        "center" : 
+        {
+          "x" : 0,
+          "y" : 0.07930059731006622
+        },
+        "file" : "images/planetcute-narrowwood.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 63,
+        "name" : "image13",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 0.1897076815366745
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 8.230056762695312,
+          "y" : -2.780550718307495
+        },
+        "file" : "images/planetcute-water.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 64,
+        "name" : "image9",
+        "opacity" : 1,
+        "renderOrder" : 8,
+        "scale" : 2.058268308639526
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 16.44157028198242,
+          "y" : 5.577018737792969
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 66,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 0.5
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 8.230056762695312,
+          "y" : -2.780550718307495
+        },
+        "file" : "images/planetcute-water.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 67,
+        "name" : "image9",
+        "opacity" : 1,
+        "renderOrder" : 8,
+        "scale" : 2.058268308639526
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 15.44268608093262,
+          "y" : 5.577017784118652
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 68,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 0.5
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 4.354070186614990,
+          "y" : -2.780550718307495
+        },
+        "file" : "images/planetcute-water.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 70,
+        "name" : "image9",
+        "opacity" : 1,
+        "renderOrder" : 8,
+        "scale" : 2.058268308639526
+      },
+      
+      {
+        "angle" : 1.413891792297363,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -10.86862564086914,
+          "y" : 1.801248073577881
+        },
+        "file" : "images/planetcute-tree.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 71,
+        "name" : "image8",
+        "opacity" : 1,
+        "renderOrder" : 11.0,
+        "scale" : 7.826981544494629
+      },
+      
+      {
+        "angle" : 1.413891792297363,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -10.86862564086914,
+          "y" : 1.801248073577881
+        },
+        "file" : "images/planetcute-tree.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 72,
+        "name" : "image8",
+        "opacity" : 1,
+        "renderOrder" : 11.0,
+        "scale" : 7.826981544494629
+      },
+      
+      {
+        "aspectScale" : 1,
+        "body" : 21,
+        "center" : 0,
+        "file" : "images/planetcute-gem.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 73,
+        "name" : "image2",
+        "opacity" : 1,
+        "renderOrder" : 5,
+        "scale" : 0.4676404297351837
+      },
+      
+      {
+        "angle" : 1.570796251296997,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 11.28364944458008,
+          "y" : 3.292086362838745
+        },
+        "colorTint" : [ 85, 85, 85, 128 ],
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 74,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 6,
+        "scale" : 3.030050754547119
+      },
+      
+      {
+        "aspectScale" : 1,
+        "body" : 5,
+        "center" : 0,
+        "file" : "images/planetcute-gem.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 75,
+        "name" : "image2",
+        "opacity" : 1,
+        "renderOrder" : 5,
+        "scale" : 0.4676404297351837
+      },
+      
+      {
+        "angle" : 1.570796251296997,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 9.673936843872070,
+          "y" : 3.310371398925781
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 77,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 0.5
+      },
+      
+      {
+        "aspectScale" : 1,
+        "body" : 22,
+        "center" : 0,
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 78,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 0.5
+      },
+      
+      {
+        "aspectScale" : 1,
+        "body" : 23,
+        "center" : 0,
+        "file" : "images/planetcute-gem.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 79,
+        "name" : "image2",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 0.4676404297351837
+      },
+      
+      {
+        "angle" : 1.570796251296997,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 20.36916732788086,
+          "y" : 3.292086362838745
+        },
+        "colorTint" : [ 85, 85, 85, 128 ],
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 81,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 6,
+        "scale" : 3.030050754547119
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 23.71025085449219,
+          "y" : 6.602166175842285
+        },
+        "colorTint" : [ 85, 85, 85, 128 ],
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 82,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 6,
+        "scale" : 0.5060746073722839
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 25.71681594848633,
+          "y" : 6.602166175842285
+        },
+        "colorTint" : [ 85, 85, 85, 128 ],
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 83,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 6,
+        "scale" : 0.5060746073722839
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 21.66003417968750,
+          "y" : 6.602166175842285
+        },
+        "colorTint" : [ 85, 85, 85, 128 ],
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 84,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 6,
+        "scale" : 0.5060746073722839
+      },
+      
+      {
+        "angle" : 1.570796251296997,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 23.39804267883301,
+          "y" : 3.288928508758545
+        },
+        "colorTint" : [ 85, 85, 85, 128 ],
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 85,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 6,
+        "scale" : 3.030050754547119
+      },
+      
+      {
+        "angle" : 1.570796251296997,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 26.42580413818359,
+          "y" : 3.298401594161987
+        },
+        "colorTint" : [ 85, 85, 85, 128 ],
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 86,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 6,
+        "scale" : 3.030050754547119
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 19.65346908569336,
+          "y" : 6.602166175842285
+        },
+        "colorTint" : [ 85, 85, 85, 128 ],
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 87,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 6,
+        "scale" : 0.5060746073722839
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 11.68853950500488,
+          "y" : -2.430614471435547
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 88,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 1.834386467933655
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 16.02304077148438,
+          "y" : -3.469806432723999
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 89,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 1.834386467933655
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 11.68853950500488,
+          "y" : -4.262621402740479
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 90,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 1.834386467933655
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 16.04624557495117,
+          "y" : -5.305261611938477
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 91,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 1.834386467933655
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 27.99987411499023,
+          "y" : 6.602166175842285
+        },
+        "colorTint" : [ 85, 85, 85, 128 ],
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 92,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 6,
+        "scale" : 0.5060746073722839
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 32.37199783325195,
+          "y" : 6.602166175842285
+        },
+        "colorTint" : [ 85, 85, 85, 128 ],
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 93,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 6,
+        "scale" : 0.5060746073722839
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 30.16047477722168,
+          "y" : 6.602166175842285
+        },
+        "colorTint" : [ 85, 85, 85, 128 ],
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 94,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 6,
+        "scale" : 0.5060746073722839
+      },
+      
+      {
+        "angle" : 1.570796251296997,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 29.45299720764160,
+          "y" : 3.288928508758545
+        },
+        "colorTint" : [ 85, 85, 85, 128 ],
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 95,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 6,
+        "scale" : 3.030050754547119
+      },
+      
+      {
+        "angle" : 1.570796251296997,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 32.48075866699219,
+          "y" : 3.298401594161987
+        },
+        "colorTint" : [ 85, 85, 85, 128 ],
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 96,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 6,
+        "scale" : 3.030050754547119
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 23.08209419250488,
+          "y" : -2.599753379821777
+        },
+        "colorTint" : [ 85, 85, 85, 128 ],
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 98,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 6,
+        "scale" : 5.762627124786377
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 16.03558349609375,
+          "y" : -1.664241313934326
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 99,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 1.834386467933655
+      },
+      
+      {
+        "angle" : -3.140288829803467,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 23.19184112548828,
+          "y" : -4.925717353820801
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 100,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 11.0,
+        "scale" : 5.705162048339844
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 30.43266105651855,
+          "y" : 0.2472351789474487
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 101,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 2.025311708450317
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 31.39315223693848,
+          "y" : 1.727003812789917
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 102,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 1
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 29.39477920532227,
+          "y" : 1.733381390571594
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 103,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 1
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 30.43060302734375,
+          "y" : -1.760919094085693
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 104,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 2.025389909744263
+      },
+      
+      {
+        "angle" : -1.570796251296997,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 30.61520385742188,
+          "y" : -5.852901458740234
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 105,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 3.534950971603394
+      },
+      
+      {
+        "aspectScale" : 1,
+        "body" : 11,
+        "center" : 
+        {
+          "x" : 0.008241653442382812,
+          "y" : 0.009614467620849609
+        },
+        "colorTint" : [ 245, 255, 152, 255 ],
+        "file" : "images/crate.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 106,
+        "name" : "image14",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 1.001997828483582
+      },
+      
+      {
+        "aspectScale" : 2.300655603408813,
+        "body" : 10,
+        "center" : 
+        {
+          "x" : -0.002395193325355649,
+          "y" : -1.531888723373413
+        },
+        "file" : "images/planetcute-narrowwood.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 109,
+        "name" : "image13",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 0.2552753388881683
+      },
+      
+      {
+        "angle" : 1.02882456779480,
+        "aspectScale" : 1,
+        "body" : 10,
+        "center" : 
+        {
+          "x" : -0.4316883087158203,
+          "y" : -0.7415504455566406
+        },
+        "colorTint" : [ 127, 127, 127, 255 ],
+        "file" : "images/planetcute-longwood.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 119,
+        "name" : "image15",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 0.2370868474245071
+      },
+      
+      {
+        "angle" : 2.123625993728638,
+        "aspectScale" : 1,
+        "body" : 10,
+        "center" : 
+        {
+          "x" : 0.4613081812858582,
+          "y" : -0.723496139049530
+        },
+        "colorTint" : [ 127, 127, 127, 255 ],
+        "file" : "images/planetcute-longwood.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 120,
+        "name" : "image15",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 0.2370868474245071
+      },
+      
+      {
+        "angle" : 0.7853981852531433,
+        "aspectScale" : 1,
+        "body" : 9,
+        "center" : 
+        {
+          "x" : -1.940474271774292,
+          "y" : 1.979182720184326
+        },
+        "colorTint" : [ 192, 192, 192, 255 ],
+        "file" : "images/planetcute-longwood.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 121,
+        "name" : "image15",
+        "opacity" : 1,
+        "renderOrder" : 7,
+        "scale" : 0.7481329441070557
+      },
+      
+      {
+        "angle" : 1.02882456779480,
+        "aspectScale" : 1,
+        "body" : 12,
+        "center" : 
+        {
+          "x" : -0.4316883087158203,
+          "y" : -0.7415504455566406
+        },
+        "colorTint" : [ 127, 127, 127, 255 ],
+        "file" : "images/planetcute-longwood.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 122,
+        "name" : "image15",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 0.2370868474245071
+      },
+      
+      {
+        "angle" : 2.123625993728638,
+        "aspectScale" : 1,
+        "body" : 12,
+        "center" : 
+        {
+          "x" : 0.4613081812858582,
+          "y" : -0.723496139049530
+        },
+        "colorTint" : [ 127, 127, 127, 255 ],
+        "file" : "images/planetcute-longwood.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 123,
+        "name" : "image15",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 0.2370868474245071
+      },
+      
+      {
+        "angle" : 1.02882456779480,
+        "aspectScale" : 1,
+        "body" : 13,
+        "center" : 
+        {
+          "x" : -0.4316883087158203,
+          "y" : -0.7415504455566406
+        },
+        "colorTint" : [ 127, 127, 127, 255 ],
+        "file" : "images/planetcute-longwood.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 124,
+        "name" : "image15",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 0.2370868474245071
+      },
+      
+      {
+        "angle" : 2.123625993728638,
+        "aspectScale" : 1,
+        "body" : 13,
+        "center" : 
+        {
+          "x" : 0.4613081812858582,
+          "y" : -0.723496139049530
+        },
+        "colorTint" : [ 127, 127, 127, 255 ],
+        "file" : "images/planetcute-longwood.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 125,
+        "name" : "image15",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 0.2370868474245071
+      },
+      
+      {
+        "angle" : 1.02882456779480,
+        "aspectScale" : 1,
+        "body" : 14,
+        "center" : 
+        {
+          "x" : -0.4316883087158203,
+          "y" : -0.7415504455566406
+        },
+        "colorTint" : [ 127, 127, 127, 255 ],
+        "file" : "images/planetcute-longwood.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 126,
+        "name" : "image15",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 0.2370868474245071
+      },
+      
+      {
+        "angle" : 2.123625993728638,
+        "aspectScale" : 1,
+        "body" : 14,
+        "center" : 
+        {
+          "x" : 0.4613081812858582,
+          "y" : -0.723496139049530
+        },
+        "colorTint" : [ 127, 127, 127, 255 ],
+        "file" : "images/planetcute-longwood.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 127,
+        "name" : "image15",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 0.2370868474245071
+      },
+      
+      {
+        "angle" : 3.926990747451782,
+        "aspectScale" : 1,
+        "body" : 9,
+        "center" : 
+        {
+          "x" : 1.940473914146423,
+          "y" : -1.979182958602905
+        },
+        "colorTint" : [ 192, 192, 192, 255 ],
+        "file" : "images/planetcute-longwood.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 128,
+        "name" : "image15",
+        "opacity" : 1,
+        "renderOrder" : 7,
+        "scale" : 0.7481329441070557
+      },
+      
+      {
+        "angle" : -0.7853980660438538,
+        "aspectScale" : 1,
+        "body" : 9,
+        "center" : 
+        {
+          "x" : 1.979182600975037,
+          "y" : 1.940474390983582
+        },
+        "colorTint" : [ 192, 192, 192, 255 ],
+        "file" : "images/planetcute-longwood.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 129,
+        "name" : "image15",
+        "opacity" : 1,
+        "renderOrder" : 7,
+        "scale" : 0.7481329441070557
+      },
+      
+      {
+        "angle" : 2.356194496154785,
+        "aspectScale" : 1,
+        "body" : 9,
+        "center" : 
+        {
+          "x" : -1.979182839393616,
+          "y" : -1.940474033355713
+        },
+        "colorTint" : [ 192, 192, 192, 255 ],
+        "file" : "images/planetcute-longwood.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 130,
+        "name" : "image15",
+        "opacity" : 1,
+        "renderOrder" : 7,
+        "scale" : 0.7481329441070557
+      },
+      
+      {
+        "aspectScale" : 1,
+        "body" : 15,
+        "center" : 0,
+        "file" : "images/planetcute-gem.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 131,
+        "name" : "image2",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 0.4676404297351837
+      },
+      
+      {
+        "aspectScale" : 1,
+        "body" : 16,
+        "center" : 0,
+        "file" : "images/planetcute-gem.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 132,
+        "name" : "image2",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 0.4676404297351837
+      },
+      
+      {
+        "aspectScale" : 1,
+        "body" : 24,
+        "center" : 0,
+        "file" : "images/planetcute-gem.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 133,
+        "name" : "image2",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 0.4676404297351837
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 33.44565963745117,
+          "y" : 3.775326967239380
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 137,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 1
+      },
+      
+      {
+        "angle" : 1.570796251296997,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 33.45285415649414,
+          "y" : 1.46444559097290
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 138,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 2.025311708450317
+      },
+      
+      {
+        "aspectScale" : 1,
+        "body" : 27,
+        "center" : 
+        {
+          "x" : 0.003139495849609375,
+          "y" : 0.1046581268310547
+        },
+        "file" : "images/planetcute-star.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 139,
+        "name" : "image2",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 1.123643159866333
+      },
+      
+      {
+        "angle" : 1.570796251296997,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 34.24304199218750,
+          "y" : 4.343689918518066
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 140,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 0.5
+      },
+      
+      {
+        "angle" : 1.570796251296997,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 34.24304199218750,
+          "y" : 5.342579841613770
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 142,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 0.5
+      },
+      
+      {
+        "angle" : 1.570796251296997,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 34.24304199218750,
+          "y" : 6.347690105438232
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 143,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 0.5
+      },
+      
+      {
+        "angle" : 1.570796251296997,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 33.45285415649414,
+          "y" : -1.727370738983154
+        },
+        "file" : "images/planetcute-stone.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 145,
+        "name" : "image7",
+        "opacity" : 1,
+        "renderOrder" : 11.0,
+        "scale" : 2.025311708450317
+      },
+      
+      {
+        "angle" : -0.02004313468933105,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 36.93341827392578,
+          "y" : -0.1682152450084686
+        },
+        "file" : "images/planetcute-grass.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 146,
+        "name" : "image1",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 1
+      },
+      
+      {
+        "angle" : -0.03803014755249023,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 40.49150085449219,
+          "y" : -0.1325236409902573
+        },
+        "file" : "images/planetcute-grass.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 147,
+        "name" : "image1",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 1
+      },
+      
+      {
+        "angle" : 0.05163383483886719,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 38.74665069580078,
+          "y" : -0.1450021117925644
+        },
+        "file" : "images/planetcute-grass.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 148,
+        "name" : "image1",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 1
+      },
+      
+      {
+        "angle" : 0.05163383483886719,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 35.16265487670898,
+          "y" : -0.1904436945915222
+        },
+        "file" : "images/planetcute-grass.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 149,
+        "name" : "image1",
+        "opacity" : 1,
+        "renderOrder" : 10,
+        "scale" : 1
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 37.70292663574219,
+          "y" : -1.752136707305908
+        },
+        "file" : "images/planetcute-dirt.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 150,
+        "name" : "image1",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 3.787986755371094
+      },
+      
+      {
+        "aspectScale" : 1,
+        "body" : 29,
+        "center" : 0,
+        "file" : "images/planetcute-gem.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 158,
+        "name" : "image2",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 0.4676404297351837
+      },
+      
+      {
+        "aspectScale" : 1,
+        "body" : 30,
+        "center" : 0,
+        "file" : "images/planetcute-gem.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 159,
+        "name" : "image2",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 0.4676404297351837
+      },
+      
+      {
+        "aspectScale" : 1,
+        "body" : 31,
+        "center" : 0,
+        "file" : "images/planetcute-gem.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 160,
+        "name" : "image2",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 0.4676404297351837
+      },
+      
+      {
+        "aspectScale" : 1,
+        "body" : 32,
+        "center" : 0,
+        "file" : "images/planetcute-gem.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 161,
+        "name" : "image2",
+        "opacity" : 1,
+        "renderOrder" : 9,
+        "scale" : 0.4676404297351837
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : -0.9184411764144897,
+          "y" : 2.345563650131226
+        },
+        "file" : "images/planetcute-instructions1.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 164,
+        "name" : "instructions1",
+        "opacity" : 1,
+        "renderOrder" : 30.0,
+        "scale" : 1
+      },
+      
+      {
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 2.629724502563477,
+          "y" : 2.066436529159546
+        },
+        "file" : "images/planetcute-instructions2.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 165,
+        "name" : "instructions2",
+        "opacity" : 1,
+        "renderOrder" : 30.0,
+        "scale" : 1
+      },
+      
+      {
+        "angle" : 0.07147133350372314,
+        "aspectScale" : 1,
+        "center" : 
+        {
+          "x" : 32.85420227050781,
+          "y" : 6.961632728576660
+        },
+        "file" : "images/planetcute-instructions3.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 167,
+        "name" : "instructions3",
+        "opacity" : 1,
+        "renderOrder" : 40.0,
+        "scale" : 0.5793463587760925
+      }
+    ],
+    "metajoint" : 
+    [
+      
+      {
+        "anchorA" : 
+        {
+          "x" : 0.6051521301269531,
+          "y" : 0
+        },
+        "anchorB" : 
+        {
+          "x" : -0.6051516532897949,
+          "y" : 0
+        },
+        "bodyA" : 3,
+        "bodyB" : 4,
+        "collideConnected" : false,
+        "enableLimit" : false,
+        "enableMotor" : false,
+        "id" : 1,
+        "lowerLimit" : 0,
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "joint0",
+        "referenceAngle" : 0,
+        "type" : "revolute",
+        "upperLimit" : 0
+      },
+      
+      {
+        "anchorA" : 
+        {
+          "x" : -3.954619884490967,
+          "y" : 0
+        },
+        "anchorB" : 0,
+        "bodyA" : 9,
+        "bodyB" : 10,
+        "collideConnected" : false,
+        "enableLimit" : false,
+        "enableMotor" : false,
+        "id" : 2,
+        "lowerLimit" : 0,
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "joint3",
+        "referenceAngle" : 0,
+        "type" : "revolute",
+        "upperLimit" : 0
+      },
+      
+      {
+        "anchorA" : 
+        {
+          "x" : 3.954420089721680,
+          "y" : 0
+        },
+        "anchorB" : 0,
+        "bodyA" : 9,
+        "bodyB" : 12,
+        "collideConnected" : false,
+        "enableLimit" : false,
+        "enableMotor" : false,
+        "id" : 4,
+        "lowerLimit" : 0,
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "joint4",
+        "referenceAngle" : 0,
+        "type" : "revolute",
+        "upperLimit" : 0
+      },
+      
+      {
+        "anchorA" : 
+        {
+          "x" : 0,
+          "y" : 3.954610109329224
+        },
+        "anchorB" : 
+        {
+          "x" : 3.051759995287284e-05,
+          "y" : 3.814699994109105e-06
+        },
+        "bodyA" : 9,
+        "bodyB" : 13,
+        "collideConnected" : false,
+        "enableLimit" : false,
+        "enableMotor" : false,
+        "id" : 6,
+        "lowerLimit" : 0,
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "joint5",
+        "referenceAngle" : 0,
+        "type" : "revolute",
+        "upperLimit" : 0
+      },
+      
+      {
+        "anchorA" : 
+        {
+          "x" : 0.6051530838012695,
+          "y" : 0
+        },
+        "anchorB" : 
+        {
+          "x" : -0.6051516532897949,
+          "y" : 0
+        },
+        "bodyA" : 4,
+        "bodyB" : 17,
+        "collideConnected" : false,
+        "enableLimit" : false,
+        "enableMotor" : false,
+        "id" : 8,
+        "lowerLimit" : 0,
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "joint0",
+        "referenceAngle" : 0,
+        "type" : "revolute",
+        "upperLimit" : 0
+      },
+      
+      {
+        "anchorA" : 
+        {
+          "x" : 0.6051521301269531,
+          "y" : 0
+        },
+        "anchorB" : 
+        {
+          "x" : -0.6051521301269531,
+          "y" : 0
+        },
+        "bodyA" : 17,
+        "bodyB" : 18,
+        "collideConnected" : false,
+        "enableLimit" : false,
+        "enableMotor" : false,
+        "id" : 9,
+        "lowerLimit" : 0,
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "joint0",
+        "referenceAngle" : 0,
+        "type" : "revolute",
+        "upperLimit" : 0
+      },
+      
+      {
+        "anchorA" : 
+        {
+          "x" : 0.6051526069641113,
+          "y" : 0
+        },
+        "anchorB" : 
+        {
+          "x" : -0.6051530838012695,
+          "y" : 0
+        },
+        "bodyA" : 18,
+        "bodyB" : 19,
+        "collideConnected" : false,
+        "enableLimit" : false,
+        "enableMotor" : false,
+        "id" : 10,
+        "lowerLimit" : 0,
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "joint0",
+        "referenceAngle" : 0,
+        "type" : "revolute",
+        "upperLimit" : 0
+      },
+      
+      {
+        "anchorA" : 
+        {
+          "x" : 0.6051511764526367,
+          "y" : 0
+        },
+        "anchorB" : 
+        {
+          "x" : -0.6051521301269531,
+          "y" : 0
+        },
+        "bodyA" : 19,
+        "bodyB" : 20,
+        "collideConnected" : false,
+        "enableLimit" : false,
+        "enableMotor" : false,
+        "id" : 11,
+        "lowerLimit" : 0,
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "joint0",
+        "referenceAngle" : 0,
+        "type" : "revolute",
+        "upperLimit" : 0
+      },
+      
+      {
+        "anchorA" : 
+        {
+          "x" : 2.589359998703003,
+          "y" : 0.06848300248384476
+        },
+        "anchorB" : 
+        {
+          "x" : -0.7009403705596924,
+          "y" : 0.1560877263545990
+        },
+        "bodyA" : 1,
+        "bodyB" : 3,
+        "collideConnected" : false,
+        "enableLimit" : false,
+        "enableMotor" : false,
+        "id" : 12,
+        "lowerLimit" : 0,
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "joint1",
+        "referenceAngle" : 0,
+        "type" : "revolute",
+        "upperLimit" : 0
+      },
+      
+      {
+        "anchorA" : 
+        {
+          "x" : 9.872710227966309,
+          "y" : -0.3320179879665375
+        },
+        "anchorB" : 
+        {
+          "x" : 0.6918849945068359,
+          "y" : 0.1315246820449829
+        },
+        "bodyA" : 1,
+        "bodyB" : 20,
+        "collideConnected" : false,
+        "enableLimit" : false,
+        "enableMotor" : false,
+        "id" : 13,
+        "lowerLimit" : 0,
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "joint2",
+        "referenceAngle" : 0,
+        "type" : "revolute",
+        "upperLimit" : 0
+      },
+      
+      {
+        "anchorA" : 
+        {
+          "x" : 0,
+          "y" : -3.954530000686646
+        },
+        "anchorB" : 
+        {
+          "x" : 3.051759995287284e-05,
+          "y" : 0
+        },
+        "bodyA" : 9,
+        "bodyB" : 14,
+        "collideConnected" : false,
+        "enableLimit" : false,
+        "enableMotor" : false,
+        "id" : 14,
+        "lowerLimit" : 0,
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "joint6",
+        "referenceAngle" : 0,
+        "type" : "revolute",
+        "upperLimit" : 0
+      }
+    ],
+    "positionIterations" : 3,
+    "stepsPerSecond" : 60.0,
+    "subStepping" : false,
+    "velocityIterations" : 8,
+    "warmStarting" : true
+  }
+}

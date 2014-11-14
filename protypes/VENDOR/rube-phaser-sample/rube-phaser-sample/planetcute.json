@@ -1,0 +1,8206 @@
+
+{
+	"allowSleep" : true,
+	"autoClearForces" : true,
+	"body" : 
+	[
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"circle" : 
+					{
+						"center" : 
+						{
+							"x" : 0,
+							"y" : 0
+						},
+						"radius" : 0.2029935270547867
+					},
+					"customProperties" : 
+					[
+						
+						{
+							"int" : 0,
+							"name" : "pickuptype"
+						},
+						
+						{
+							"float" : 0.1,
+							"name" : "bounceheight"
+						},
+						
+						{
+							"float" : 0.05,
+							"name" : "bouncewidth"
+						},
+						
+						{
+							"float" : 0.14,
+							"name" : "horizontalbouncespeed"
+						},
+						
+						{
+							"float" : 0.1,
+							"name" : "verticalbouncespeed"
+						}
+					],
+					"density" : 1,
+					"filter-categoryBits" : 2,
+					"filter-maskBits" : 4,
+					"name" : "pickup",
+					"sensor" : true
+				}
+			],
+			"linearVelocity" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"name" : "gem",
+			"position" : 
+			{
+				"x" : 30.38060951232910,
+				"y" : 2.829370737075806
+			},
+			"type" : 1
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"circle" : 
+					{
+						"center" : 
+						{
+							"x" : 0,
+							"y" : 0
+						},
+						"radius" : 0.2029935270547867
+					},
+					"customProperties" : 
+					[
+						
+						{
+							"int" : 0,
+							"name" : "pickuptype"
+						},
+						
+						{
+							"float" : 0.1,
+							"name" : "bounceheight"
+						},
+						
+						{
+							"float" : 0.05,
+							"name" : "bouncewidth"
+						},
+						
+						{
+							"float" : 0.14,
+							"name" : "horizontalbouncespeed"
+						},
+						
+						{
+							"float" : 0.1,
+							"name" : "verticalbouncespeed"
+						}
+					],
+					"density" : 1,
+					"filter-categoryBits" : 2,
+					"filter-maskBits" : 4,
+					"name" : "pickup",
+					"sensor" : true
+				}
+			],
+			"linearVelocity" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"name" : "gem",
+			"position" : 
+			{
+				"x" : 33.30207443237305,
+				"y" : 4.804566383361816
+			},
+			"type" : 1
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"circle" : 
+					{
+						"center" : 
+						{
+							"x" : 0,
+							"y" : 0
+						},
+						"radius" : 0.2029935270547867
+					},
+					"customProperties" : 
+					[
+						
+						{
+							"int" : 0,
+							"name" : "pickuptype"
+						},
+						
+						{
+							"float" : 0.1,
+							"name" : "bounceheight"
+						},
+						
+						{
+							"float" : 0.05,
+							"name" : "bouncewidth"
+						},
+						
+						{
+							"float" : 0.14,
+							"name" : "horizontalbouncespeed"
+						},
+						
+						{
+							"float" : 0.1,
+							"name" : "verticalbouncespeed"
+						}
+					],
+					"density" : 1,
+					"filter-categoryBits" : 2,
+					"filter-maskBits" : 4,
+					"name" : "pickup",
+					"sensor" : true
+				}
+			],
+			"linearVelocity" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"name" : "gem",
+			"position" : 
+			{
+				"x" : 16.29035186767578,
+				"y" : 2.694897651672363
+			},
+			"type" : 1
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"circle" : 
+					{
+						"center" : 
+						{
+							"x" : 0,
+							"y" : 0
+						},
+						"radius" : 0.2029935270547867
+					},
+					"customProperties" : 
+					[
+						
+						{
+							"int" : 0,
+							"name" : "pickuptype"
+						},
+						
+						{
+							"float" : 0.1,
+							"name" : "bounceheight"
+						},
+						
+						{
+							"float" : 0.05,
+							"name" : "bouncewidth"
+						},
+						
+						{
+							"float" : 0.14,
+							"name" : "horizontalbouncespeed"
+						},
+						
+						{
+							"float" : 0.1,
+							"name" : "verticalbouncespeed"
+						}
+					],
+					"density" : 1,
+					"filter-categoryBits" : 2,
+					"filter-maskBits" : 4,
+					"name" : "pickup",
+					"sensor" : true
+				}
+			],
+			"linearVelocity" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"name" : "gem",
+			"position" : 
+			{
+				"x" : 14.82569885253906,
+				"y" : 6.330765247344971
+			},
+			"type" : 1
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"circle" : 
+					{
+						"center" : 
+						{
+							"x" : 0,
+							"y" : 0
+						},
+						"radius" : 0.2029935270547867
+					},
+					"customProperties" : 
+					[
+						
+						{
+							"int" : 1,
+							"name" : "pickuptype"
+						},
+						
+						{
+							"float" : 0.1,
+							"name" : "bounceheight"
+						},
+						
+						{
+							"float" : 0.05,
+							"name" : "bouncewidth"
+						},
+						
+						{
+							"float" : 0.14,
+							"name" : "horizontalbouncespeed"
+						},
+						
+						{
+							"float" : 0.1,
+							"name" : "verticalbouncespeed"
+						}
+					],
+					"density" : 1,
+					"filter-categoryBits" : 2,
+					"filter-maskBits" : 4,
+					"name" : "pickup",
+					"sensor" : true
+				}
+			],
+			"linearVelocity" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"name" : "star",
+			"position" : 
+			{
+				"x" : 33.29629898071289,
+				"y" : 6.846152782440186
+			},
+			"type" : 1
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"circle" : 
+					{
+						"center" : 
+						{
+							"x" : 0,
+							"y" : 0
+						},
+						"radius" : 0.2029935270547867
+					},
+					"customProperties" : 
+					[
+						
+						{
+							"int" : 0,
+							"name" : "pickuptype"
+						},
+						
+						{
+							"float" : 0.1,
+							"name" : "bounceheight"
+						},
+						
+						{
+							"float" : 0.05,
+							"name" : "bouncewidth"
+						},
+						
+						{
+							"float" : 0.14,
+							"name" : "horizontalbouncespeed"
+						},
+						
+						{
+							"float" : 0.1,
+							"name" : "verticalbouncespeed"
+						}
+					],
+					"density" : 1,
+					"filter-categoryBits" : 2,
+					"filter-maskBits" : 4,
+					"name" : "pickup",
+					"sensor" : true
+				}
+			],
+			"linearVelocity" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"name" : "gem",
+			"position" : 
+			{
+				"x" : 23.11018180847168,
+				"y" : 3.637777805328369
+			},
+			"type" : 1
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"circle" : 
+					{
+						"center" : 
+						{
+							"x" : 0,
+							"y" : 0
+						},
+						"radius" : 0.2029935270547867
+					},
+					"customProperties" : 
+					[
+						
+						{
+							"int" : 0,
+							"name" : "pickuptype"
+						},
+						
+						{
+							"float" : 0.1,
+							"name" : "bounceheight"
+						},
+						
+						{
+							"float" : 0.05,
+							"name" : "bouncewidth"
+						},
+						
+						{
+							"float" : 0.14,
+							"name" : "horizontalbouncespeed"
+						},
+						
+						{
+							"float" : 0.1,
+							"name" : "verticalbouncespeed"
+						}
+					],
+					"density" : 1,
+					"filter-categoryBits" : 2,
+					"filter-maskBits" : 4,
+					"name" : "pickup",
+					"sensor" : true
+				}
+			],
+			"linearVelocity" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"name" : "gem",
+			"position" : 
+			{
+				"x" : 10.42057704925537,
+				"y" : 3.745597839355469
+			},
+			"type" : 1
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"chain" : 
+					{
+						"hasNextVertex" : true,
+						"hasPrevVertex" : true,
+						"nextVertex" : 
+						{
+							"x" : 0.5104541778564453,
+							"y" : 2.761182308197021
+						},
+						"prevVertex" : 
+						{
+							"x" : 6.519414901733398,
+							"y" : 2.268512248992920
+						},
+						"vertices" : 
+						{
+							"x" : 
+							[
+								6.519414901733398,
+								0.5104541778564453,
+								0.5104541778564453,
+								6.519414901733398,
+								6.519414901733398
+							],
+							"y" : 
+							[
+								2.762050151824951,
+								2.761182308197021,
+								2.262521266937256,
+								2.268512248992920,
+								2.762050151824951
+							]
+						}
+					},
+					"density" : 1,
+					"friction" : 0.2,
+					"name" : "ledge"
+				},
+				
+				{
+					"chain" : 
+					{
+						"hasNextVertex" : true,
+						"hasPrevVertex" : true,
+						"nextVertex" : 
+						{
+							"x" : 0.4930868148803711,
+							"y" : -0.2453043460845947
+						},
+						"prevVertex" : 
+						{
+							"x" : -0.9978017807006836,
+							"y" : 3.767141342163086
+						},
+						"vertices" : 
+						{
+							"x" : 
+							[
+								-0.9978017807006836,
+								0.4930868148803711,
+								0.4930868148803711,
+								-0.4976348876953125,
+								-0.4976348876953125,
+								-0.9978017807006836,
+								-0.9978017807006836
+							],
+							"y" : 
+							[
+								-0.2477917671203613,
+								-0.2453043460845947,
+								0.2489244937896729,
+								0.2472331523895264,
+								3.760977268218994,
+								3.767141342163086,
+								-0.2477917671203613
+							]
+						}
+					},
+					"density" : 1,
+					"friction" : 0.5,
+					"name" : "wall"
+				}
+			],
+			"linearVelocity" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"name" : "wall",
+			"position" : 
+			{
+				"x" : 10.41880035400391,
+				"y" : 3.061089992523193
+			},
+			"type" : 0
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"circle" : 
+					{
+						"center" : 
+						{
+							"x" : 0,
+							"y" : 0
+						},
+						"radius" : 0.2029935270547867
+					},
+					"customProperties" : 
+					[
+						
+						{
+							"int" : 0,
+							"name" : "pickuptype"
+						},
+						
+						{
+							"float" : 0.1,
+							"name" : "bounceheight"
+						},
+						
+						{
+							"float" : 0.05,
+							"name" : "bouncewidth"
+						},
+						
+						{
+							"float" : 0.14,
+							"name" : "horizontalbouncespeed"
+						},
+						
+						{
+							"float" : 0.1,
+							"name" : "verticalbouncespeed"
+						}
+					],
+					"density" : 1,
+					"filter-categoryBits" : 2,
+					"filter-maskBits" : 4,
+					"name" : "pickup",
+					"sensor" : true
+				}
+			],
+			"linearVelocity" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"name" : "gem",
+			"position" : 
+			{
+				"x" : -5.026647567749023,
+				"y" : 2.160904884338379
+			},
+			"type" : 1
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"density" : 1,
+					"friction" : 0.5,
+					"name" : "bridge",
+					"polygon" : 
+					{
+						"vertices" : 
+						{
+							"x" : 
+							[
+								0.7192068099975586,
+								0.7192068099975586,
+								-0.7192049026489258,
+								-0.7192049026489258
+							],
+							"y" : 
+							[
+								-0.1799074411392212,
+								0.1799074709415436,
+								0.1799074709415436,
+								-0.1799074411392212
+							]
+						}
+					}
+				}
+			],
+			"linearVelocity" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"massData-I" : 0.09482146054506302,
+			"massData-center" : 
+			{
+				"x" : 9.536743164062500e-07,
+				"y" : 1.490116119384766e-08
+			},
+			"massData-mass" : 0.5175619721412659,
+			"name" : "bridge",
+			"position" : 
+			{
+				"x" : 9.358989715576172,
+				"y" : 0.09847079962491989
+			},
+			"type" : 2
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"density" : 1,
+					"friction" : 0.5,
+					"name" : "bridge",
+					"polygon" : 
+					{
+						"vertices" : 
+						{
+							"x" : 
+							[
+								0.7192058563232422,
+								0.7192058563232422,
+								-0.7192072868347168,
+								-0.7192072868347168
+							],
+							"y" : 
+							[
+								-0.1799074560403824,
+								0.1799074560403824,
+								0.1799074560403824,
+								-0.1799074560403824
+							]
+						}
+					}
+				}
+			],
+			"linearVelocity" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"massData-I" : 0.09482173621654510,
+			"massData-center" : 
+			{
+				"x" : -7.152557373046875e-07,
+				"y" : 0
+			},
+			"massData-mass" : 0.5175625085830688,
+			"name" : "bridge",
+			"position" : 
+			{
+				"x" : 8.148687362670898,
+				"y" : 0.09847076237201691
+			},
+			"type" : 2
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"density" : 1,
+					"friction" : 0.5,
+					"name" : "bridge",
+					"polygon" : 
+					{
+						"vertices" : 
+						{
+							"x" : 
+							[
+								0.7192063331604004,
+								0.7192063331604004,
+								-0.7192058563232422,
+								-0.7192058563232422
+							],
+							"y" : 
+							[
+								-0.1799074560403824,
+								0.1799074709415436,
+								0.1799074709415436,
+								-0.1799074560403824
+							]
+						}
+					}
+				}
+			],
+			"linearVelocity" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"massData-I" : 0.09482154995203018,
+			"massData-center" : 
+			{
+				"x" : 2.384185791015625e-07,
+				"y" : 7.450580596923828e-09
+			},
+			"massData-mass" : 0.5175622105598450,
+			"name" : "bridge",
+			"position" : 
+			{
+				"x" : 6.938383102416992,
+				"y" : 0.09847072511911392
+			},
+			"type" : 2
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"density" : 1,
+					"friction" : 0.5,
+					"name" : "bridge",
+					"polygon" : 
+					{
+						"vertices" : 
+						{
+							"x" : 
+							[
+								0.7192058563232422,
+								0.7192058563232422,
+								-0.7192063331604004,
+								-0.7192063331604004
+							],
+							"y" : 
+							[
+								-0.1799074411392212,
+								0.1799074858427048,
+								0.1799074858427048,
+								-0.1799074411392212
+							]
+						}
+					}
+				}
+			],
+			"linearVelocity" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"massData-I" : 0.09482154995203018,
+			"massData-center" : 
+			{
+				"x" : -2.384185791015625e-07,
+				"y" : 2.235174179077148e-08
+			},
+			"massData-mass" : 0.5175622105598450,
+			"name" : "bridge",
+			"position" : 
+			{
+				"x" : 5.728080272674561,
+				"y" : 0.09847067296504974
+			},
+			"type" : 2
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"circle" : 
+					{
+						"center" : 
+						{
+							"x" : 0,
+							"y" : 0
+						},
+						"radius" : 0.2029935270547867
+					},
+					"customProperties" : 
+					[
+						
+						{
+							"int" : 0,
+							"name" : "pickuptype"
+						},
+						
+						{
+							"float" : 0.1,
+							"name" : "bounceheight"
+						},
+						
+						{
+							"float" : 0.05,
+							"name" : "bouncewidth"
+						},
+						
+						{
+							"float" : 0.14,
+							"name" : "horizontalbouncespeed"
+						},
+						
+						{
+							"float" : 0.1,
+							"name" : "verticalbouncespeed"
+						}
+					],
+					"density" : 1,
+					"filter-categoryBits" : 2,
+					"filter-maskBits" : 4,
+					"name" : "pickup",
+					"sensor" : true
+				}
+			],
+			"linearVelocity" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"name" : "gem",
+			"position" : 
+			{
+				"x" : 27.89933776855469,
+				"y" : -1.548149466514587
+			},
+			"type" : 1
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"circle" : 
+					{
+						"center" : 
+						{
+							"x" : 0,
+							"y" : 0
+						},
+						"radius" : 0.2029935270547867
+					},
+					"customProperties" : 
+					[
+						
+						{
+							"int" : 0,
+							"name" : "pickuptype"
+						},
+						
+						{
+							"float" : 0.1,
+							"name" : "bounceheight"
+						},
+						
+						{
+							"float" : 0.05,
+							"name" : "bouncewidth"
+						},
+						
+						{
+							"float" : 0.14,
+							"name" : "horizontalbouncespeed"
+						},
+						
+						{
+							"float" : 0.1,
+							"name" : "verticalbouncespeed"
+						}
+					],
+					"density" : 1,
+					"filter-categoryBits" : 2,
+					"filter-maskBits" : 4,
+					"name" : "pickup",
+					"sensor" : true
+				}
+			],
+			"linearVelocity" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"name" : "gem",
+			"position" : 
+			{
+				"x" : 23.64426040649414,
+				"y" : 9.065412521362305
+			},
+			"type" : 1
+		},
+		
+		{
+			"angle" : 0,
+			"angularDamping" : 0.2,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"circle" : 
+					{
+						"center" : 
+						{
+							"x" : -1.114358901977539,
+							"y" : -1.661960124969482
+						},
+						"radius" : 0.07186307758092880
+					},
+					"density" : 1,
+					"name" : "roller"
+				},
+				
+				{
+					"circle" : 
+					{
+						"center" : 
+						{
+							"x" : 1.112792968750,
+							"y" : -1.661960124969482
+						},
+						"radius" : 0.07186307758092880
+					},
+					"density" : 1,
+					"name" : "roller"
+				},
+				
+				{
+					"density" : 10,
+					"friction" : 1,
+					"name" : "platform",
+					"polygon" : 
+					{
+						"vertices" : 
+						{
+							"x" : 
+							[
+								1.185829162597656,
+								1.185829162597656,
+								-1.185831069946289,
+								-1.185831069946289
+							],
+							"y" : 
+							[
+								-1.661957025527954,
+								-1.406552791595459,
+								-1.406552791595459,
+								-1.661957025527954
+							]
+						}
+					}
+				}
+			],
+			"linearVelocity" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"massData-I" : 17.26068687438965,
+			"massData-center" : 
+			{
+				"x" : -5.120281002746196e-06,
+				"y" : -1.534935355186462
+			},
+			"massData-mass" : 6.089768886566162,
+			"name" : "hanger",
+			"position" : 
+			{
+				"x" : 23.11870002746582,
+				"y" : -0.3217130005359650
+			},
+			"type" : 2
+		},
+		
+		{
+			"angle" : 0,
+			"angularDamping" : 0.2,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"circle" : 
+					{
+						"center" : 
+						{
+							"x" : -1.114358901977539,
+							"y" : -1.661960124969482
+						},
+						"radius" : 0.07186307758092880
+					},
+					"density" : 1,
+					"name" : "roller"
+				},
+				
+				{
+					"circle" : 
+					{
+						"center" : 
+						{
+							"x" : 1.112792968750,
+							"y" : -1.661960124969482
+						},
+						"radius" : 0.07186307758092880
+					},
+					"density" : 1,
+					"name" : "roller"
+				},
+				
+				{
+					"density" : 10,
+					"friction" : 1,
+					"name" : "platform",
+					"polygon" : 
+					{
+						"vertices" : 
+						{
+							"x" : 
+							[
+								1.185829162597656,
+								1.185829162597656,
+								-1.185831069946289,
+								-1.185831069946289
+							],
+							"y" : 
+							[
+								-1.661957025527954,
+								-1.406552791595459,
+								-1.406552791595459,
+								-1.661957025527954
+							]
+						}
+					}
+				}
+			],
+			"linearVelocity" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"massData-I" : 17.26068687438965,
+			"massData-center" : 
+			{
+				"x" : -5.120281002746196e-06,
+				"y" : -1.534935355186462
+			},
+			"massData-mass" : 6.089768886566162,
+			"name" : "hanger",
+			"position" : 
+			{
+				"x" : 23.11870002746582,
+				"y" : 7.587430000305176
+			},
+			"type" : 2
+		},
+		
+		{
+			"angle" : 0,
+			"angularDamping" : 0.2,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"circle" : 
+					{
+						"center" : 
+						{
+							"x" : -1.114358901977539,
+							"y" : -1.661960124969482
+						},
+						"radius" : 0.07186307758092880
+					},
+					"density" : 1,
+					"name" : "roller"
+				},
+				
+				{
+					"circle" : 
+					{
+						"center" : 
+						{
+							"x" : 1.112792968750,
+							"y" : -1.661960124969482
+						},
+						"radius" : 0.07186307758092880
+					},
+					"density" : 1,
+					"name" : "roller"
+				},
+				
+				{
+					"density" : 10,
+					"friction" : 1,
+					"name" : "platform",
+					"polygon" : 
+					{
+						"vertices" : 
+						{
+							"x" : 
+							[
+								1.185829162597656,
+								1.185829162597656,
+								-1.185831069946289,
+								-1.185831069946289
+							],
+							"y" : 
+							[
+								-1.661957025527954,
+								-1.406552791595459,
+								-1.406552791595459,
+								-1.661957025527954
+							]
+						}
+					}
+				}
+			],
+			"linearVelocity" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"massData-I" : 17.26068687438965,
+			"massData-center" : 
+			{
+				"x" : -5.120281002746196e-06,
+				"y" : -1.534935355186462
+			},
+			"massData-mass" : 6.089768886566162,
+			"name" : "hanger",
+			"position" : 
+			{
+				"x" : 27.07314682006836,
+				"y" : 3.632820606231689
+			},
+			"type" : 2
+		},
+		
+		{
+			"angle" : 0,
+			"angularDamping" : 0.2,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"density" : 0.8,
+					"friction" : 0.85,
+					"name" : "crate",
+					"polygon" : 
+					{
+						"vertices" : 
+						{
+							"x" : 
+							[
+								0.5101966857910156,
+								0.4176073074340820,
+								-0.4008474349975586,
+								-0.4941606521606445,
+								-0.4946699142456055,
+								-0.4020795822143555,
+								0.4163751602172852,
+								0.5096845626831055
+							],
+							"y" : 
+							[
+								0.4163746833801270,
+								0.5096864700317383,
+								0.5101981163024902,
+								0.4176077842712402,
+								-0.4008479118347168,
+								-0.4941596984863281,
+								-0.4946703910827637,
+								-0.4020810127258301
+							]
+						}
+					}
+				}
+			],
+			"linearVelocity" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"massData-I" : 0.1296163797378540,
+			"massData-center" : 
+			{
+				"x" : 0.007762696128338575,
+				"y" : 0.007763824891299009
+			},
+			"massData-mass" : 0.7931630611419678,
+			"name" : "crate",
+			"position" : 
+			{
+				"x" : 12.88545131683350,
+				"y" : 6.365677833557129
+			},
+			"type" : 2
+		},
+		
+		{
+			"angle" : 0,
+			"angularDamping" : 0.2,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"circle" : 
+					{
+						"center" : 
+						{
+							"x" : 1.112792968750,
+							"y" : -1.661960124969482
+						},
+						"radius" : 0.07186307758092880
+					},
+					"density" : 1,
+					"name" : "roller"
+				},
+				
+				{
+					"circle" : 
+					{
+						"center" : 
+						{
+							"x" : -1.114358901977539,
+							"y" : -1.661960124969482
+						},
+						"radius" : 0.07186307758092880
+					},
+					"density" : 1,
+					"name" : "roller"
+				},
+				
+				{
+					"density" : 10,
+					"friction" : 1,
+					"name" : "platform",
+					"polygon" : 
+					{
+						"vertices" : 
+						{
+							"x" : 
+							[
+								1.185829162597656,
+								1.185829162597656,
+								-1.185831069946289,
+								-1.185831069946289
+							],
+							"y" : 
+							[
+								-1.661957025527954,
+								-1.406552791595459,
+								-1.406552791595459,
+								-1.661957025527954
+							]
+						}
+					}
+				}
+			],
+			"linearVelocity" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"massData-I" : 17.26068687438965,
+			"massData-center" : 
+			{
+				"x" : -5.120281002746196e-06,
+				"y" : -1.534935355186462
+			},
+			"massData-mass" : 6.089768886566162,
+			"name" : "hanger",
+			"position" : 
+			{
+				"x" : 19.16411018371582,
+				"y" : 3.632820606231689
+			},
+			"type" : 2
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : -0.2181661576032639,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"circle" : 
+					{
+						"center" : 
+						{
+							"x" : -1.335144042968750e-05,
+							"y" : 0
+						},
+						"radius" : 3.954548120498657
+					},
+					"density" : 1,
+					"filter-maskBits" : 0,
+					"friction" : 0.2,
+					"name" : "wheel"
+				}
+			],
+			"linearVelocity" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"name" : "wheel",
+			"position" : 
+			{
+				"x" : 23.11873054504395,
+				"y" : 3.632820606231689
+			},
+			"type" : 1
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"circle" : 
+					{
+						"center" : 
+						{
+							"x" : 0,
+							"y" : 0
+						},
+						"radius" : 0.2029935270547867
+					},
+					"customProperties" : 
+					[
+						
+						{
+							"int" : 0,
+							"name" : "pickuptype"
+						},
+						
+						{
+							"float" : 0.1,
+							"name" : "bounceheight"
+						},
+						
+						{
+							"float" : 0.05,
+							"name" : "bouncewidth"
+						},
+						
+						{
+							"float" : 0.14,
+							"name" : "horizontalbouncespeed"
+						},
+						
+						{
+							"float" : 0.1,
+							"name" : "verticalbouncespeed"
+						}
+					],
+					"density" : 1,
+					"filter-categoryBits" : 2,
+					"filter-maskBits" : 4,
+					"name" : "pickup",
+					"sensor" : true
+				}
+			],
+			"linearVelocity" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"name" : "gem",
+			"position" : 
+			{
+				"x" : 6.352150440216064,
+				"y" : 2.985824108123779
+			},
+			"type" : 1
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"density" : 1,
+					"friction" : 0.5,
+					"name" : "bridge",
+					"polygon" : 
+					{
+						"vertices" : 
+						{
+							"x" : 
+							[
+								0.7192068099975586,
+								0.7192068099975586,
+								-0.7192058563232422,
+								-0.7192058563232422
+							],
+							"y" : 
+							[
+								-0.1799074560403824,
+								0.1799074709415436,
+								0.1799074709415436,
+								-0.1799074560403824
+							]
+						}
+					}
+				}
+			],
+			"linearVelocity" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"massData-I" : 0.09482165426015854,
+			"massData-center" : 
+			{
+				"x" : 4.768371582031250e-07,
+				"y" : 7.450580596923828e-09
+			},
+			"massData-mass" : 0.5175623893737793,
+			"name" : "bridge",
+			"position" : 
+			{
+				"x" : 4.517776489257812,
+				"y" : 0.09847063571214676
+			},
+			"type" : 2
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"density" : 1,
+					"friction" : 0.5,
+					"name" : "bridge",
+					"polygon" : 
+					{
+						"vertices" : 
+						{
+							"x" : 
+							[
+								0.7192063331604004,
+								0.7192063331604004,
+								-0.7192060947418213,
+								-0.7192060947418213
+							],
+							"y" : 
+							[
+								-0.1799074560403824,
+								0.1799074411392212,
+								0.1799074411392212,
+								-0.1799074560403824
+							]
+						}
+					}
+				}
+			],
+			"linearVelocity" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"massData-I" : 0.09482158720493317,
+			"massData-center" : 
+			{
+				"x" : 1.192092895507812e-07,
+				"y" : -7.450580596923828e-09
+			},
+			"massData-mass" : 0.5175622105598450,
+			"name" : "bridge",
+			"position" : 
+			{
+				"x" : 3.307473659515381,
+				"y" : 0.09847059845924377
+			},
+			"type" : 2
+		},
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixedRotation" : true,
+			"fixture" : 
+			[
+				
+				{
+					"circle" : 
+					{
+						"center" : 
+						{
+							"x" : 0,
+							"y" : 0
+						},
+						"radius" : 0.45
+					},
+					"density" : 1,
+					"filter-categoryBits" : 4,
+					"friction" : 0.1,
+					"name" : "player"
+				},
+				
+				{
+					"circle" : 
+					{
+						"center" : 
+						{
+							"x" : 0,
+							"y" : -0.3578454852104187
+						},
+						"radius" : 0.1497322618961334
+					},
+					"density" : 1,
+					"friction" : 0.2,
+					"name" : "footsensor",
+					"sensor" : true
+				}
+			],
+			"linearVelocity" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"massData-I" : 0.0008990316418930888,
+			"massData-center" : 
+			{
+				"x" : 0,
+				"y" : -0.03566964343190193
+			},
+			"massData-mass" : 0.7066062092781067,
+			"name" : "player",
+			"position" : 
+			{
+				"x" : -2.043461799621582,
+				"y" : 0.8461141586303711
+			},
+			"type" : 2
+		},
+		
+		{
+			"angle" : 0.05163383483886719,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"chain" : 
+					{
+						"vertices" : 
+						{
+							"x" : 
+							[
+								2.405904769897461,
+								2.618259668350220,
+								0.7169640064239502,
+								-1.060739994049072,
+								-2.856499910354614,
+								-5.092795372009277,
+								-5.717420101165771
+							],
+							"y" : 
+							[
+								-3.993585586547852,
+								0.1154689937829971,
+								0.2706860005855560,
+								0.2720080018043518,
+								0.4211870133876801,
+								0.4164396226406097,
+								7.597229957580566
+							]
+						}
+					},
+					"density" : 1,
+					"friction" : 0.5,
+					"name" : "ground"
+				},
+				
+				{
+					"chain" : 
+					{
+						"vertices" : 
+						{
+							"x" : 
+							[
+								41.28020477294922,
+								41.48288726806641,
+								39.59327316284180,
+								37.82002258300781,
+								35.95202255249023,
+								34.45628356933594,
+								34.79510879516602,
+								34.25777435302734,
+								34.12420654296875,
+								32.57719421386719,
+								32.47145080566406,
+								28.43933296203613,
+								28.21776199340820,
+								17.76243209838867,
+								17.98494720458984,
+								13.96558761596680,
+								13.91488552093506,
+								11.92421722412109,
+								11.87340259552002,
+								9.826792716979980,
+								9.615358352661133
+							],
+							"y" : 
+							[
+								-5.813576698303223,
+								-1.891689538955688,
+								-1.711799144744873,
+								-1.739773750305176,
+								-1.575952053070068,
+								-1.543508648872375,
+								5.012765884399414,
+								5.040535449981689,
+								2.455978393554688,
+								2.535927534103394,
+								0.4898104667663574,
+								0.7051784992218018,
+								-3.582188844680786,
+								-3.056007385253906,
+								1.249652266502380,
+								1.460380077362061,
+								0.4793317317962646,
+								0.5855658054351807,
+								-0.3976672291755676,
+								-0.3029985427856445,
+								-4.394239902496338
+							]
+						}
+					},
+					"density" : 1,
+					"friction" : 0.5,
+					"name" : "ground"
+				}
+			],
+			"linearVelocity" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"name" : "ground",
+			"position" : 
+			{
+				"x" : 0.02415704727172852,
+				"y" : 0.05252686142921448
+			},
+			"type" : 0
+		}
+	],
+	"collisionbitplanes" : 
+	{
+		"names" : 
+		[
+			"ground",
+			"pickup",
+			"player",
+			"bitplane4",
+			"bitplane5",
+			"bitplane6",
+			"bitplane7",
+			"bitplane8",
+			"bitplane9",
+			"bitplane10",
+			"bitplane11",
+			"bitplane12",
+			"bitplane13",
+			"bitplane14",
+			"bitplane15",
+			"bitplane16",
+			"bitplane17",
+			"bitplane18",
+			"bitplane19",
+			"bitplane20",
+			"bitplane21",
+			"bitplane22",
+			"bitplane23",
+			"bitplane24",
+			"bitplane25",
+			"bitplane26",
+			"bitplane27",
+			"bitplane28",
+			"bitplane29",
+			"bitplane30",
+			"bitplane31",
+			"bitplane32"
+		]
+	},
+	"continuousPhysics" : true,
+	"gravity" : 
+	{
+		"x" : 0,
+		"y" : -20.0
+	},
+	"image" : 
+	[
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 18.22841453552246,
+				"y" : -4.689063072204590
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-29.88990211486816,
+					66.34673309326172,
+					66.34673309326172,
+					-29.88990211486816
+				],
+				"y" : 
+				[
+					-52.80738067626953,
+					-52.80738067626953,
+					43.42925262451172,
+					43.42925262451172
+				]
+			},
+			"file" : "images/planetcute-sky.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-29.88990211486816,
+				-52.80738067626953,
+				66.34673309326172,
+				-52.80738067626953,
+				66.34673309326172,
+				43.42925262451172,
+				-29.88990211486816,
+				43.42925262451172
+			],
+			"name" : "image12",
+			"opacity" : 1,
+			"scale" : 96.23663330078125
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : 21,
+			"center" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-0.2338202148675919,
+					0.2338202148675919,
+					0.2338202148675919,
+					-0.2338202148675919
+				],
+				"y" : 
+				[
+					-0.2338202148675919,
+					-0.2338202148675919,
+					0.2338202148675919,
+					0.2338202148675919
+				]
+			},
+			"file" : "images/planetcute-gem.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919,
+				0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919
+			],
+			"name" : "image2",
+			"opacity" : 1,
+			"renderOrder" : 5,
+			"scale" : 0.4676404297351837
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : 8,
+			"center" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-0.2338202148675919,
+					0.2338202148675919,
+					0.2338202148675919,
+					-0.2338202148675919
+				],
+				"y" : 
+				[
+					-0.2338202148675919,
+					-0.2338202148675919,
+					0.2338202148675919,
+					0.2338202148675919
+				]
+			},
+			"file" : "images/planetcute-gem.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919,
+				0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919
+			],
+			"name" : "image2",
+			"opacity" : 1,
+			"renderOrder" : 5,
+			"scale" : 0.4676404297351837
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 27.99987411499023,
+				"y" : 6.602166175842285
+			},
+			"colorTint" : [ 85, 85, 85, 128 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					27.48873901367188,
+					28.51100921630859,
+					28.51100921630859,
+					27.48873901367188
+				],
+				"y" : 
+				[
+					6.349128723144531,
+					6.349128723144531,
+					6.855203628540039,
+					6.855203628540039
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				27.48873901367188,
+				6.349128723144531,
+				28.51100921630859,
+				6.349128723144531,
+				28.51100921630859,
+				6.855203628540039,
+				27.48873901367188,
+				6.855203628540039
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 6,
+			"scale" : 0.5060746073722839
+		},
+		
+		{
+			"angle" : 1.570796251296997,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 23.39804267883301,
+				"y" : 3.288928508758545
+			},
+			"colorTint" : [ 85, 85, 85, 128 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					24.91306686401367,
+					24.91306877136230,
+					21.88301849365234,
+					21.88301658630371
+				],
+				"y" : 
+				[
+					0.2285773754119873,
+					6.349279403686523,
+					6.349279403686523,
+					0.2285773754119873
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				24.91306686401367,
+				0.2285773754119873,
+				24.91306877136230,
+				6.349279403686523,
+				21.88301849365234,
+				6.349279403686523,
+				21.88301658630371,
+				0.2285773754119873
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 6,
+			"scale" : 3.030050754547119
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 23.08209419250488,
+				"y" : -2.599753379821777
+			},
+			"colorTint" : [ 85, 85, 85, 128 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					17.26184082031250,
+					28.90234756469727,
+					28.90234756469727,
+					17.26184082031250
+				],
+				"y" : 
+				[
+					-5.481066703796387,
+					-5.481066703796387,
+					0.2815601825714111,
+					0.2815601825714111
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				17.26184082031250,
+				-5.481066703796387,
+				28.90234756469727,
+				-5.481066703796387,
+				28.90234756469727,
+				0.2815601825714111,
+				17.26184082031250,
+				0.2815601825714111
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 6,
+			"scale" : 5.762627124786377
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 19.65346908569336,
+				"y" : 6.602166175842285
+			},
+			"colorTint" : [ 85, 85, 85, 128 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					19.1423339843750,
+					20.16460418701172,
+					20.16460418701172,
+					19.1423339843750
+				],
+				"y" : 
+				[
+					6.349128723144531,
+					6.349128723144531,
+					6.855203628540039,
+					6.855203628540039
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				19.1423339843750,
+				6.349128723144531,
+				20.16460418701172,
+				6.349128723144531,
+				20.16460418701172,
+				6.855203628540039,
+				19.1423339843750,
+				6.855203628540039
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 6,
+			"scale" : 0.5060746073722839
+		},
+		
+		{
+			"angle" : 1.570796251296997,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 14.31252384185791,
+				"y" : 3.288928508758545
+			},
+			"colorTint" : [ 85, 85, 85, 128 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					15.82754898071289,
+					15.82754898071289,
+					12.79749870300293,
+					12.79749870300293
+				],
+				"y" : 
+				[
+					0.2285773754119873,
+					6.349279403686523,
+					6.349279403686523,
+					0.2285773754119873
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				15.82754898071289,
+				0.2285773754119873,
+				15.82754898071289,
+				6.349279403686523,
+				12.79749870300293,
+				6.349279403686523,
+				12.79749870300293,
+				0.2285773754119873
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 6,
+			"scale" : 3.030050754547119
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 32.37199783325195,
+				"y" : 6.602166175842285
+			},
+			"colorTint" : [ 85, 85, 85, 128 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					31.86086273193359,
+					32.88313293457031,
+					32.88313293457031,
+					31.86086273193359
+				],
+				"y" : 
+				[
+					6.349128723144531,
+					6.349128723144531,
+					6.855203628540039,
+					6.855203628540039
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				31.86086273193359,
+				6.349128723144531,
+				32.88313293457031,
+				6.349128723144531,
+				32.88313293457031,
+				6.855203628540039,
+				31.86086273193359,
+				6.855203628540039
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 6,
+			"scale" : 0.5060746073722839
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 11.41548156738281,
+				"y" : 6.602166175842285
+			},
+			"colorTint" : [ 85, 85, 85, 128 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					10.90434646606445,
+					11.92661666870117,
+					11.92661666870117,
+					10.90434646606445
+				],
+				"y" : 
+				[
+					6.349128723144531,
+					6.349128723144531,
+					6.855203628540039,
+					6.855203628540039
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				10.90434646606445,
+				6.349128723144531,
+				11.92661666870117,
+				6.349128723144531,
+				11.92661666870117,
+				6.855203628540039,
+				10.90434646606445,
+				6.855203628540039
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 6,
+			"scale" : 0.5060746073722839
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 13.42204666137695,
+				"y" : 6.602166175842285
+			},
+			"colorTint" : [ 85, 85, 85, 128 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					12.91091156005859,
+					13.93318176269531,
+					13.93318176269531,
+					12.91091156005859
+				],
+				"y" : 
+				[
+					6.349128723144531,
+					6.349128723144531,
+					6.855203628540039,
+					6.855203628540039
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				12.91091156005859,
+				6.349128723144531,
+				13.93318176269531,
+				6.349128723144531,
+				13.93318176269531,
+				6.855203628540039,
+				12.91091156005859,
+				6.855203628540039
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 6,
+			"scale" : 0.5060746073722839
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 23.71025085449219,
+				"y" : 6.602166175842285
+			},
+			"colorTint" : [ 85, 85, 85, 128 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					23.19911575317383,
+					24.22138595581055,
+					24.22138595581055,
+					23.19911575317383
+				],
+				"y" : 
+				[
+					6.349128723144531,
+					6.349128723144531,
+					6.855203628540039,
+					6.855203628540039
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				23.19911575317383,
+				6.349128723144531,
+				24.22138595581055,
+				6.349128723144531,
+				24.22138595581055,
+				6.855203628540039,
+				23.19911575317383,
+				6.855203628540039
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 6,
+			"scale" : 0.5060746073722839
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 15.47226333618164,
+				"y" : 6.602166175842285
+			},
+			"colorTint" : [ 85, 85, 85, 128 ],
+			"corners" : 
+			{
+				"x" : [ 14.96112823486328, 15.98339843750, 15.98339843750, 14.96112823486328 ],
+				"y" : 
+				[
+					6.349128723144531,
+					6.349128723144531,
+					6.855203628540039,
+					6.855203628540039
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				14.96112823486328,
+				6.349128723144531,
+				15.98339843750,
+				6.349128723144531,
+				15.98339843750,
+				6.855203628540039,
+				14.96112823486328,
+				6.855203628540039
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 6,
+			"scale" : 0.5060746073722839
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 25.71681594848633,
+				"y" : 6.602166175842285
+			},
+			"colorTint" : [ 85, 85, 85, 128 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					25.20568084716797,
+					26.22795104980469,
+					26.22795104980469,
+					25.20568084716797
+				],
+				"y" : 
+				[
+					6.349128723144531,
+					6.349128723144531,
+					6.855203628540039,
+					6.855203628540039
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				25.20568084716797,
+				6.349128723144531,
+				26.22795104980469,
+				6.349128723144531,
+				26.22795104980469,
+				6.855203628540039,
+				25.20568084716797,
+				6.855203628540039
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 6,
+			"scale" : 0.5060746073722839
+		},
+		
+		{
+			"angle" : 1.570796251296997,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 29.45299720764160,
+				"y" : 3.288928508758545
+			},
+			"colorTint" : [ 85, 85, 85, 128 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					30.96802139282227,
+					30.96802330017090,
+					27.93797302246094,
+					27.93797111511230
+				],
+				"y" : 
+				[
+					0.2285773754119873,
+					6.349279403686523,
+					6.349279403686523,
+					0.2285773754119873
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				30.96802139282227,
+				0.2285773754119873,
+				30.96802330017090,
+				6.349279403686523,
+				27.93797302246094,
+				6.349279403686523,
+				27.93797111511230,
+				0.2285773754119873
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 6,
+			"scale" : 3.030050754547119
+		},
+		
+		{
+			"angle" : 1.570796251296997,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 32.48075866699219,
+				"y" : 3.298401594161987
+			},
+			"colorTint" : [ 85, 85, 85, 128 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					33.99578475952148,
+					33.99578475952148,
+					30.96573257446289,
+					30.96573257446289
+				],
+				"y" : 
+				[
+					0.2380504608154297,
+					6.358752727508545,
+					6.358752727508545,
+					0.2380504608154297
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				33.99578475952148,
+				0.2380504608154297,
+				33.99578475952148,
+				6.358752727508545,
+				30.96573257446289,
+				6.358752727508545,
+				30.96573257446289,
+				0.2380504608154297
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 6,
+			"scale" : 3.030050754547119
+		},
+		
+		{
+			"angle" : 1.570796251296997,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 11.28364944458008,
+				"y" : 3.292086362838745
+			},
+			"colorTint" : [ 85, 85, 85, 128 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					12.79867458343506,
+					12.79867553710938,
+					9.768624305725098,
+					9.768623352050781
+				],
+				"y" : 
+				[
+					0.2317352294921875,
+					6.352437496185303,
+					6.352437496185303,
+					0.2317352294921875
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				12.79867458343506,
+				0.2317352294921875,
+				12.79867553710938,
+				6.352437496185303,
+				9.768624305725098,
+				6.352437496185303,
+				9.768623352050781,
+				0.2317352294921875
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 6,
+			"scale" : 3.030050754547119
+		},
+		
+		{
+			"angle" : 1.570796251296997,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 20.36916732788086,
+				"y" : 3.292086362838745
+			},
+			"colorTint" : [ 85, 85, 85, 128 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					21.88419342041016,
+					21.88419342041016,
+					18.85414123535156,
+					18.85414123535156
+				],
+				"y" : 
+				[
+					0.2317352294921875,
+					6.352437496185303,
+					6.352437496185303,
+					0.2317352294921875
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				21.88419342041016,
+				0.2317352294921875,
+				21.88419342041016,
+				6.352437496185303,
+				18.85414123535156,
+				6.352437496185303,
+				18.85414123535156,
+				0.2317352294921875
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 6,
+			"scale" : 3.030050754547119
+		},
+		
+		{
+			"angle" : 1.570796251296997,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 26.42580413818359,
+				"y" : 3.298401594161987
+			},
+			"colorTint" : [ 85, 85, 85, 128 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					27.94083023071289,
+					27.94083023071289,
+					24.91077804565430,
+					24.91077804565430
+				],
+				"y" : 
+				[
+					0.2380504608154297,
+					6.358752727508545,
+					6.358752727508545,
+					0.2380504608154297
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				27.94083023071289,
+				0.2380504608154297,
+				27.94083023071289,
+				6.358752727508545,
+				24.91077804565430,
+				6.358752727508545,
+				24.91077804565430,
+				0.2380504608154297
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 6,
+			"scale" : 3.030050754547119
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 30.16047477722168,
+				"y" : 6.602166175842285
+			},
+			"colorTint" : [ 85, 85, 85, 128 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					29.64933967590332,
+					30.67160987854004,
+					30.67160987854004,
+					29.64933967590332
+				],
+				"y" : 
+				[
+					6.349128723144531,
+					6.349128723144531,
+					6.855203628540039,
+					6.855203628540039
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				29.64933967590332,
+				6.349128723144531,
+				30.67160987854004,
+				6.349128723144531,
+				30.67160987854004,
+				6.855203628540039,
+				29.64933967590332,
+				6.855203628540039
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 6,
+			"scale" : 0.5060746073722839
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 17.47882843017578,
+				"y" : 6.602166175842285
+			},
+			"colorTint" : [ 85, 85, 85, 128 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					16.96769332885742,
+					17.98996353149414,
+					17.98996353149414,
+					16.96769332885742
+				],
+				"y" : 
+				[
+					6.349128723144531,
+					6.349128723144531,
+					6.855203628540039,
+					6.855203628540039
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				16.96769332885742,
+				6.349128723144531,
+				17.98996353149414,
+				6.349128723144531,
+				17.98996353149414,
+				6.855203628540039,
+				16.96769332885742,
+				6.855203628540039
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 6,
+			"scale" : 0.5060746073722839
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 21.66003417968750,
+				"y" : 6.602166175842285
+			},
+			"colorTint" : [ 85, 85, 85, 128 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					21.14889907836914,
+					22.17116928100586,
+					22.17116928100586,
+					21.14889907836914
+				],
+				"y" : 
+				[
+					6.349128723144531,
+					6.349128723144531,
+					6.855203628540039,
+					6.855203628540039
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				21.14889907836914,
+				6.349128723144531,
+				22.17116928100586,
+				6.349128723144531,
+				22.17116928100586,
+				6.855203628540039,
+				21.14889907836914,
+				6.855203628540039
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 6,
+			"scale" : 0.5060746073722839
+		},
+		
+		{
+			"angle" : 1.570796251296997,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 17.34028625488281,
+				"y" : 3.298401594161987
+			},
+			"colorTint" : [ 85, 85, 85, 128 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					18.85531234741211,
+					18.85531234741211,
+					15.82526111602783,
+					15.82526016235352
+				],
+				"y" : 
+				[
+					0.2380504608154297,
+					6.358752727508545,
+					6.358752727508545,
+					0.2380504608154297
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				18.85531234741211,
+				0.2380504608154297,
+				18.85531234741211,
+				6.358752727508545,
+				15.82526111602783,
+				6.358752727508545,
+				15.82526016235352,
+				0.2380504608154297
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 6,
+			"scale" : 3.030050754547119
+		},
+		
+		{
+			"angle" : 2.356194496154785,
+			"aspectScale" : 1,
+			"body" : 20,
+			"center" : 
+			{
+				"x" : -1.979182839393616,
+				"y" : -1.940474033355713
+			},
+			"colorTint" : [ 192, 192, 192, 255 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					0.4225219488143921,
+					-3.851877689361572,
+					-4.380887508392334,
+					-0.1064878702163696
+				],
+				"y" : 
+				[
+					-3.813169002532959,
+					0.4612307548522949,
+					-0.06777906417846680,
+					-4.342178821563721
+				]
+			},
+			"file" : "images/planetcute-longwood.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				0.4225219488143921,
+				-3.813169002532959,
+				-3.851877689361572,
+				0.4612307548522949,
+				-4.380887508392334,
+				-0.06777906417846680,
+				-0.1064878702163696,
+				-4.342178821563721
+			],
+			"name" : "image15",
+			"opacity" : 1,
+			"renderOrder" : 7,
+			"scale" : 0.7481329441070557
+		},
+		
+		{
+			"angle" : -0.7853980660438538,
+			"aspectScale" : 1,
+			"body" : 20,
+			"center" : 
+			{
+				"x" : 1.979182600975037,
+				"y" : 1.940474390983582
+			},
+			"colorTint" : [ 192, 192, 192, 255 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					-0.4225224256515503,
+					3.851877689361572,
+					4.380887508392334,
+					0.1064873933792114
+				],
+				"y" : 
+				[
+					3.813169002532959,
+					-0.4612301588058472,
+					0.06777966022491455,
+					4.342178821563721
+				]
+			},
+			"file" : "images/planetcute-longwood.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-0.4225224256515503,
+				3.813169002532959,
+				3.851877689361572,
+				-0.4612301588058472,
+				4.380887508392334,
+				0.06777966022491455,
+				0.1064873933792114,
+				4.342178821563721
+			],
+			"name" : "image15",
+			"opacity" : 1,
+			"renderOrder" : 7,
+			"scale" : 0.7481329441070557
+		},
+		
+		{
+			"angle" : 0.7853981852531433,
+			"aspectScale" : 1,
+			"body" : 20,
+			"center" : 
+			{
+				"x" : -1.940474271774292,
+				"y" : 1.979182720184326
+			},
+			"colorTint" : [ 192, 192, 192, 255 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					-3.813169240951538,
+					0.4612305164337158,
+					-0.06777930259704590,
+					-4.342179298400879
+				],
+				"y" : 
+				[
+					-0.4225223064422607,
+					3.851877927780151,
+					4.380887985229492,
+					0.1064875125885010
+				]
+			},
+			"file" : "images/planetcute-longwood.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-3.813169240951538,
+				-0.4225223064422607,
+				0.4612305164337158,
+				3.851877927780151,
+				-0.06777930259704590,
+				4.380887985229492,
+				-4.342179298400879,
+				0.1064875125885010
+			],
+			"name" : "image15",
+			"opacity" : 1,
+			"renderOrder" : 7,
+			"scale" : 0.7481329441070557
+		},
+		
+		{
+			"angle" : 3.926990747451782,
+			"aspectScale" : 1,
+			"body" : 20,
+			"center" : 
+			{
+				"x" : 1.940473914146423,
+				"y" : -1.979182958602905
+			},
+			"colorTint" : [ 192, 192, 192, 255 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					3.813169002532959,
+					-0.4612311124801636,
+					0.06777870655059814,
+					4.342178821563721
+				],
+				"y" : 
+				[
+					0.4225218296051025,
+					-3.851877927780151,
+					-4.380887985229492,
+					-0.1064879894256592
+				]
+			},
+			"file" : "images/planetcute-longwood.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				3.813169002532959,
+				0.4225218296051025,
+				-0.4612311124801636,
+				-3.851877927780151,
+				0.06777870655059814,
+				-4.380887985229492,
+				4.342178821563721,
+				-0.1064879894256592
+			],
+			"name" : "image15",
+			"opacity" : 1,
+			"renderOrder" : 7,
+			"scale" : 0.7481329441070557
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 4.354070186614990,
+				"y" : -2.780550718307495
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					2.275219202041626,
+					6.432921409606934,
+					6.432921409606934,
+					2.275219202041626
+				],
+				"y" : 
+				[
+					-3.809684753417969,
+					-3.809684753417969,
+					-1.751416563987732,
+					-1.751416563987732
+				]
+			},
+			"file" : "images/planetcute-water.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				2.275219202041626,
+				-3.809684753417969,
+				6.432921409606934,
+				-3.809684753417969,
+				6.432921409606934,
+				-1.751416563987732,
+				2.275219202041626,
+				-1.751416563987732
+			],
+			"name" : "image9",
+			"opacity" : 1,
+			"renderOrder" : 8,
+			"scale" : 2.058268308639526
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 8.230056762695312,
+				"y" : -2.780550718307495
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					6.151206016540527,
+					10.30890750885010,
+					10.30890750885010,
+					6.151206016540527
+				],
+				"y" : 
+				[
+					-3.809684753417969,
+					-3.809684753417969,
+					-1.751416563987732,
+					-1.751416563987732
+				]
+			},
+			"file" : "images/planetcute-water.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				6.151206016540527,
+				-3.809684753417969,
+				10.30890750885010,
+				-3.809684753417969,
+				10.30890750885010,
+				-1.751416563987732,
+				6.151206016540527,
+				-1.751416563987732
+			],
+			"name" : "image9",
+			"opacity" : 1,
+			"renderOrder" : 8,
+			"scale" : 2.058268308639526
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 4.354070186614990,
+				"y" : -2.780550718307495
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					2.275219202041626,
+					6.432921409606934,
+					6.432921409606934,
+					2.275219202041626
+				],
+				"y" : 
+				[
+					-3.809684753417969,
+					-3.809684753417969,
+					-1.751416563987732,
+					-1.751416563987732
+				]
+			},
+			"file" : "images/planetcute-water.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				2.275219202041626,
+				-3.809684753417969,
+				6.432921409606934,
+				-3.809684753417969,
+				6.432921409606934,
+				-1.751416563987732,
+				2.275219202041626,
+				-1.751416563987732
+			],
+			"name" : "image9",
+			"opacity" : 1,
+			"renderOrder" : 8,
+			"scale" : 2.058268308639526
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 8.230056762695312,
+				"y" : -2.780550718307495
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					6.151206016540527,
+					10.30890750885010,
+					10.30890750885010,
+					6.151206016540527
+				],
+				"y" : 
+				[
+					-3.809684753417969,
+					-3.809684753417969,
+					-1.751416563987732,
+					-1.751416563987732
+				]
+			},
+			"file" : "images/planetcute-water.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				6.151206016540527,
+				-3.809684753417969,
+				10.30890750885010,
+				-3.809684753417969,
+				10.30890750885010,
+				-1.751416563987732,
+				6.151206016540527,
+				-1.751416563987732
+			],
+			"name" : "image9",
+			"opacity" : 1,
+			"renderOrder" : 8,
+			"scale" : 2.058268308639526
+		},
+		
+		{
+			"aspectScale" : 1.896680712699890,
+			"body" : 9,
+			"center" : 
+			{
+				"x" : 0,
+				"y" : 0.07930059731006622
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-0.7268260717391968,
+					0.7268260717391968,
+					0.7268260717391968,
+					-0.7268260717391968
+				],
+				"y" : 
+				[
+					-0.01555324345827103,
+					-0.01555324345827103,
+					0.1741544306278229,
+					0.1741544306278229
+				]
+			},
+			"file" : "images/planetcute-narrowwood.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-0.7268260717391968,
+				-0.01555324345827103,
+				0.7268260717391968,
+				-0.01555324345827103,
+				0.7268260717391968,
+				0.1741544306278229,
+				-0.7268260717391968,
+				0.1741544306278229
+			],
+			"name" : "image13",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 0.1897076815366745
+		},
+		
+		{
+			"aspectScale" : 1.896680712699890,
+			"body" : 12,
+			"center" : 
+			{
+				"x" : 0,
+				"y" : 0.0793006569147110
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-0.7268260717391968,
+					0.7268260717391968,
+					0.7268260717391968,
+					-0.7268260717391968
+				],
+				"y" : 
+				[
+					-0.01555318385362625,
+					-0.01555318385362625,
+					0.1741544902324677,
+					0.1741544902324677
+				]
+			},
+			"file" : "images/planetcute-narrowwood.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-0.7268260717391968,
+				-0.01555318385362625,
+				0.7268260717391968,
+				-0.01555318385362625,
+				0.7268260717391968,
+				0.1741544902324677,
+				-0.7268260717391968,
+				0.1741544902324677
+			],
+			"name" : "image13",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 0.1897076815366745
+		},
+		
+		{
+			"angle" : 1.02882456779480,
+			"aspectScale" : 1,
+			"body" : 17,
+			"center" : 
+			{
+				"x" : -0.4316883087158203,
+				"y" : -0.7415504455566406
+			},
+			"colorTint" : [ 127, 127, 127, 255 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					-0.8242071866989136,
+					0.1639412641525269,
+					-0.03916943073272705,
+					-1.027317881584167
+				],
+				"y" : 
+				[
+					-1.623265504837036,
+					0.01786899566650391,
+					0.1401646137237549,
+					-1.500969886779785
+				]
+			},
+			"file" : "images/planetcute-longwood.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-0.8242071866989136,
+				-1.623265504837036,
+				0.1639412641525269,
+				0.01786899566650391,
+				-0.03916943073272705,
+				0.1401646137237549,
+				-1.027317881584167,
+				-1.500969886779785
+			],
+			"name" : "image15",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 0.2370868474245071
+		},
+		
+		{
+			"angle" : 2.123625993728638,
+			"aspectScale" : 1,
+			"body" : 17,
+			"center" : 
+			{
+				"x" : 0.4613081812858582,
+				"y" : -0.723496139049530
+			},
+			"colorTint" : [ 127, 127, 127, 255 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					1.065148234367371,
+					0.05923902988433838,
+					-0.1425318717956543,
+					0.8633773326873779
+				],
+				"y" : 
+				[
+					-1.476403594017029,
+					0.1539050340652466,
+					0.02941131591796875,
+					-1.600897312164307
+				]
+			},
+			"file" : "images/planetcute-longwood.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				1.065148234367371,
+				-1.476403594017029,
+				0.05923902988433838,
+				0.1539050340652466,
+				-0.1425318717956543,
+				0.02941131591796875,
+				0.8633773326873779,
+				-1.600897312164307
+			],
+			"name" : "image15",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 0.2370868474245071
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : 1,
+			"center" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-0.2338202148675919,
+					0.2338202148675919,
+					0.2338202148675919,
+					-0.2338202148675919
+				],
+				"y" : 
+				[
+					-0.2338202148675919,
+					-0.2338202148675919,
+					0.2338202148675919,
+					0.2338202148675919
+				]
+			},
+			"file" : "images/planetcute-gem.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919,
+				0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919
+			],
+			"name" : "image2",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 0.4676404297351837
+		},
+		
+		{
+			"aspectScale" : 1.896680712699890,
+			"body" : 22,
+			"center" : 
+			{
+				"x" : 0,
+				"y" : 0.07930067181587219
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-0.7268260717391968,
+					0.7268260717391968,
+					0.7268260717391968,
+					-0.7268260717391968
+				],
+				"y" : 
+				[
+					-0.01555316895246506,
+					-0.01555316895246506,
+					0.174154520034790,
+					0.174154520034790
+				]
+			},
+			"file" : "images/planetcute-narrowwood.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-0.7268260717391968,
+				-0.01555316895246506,
+				0.7268260717391968,
+				-0.01555316895246506,
+				0.7268260717391968,
+				0.174154520034790,
+				-0.7268260717391968,
+				0.174154520034790
+			],
+			"name" : "image13",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 0.1897076815366745
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : 2,
+			"center" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-0.2338202148675919,
+					0.2338202148675919,
+					0.2338202148675919,
+					-0.2338202148675919
+				],
+				"y" : 
+				[
+					-0.2338202148675919,
+					-0.2338202148675919,
+					0.2338202148675919,
+					0.2338202148675919
+				]
+			},
+			"file" : "images/planetcute-gem.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919,
+				0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919
+			],
+			"name" : "image2",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 0.4676404297351837
+		},
+		
+		{
+			"angle" : 2.123625993728638,
+			"aspectScale" : 1,
+			"body" : 19,
+			"center" : 
+			{
+				"x" : 0.4613081812858582,
+				"y" : -0.723496139049530
+			},
+			"colorTint" : [ 127, 127, 127, 255 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					1.065148234367371,
+					0.05923902988433838,
+					-0.1425318717956543,
+					0.8633773326873779
+				],
+				"y" : 
+				[
+					-1.476403594017029,
+					0.1539050340652466,
+					0.02941131591796875,
+					-1.600897312164307
+				]
+			},
+			"file" : "images/planetcute-longwood.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				1.065148234367371,
+				-1.476403594017029,
+				0.05923902988433838,
+				0.1539050340652466,
+				-0.1425318717956543,
+				0.02941131591796875,
+				0.8633773326873779,
+				-1.600897312164307
+			],
+			"name" : "image15",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 0.2370868474245071
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 30.43266105651855,
+				"y" : 0.2472351789474487
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					28.38709640502930,
+					32.47822570800781,
+					32.47822570800781,
+					28.38709640502930
+				],
+				"y" : 
+				[
+					-0.765420675277710,
+					-0.765420675277710,
+					1.259891033172607,
+					1.259891033172607
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				28.38709640502930,
+				-0.765420675277710,
+				32.47822570800781,
+				-0.765420675277710,
+				32.47822570800781,
+				1.259891033172607,
+				28.38709640502930,
+				1.259891033172607
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 2.025311708450317
+		},
+		
+		{
+			"angle" : 1.02882456779480,
+			"aspectScale" : 1,
+			"body" : 16,
+			"center" : 
+			{
+				"x" : -0.4316883087158203,
+				"y" : -0.7415504455566406
+			},
+			"colorTint" : [ 127, 127, 127, 255 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					-0.8242071866989136,
+					0.1639412641525269,
+					-0.03916943073272705,
+					-1.027317881584167
+				],
+				"y" : 
+				[
+					-1.623265504837036,
+					0.01786899566650391,
+					0.1401646137237549,
+					-1.500969886779785
+				]
+			},
+			"file" : "images/planetcute-longwood.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-0.8242071866989136,
+				-1.623265504837036,
+				0.1639412641525269,
+				0.01786899566650391,
+				-0.03916943073272705,
+				0.1401646137237549,
+				-1.027317881584167,
+				-1.500969886779785
+			],
+			"name" : "image15",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 0.2370868474245071
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : 14,
+			"center" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-0.2338202148675919,
+					0.2338202148675919,
+					0.2338202148675919,
+					-0.2338202148675919
+				],
+				"y" : 
+				[
+					-0.2338202148675919,
+					-0.2338202148675919,
+					0.2338202148675919,
+					0.2338202148675919
+				]
+			},
+			"file" : "images/planetcute-gem.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919,
+				0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919
+			],
+			"name" : "image2",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 0.4676404297351837
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : 4,
+			"center" : 
+			{
+				"x" : 0.003139495849609375,
+				"y" : 0.1046581268310547
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-0.3286966383457184,
+					0.3349756300449371,
+					0.3349756300449371,
+					-0.3286966383457184
+				],
+				"y" : 
+				[
+					-0.4571634531021118,
+					-0.4571634531021118,
+					0.6664797067642212,
+					0.6664797067642212
+				]
+			},
+			"file" : "images/planetcute-star.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-0.3286966383457184,
+				-0.4571634531021118,
+				0.3349756300449371,
+				-0.4571634531021118,
+				0.3349756300449371,
+				0.6664797067642212,
+				-0.3286966383457184,
+				0.6664797067642212
+			],
+			"name" : "image2",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 1.123643159866333
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -7.787413120269775,
+				"y" : -1.759378910064697
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-11.61327934265137,
+					-3.961546421051025,
+					-3.961546421051025,
+					-11.61327934265137
+				],
+				"y" : 
+				[
+					-3.653372287750244,
+					-3.653372287750244,
+					0.1346144676208496,
+					0.1346144676208496
+				]
+			},
+			"file" : "images/planetcute-dirt.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-11.61327934265137,
+				-3.653372287750244,
+				-3.961546421051025,
+				-3.653372287750244,
+				-3.961546421051025,
+				0.1346144676208496,
+				-11.61327934265137,
+				0.1346144676208496
+			],
+			"name" : "image1",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 3.787986755371094
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 37.70292663574219,
+				"y" : -1.752136707305908
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					33.87705993652344,
+					41.52879333496094,
+					41.52879333496094,
+					33.87705993652344
+				],
+				"y" : 
+				[
+					-3.646130084991455,
+					-3.646130084991455,
+					0.1418566703796387,
+					0.1418566703796387
+				]
+			},
+			"file" : "images/planetcute-dirt.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				33.87705993652344,
+				-3.646130084991455,
+				41.52879333496094,
+				-3.646130084991455,
+				41.52879333496094,
+				0.1418566703796387,
+				33.87705993652344,
+				0.1418566703796387
+			],
+			"name" : "image1",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 3.787986755371094
+		},
+		
+		{
+			"angle" : 1.02882456779480,
+			"aspectScale" : 1,
+			"body" : 19,
+			"center" : 
+			{
+				"x" : -0.4316883087158203,
+				"y" : -0.7415504455566406
+			},
+			"colorTint" : [ 127, 127, 127, 255 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					-0.8242071866989136,
+					0.1639412641525269,
+					-0.03916943073272705,
+					-1.027317881584167
+				],
+				"y" : 
+				[
+					-1.623265504837036,
+					0.01786899566650391,
+					0.1401646137237549,
+					-1.500969886779785
+				]
+			},
+			"file" : "images/planetcute-longwood.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-0.8242071866989136,
+				-1.623265504837036,
+				0.1639412641525269,
+				0.01786899566650391,
+				-0.03916943073272705,
+				0.1401646137237549,
+				-1.027317881584167,
+				-1.500969886779785
+			],
+			"name" : "image15",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 0.2370868474245071
+		},
+		
+		{
+			"aspectScale" : 1.896680712699890,
+			"body" : 11,
+			"center" : 
+			{
+				"x" : 0,
+				"y" : 0.07930063456296921
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-0.7268260717391968,
+					0.7268260717391968,
+					0.7268260717391968,
+					-0.7268260717391968
+				],
+				"y" : 
+				[
+					-0.01555320620536804,
+					-0.01555320620536804,
+					0.1741544753313065,
+					0.1741544753313065
+				]
+			},
+			"file" : "images/planetcute-narrowwood.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-0.7268260717391968,
+				-0.01555320620536804,
+				0.7268260717391968,
+				-0.01555320620536804,
+				0.7268260717391968,
+				0.1741544753313065,
+				-0.7268260717391968,
+				0.1741544753313065
+			],
+			"name" : "image13",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 0.1897076815366745
+		},
+		
+		{
+			"aspectScale" : 1.896680712699890,
+			"body" : 10,
+			"center" : 
+			{
+				"x" : 0,
+				"y" : 0.07930061221122742
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-0.7268260717391968,
+					0.7268260717391968,
+					0.7268260717391968,
+					-0.7268260717391968
+				],
+				"y" : 
+				[
+					-0.01555322855710983,
+					-0.01555322855710983,
+					0.1741544604301453,
+					0.1741544604301453
+				]
+			},
+			"file" : "images/planetcute-narrowwood.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-0.7268260717391968,
+				-0.01555322855710983,
+				0.7268260717391968,
+				-0.01555322855710983,
+				0.7268260717391968,
+				0.1741544604301453,
+				-0.7268260717391968,
+				0.1741544604301453
+			],
+			"name" : "image13",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 0.1897076815366745
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : 0,
+			"center" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-0.2338202148675919,
+					0.2338202148675919,
+					0.2338202148675919,
+					-0.2338202148675919
+				],
+				"y" : 
+				[
+					-0.2338202148675919,
+					-0.2338202148675919,
+					0.2338202148675919,
+					0.2338202148675919
+				]
+			},
+			"file" : "images/planetcute-gem.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919,
+				0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919
+			],
+			"name" : "image2",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 0.4676404297351837
+		},
+		
+		{
+			"angle" : 2.123625993728638,
+			"aspectScale" : 1,
+			"body" : 15,
+			"center" : 
+			{
+				"x" : 0.4613081812858582,
+				"y" : -0.723496139049530
+			},
+			"colorTint" : [ 127, 127, 127, 255 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					1.065148234367371,
+					0.05923902988433838,
+					-0.1425318717956543,
+					0.8633773326873779
+				],
+				"y" : 
+				[
+					-1.476403594017029,
+					0.1539050340652466,
+					0.02941131591796875,
+					-1.600897312164307
+				]
+			},
+			"file" : "images/planetcute-longwood.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				1.065148234367371,
+				-1.476403594017029,
+				0.05923902988433838,
+				0.1539050340652466,
+				-0.1425318717956543,
+				0.02941131591796875,
+				0.8633773326873779,
+				-1.600897312164307
+			],
+			"name" : "image15",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 0.2370868474245071
+		},
+		
+		{
+			"angle" : 1.02882456779480,
+			"aspectScale" : 1,
+			"body" : 15,
+			"center" : 
+			{
+				"x" : -0.4316883087158203,
+				"y" : -0.7415504455566406
+			},
+			"colorTint" : [ 127, 127, 127, 255 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					-0.8242071866989136,
+					0.1639412641525269,
+					-0.03916943073272705,
+					-1.027317881584167
+				],
+				"y" : 
+				[
+					-1.623265504837036,
+					0.01786899566650391,
+					0.1401646137237549,
+					-1.500969886779785
+				]
+			},
+			"file" : "images/planetcute-longwood.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-0.8242071866989136,
+				-1.623265504837036,
+				0.1639412641525269,
+				0.01786899566650391,
+				-0.03916943073272705,
+				0.1401646137237549,
+				-1.027317881584167,
+				-1.500969886779785
+			],
+			"name" : "image15",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 0.2370868474245071
+		},
+		
+		{
+			"aspectScale" : 1.896680712699890,
+			"body" : 23,
+			"center" : 
+			{
+				"x" : 0,
+				"y" : 0.07930069416761398
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-0.7268260717391968,
+					0.7268260717391968,
+					0.7268260717391968,
+					-0.7268260717391968
+				],
+				"y" : 
+				[
+					-0.01555314660072327,
+					-0.01555314660072327,
+					0.1741545349359512,
+					0.1741545349359512
+				]
+			},
+			"file" : "images/planetcute-narrowwood.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-0.7268260717391968,
+				-0.01555314660072327,
+				0.7268260717391968,
+				-0.01555314660072327,
+				0.7268260717391968,
+				0.1741545349359512,
+				-0.7268260717391968,
+				0.1741545349359512
+			],
+			"name" : "image13",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 0.1897076815366745
+		},
+		
+		{
+			"angle" : 2.123625993728638,
+			"aspectScale" : 1,
+			"body" : 16,
+			"center" : 
+			{
+				"x" : 0.4613081812858582,
+				"y" : -0.723496139049530
+			},
+			"colorTint" : [ 127, 127, 127, 255 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					1.065148234367371,
+					0.05923902988433838,
+					-0.1425318717956543,
+					0.8633773326873779
+				],
+				"y" : 
+				[
+					-1.476403594017029,
+					0.1539050340652466,
+					0.02941131591796875,
+					-1.600897312164307
+				]
+			},
+			"file" : "images/planetcute-longwood.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				1.065148234367371,
+				-1.476403594017029,
+				0.05923902988433838,
+				0.1539050340652466,
+				-0.1425318717956543,
+				0.02941131591796875,
+				0.8633773326873779,
+				-1.600897312164307
+			],
+			"name" : "image15",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 0.2370868474245071
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : 13,
+			"center" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-0.2338202148675919,
+					0.2338202148675919,
+					0.2338202148675919,
+					-0.2338202148675919
+				],
+				"y" : 
+				[
+					-0.2338202148675919,
+					-0.2338202148675919,
+					0.2338202148675919,
+					0.2338202148675919
+				]
+			},
+			"file" : "images/planetcute-gem.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919,
+				0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919
+			],
+			"name" : "image2",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 0.4676404297351837
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : 5,
+			"center" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-0.2338202148675919,
+					0.2338202148675919,
+					0.2338202148675919,
+					-0.2338202148675919
+				],
+				"y" : 
+				[
+					-0.2338202148675919,
+					-0.2338202148675919,
+					0.2338202148675919,
+					0.2338202148675919
+				]
+			},
+			"file" : "images/planetcute-gem.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919,
+				0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919
+			],
+			"name" : "image2",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 0.4676404297351837
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : 3,
+			"center" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-0.2338202148675919,
+					0.2338202148675919,
+					0.2338202148675919,
+					-0.2338202148675919
+				],
+				"y" : 
+				[
+					-0.2338202148675919,
+					-0.2338202148675919,
+					0.2338202148675919,
+					0.2338202148675919
+				]
+			},
+			"file" : "images/planetcute-gem.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919,
+				0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919
+			],
+			"name" : "image2",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 0.4676404297351837
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 30.43060302734375,
+				"y" : -1.760919094085693
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					28.38496017456055,
+					32.47624588012695,
+					32.47624588012695,
+					28.38496017456055
+				],
+				"y" : 
+				[
+					-2.773613929748535,
+					-2.773613929748535,
+					-0.7482241392135620,
+					-0.7482241392135620
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				28.38496017456055,
+				-2.773613929748535,
+				32.47624588012695,
+				-2.773613929748535,
+				32.47624588012695,
+				-0.7482241392135620,
+				28.38496017456055,
+				-0.7482241392135620
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 2.025389909744263
+		},
+		
+		{
+			"angle" : 1.570796251296997,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 33.45285415649414,
+				"y" : 1.46444559097290
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					34.46551132202148,
+					34.46551132202148,
+					32.44019699096680,
+					32.44019699096680
+				],
+				"y" : 
+				[
+					-0.5811192989349365,
+					3.510010480880737,
+					3.510010480880737,
+					-0.5811192989349365
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				34.46551132202148,
+				-0.5811192989349365,
+				34.46551132202148,
+				3.510010480880737,
+				32.44019699096680,
+				3.510010480880737,
+				32.44019699096680,
+				-0.5811192989349365
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 2.025311708450317
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : 6,
+			"center" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-0.2338202148675919,
+					0.2338202148675919,
+					0.2338202148675919,
+					-0.2338202148675919
+				],
+				"y" : 
+				[
+					-0.2338202148675919,
+					-0.2338202148675919,
+					0.2338202148675919,
+					0.2338202148675919
+				]
+			},
+			"file" : "images/planetcute-gem.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919,
+				0.2338202148675919,
+				-0.2338202148675919,
+				0.2338202148675919
+			],
+			"name" : "image2",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 0.4676404297351837
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -1.181429982185364,
+				"y" : -1.752140045166016
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-5.007296562194824,
+					2.644436836242676,
+					2.644436836242676,
+					-5.007296562194824
+				],
+				"y" : 
+				[
+					-3.646133422851562,
+					-3.646133422851562,
+					0.1418533325195312,
+					0.1418533325195312
+				]
+			},
+			"file" : "images/planetcute-dirt.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-5.007296562194824,
+				-3.646133422851562,
+				2.644436836242676,
+				-3.646133422851562,
+				2.644436836242676,
+				0.1418533325195312,
+				-5.007296562194824,
+				0.1418533325195312
+			],
+			"name" : "image1",
+			"opacity" : 1,
+			"renderOrder" : 9,
+			"scale" : 3.787986755371094
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : 18,
+			"center" : 
+			{
+				"x" : 0.008241653442382812,
+				"y" : 0.009614467620849609
+			},
+			"colorTint" : [ 245, 255, 152, 255 ],
+			"corners" : 
+			{
+				"x" : 
+				[
+					-0.4927572607994080,
+					0.5092405676841736,
+					0.5092405676841736,
+					-0.4927572607994080
+				],
+				"y" : 
+				[
+					-0.4913844466209412,
+					-0.4913844466209412,
+					0.5106133818626404,
+					0.5106133818626404
+				]
+			},
+			"file" : "images/crate.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-0.4927572607994080,
+				-0.4913844466209412,
+				0.5092405676841736,
+				-0.4913844466209412,
+				0.5092405676841736,
+				0.5106133818626404,
+				-0.4927572607994080,
+				0.5106133818626404
+			],
+			"name" : "image14",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 1.001997828483582
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 29.39477920532227,
+				"y" : 1.733381390571594
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					28.38477897644043,
+					30.40477943420410,
+					30.40477943420410,
+					28.38477897644043
+				],
+				"y" : 
+				[
+					1.233381390571594,
+					1.233381390571594,
+					2.233381271362305,
+					2.233381271362305
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				28.38477897644043,
+				1.233381390571594,
+				30.40477943420410,
+				1.233381390571594,
+				30.40477943420410,
+				2.233381271362305,
+				28.38477897644043,
+				2.233381271362305
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 1
+		},
+		
+		{
+			"aspectScale" : 2.300655603408813,
+			"body" : 19,
+			"center" : 
+			{
+				"x" : -0.002395193325355649,
+				"y" : -1.531888723373413
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-1.188742399215698,
+					1.183952093124390,
+					1.183952093124390,
+					-1.188742399215698
+				],
+				"y" : 
+				[
+					-1.659526348114014,
+					-1.659526348114014,
+					-1.404251098632812,
+					-1.404251098632812
+				]
+			},
+			"file" : "images/planetcute-narrowwood.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-1.188742399215698,
+				-1.659526348114014,
+				1.183952093124390,
+				-1.659526348114014,
+				1.183952093124390,
+				-1.404251098632812,
+				-1.188742399215698,
+				-1.404251098632812
+			],
+			"name" : "image13",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 0.2552753388881683
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 16.88000869750977,
+				"y" : 1.734432697296143
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					15.87000846862793,
+					17.89000892639160,
+					17.89000892639160,
+					15.87000846862793
+				],
+				"y" : 
+				[
+					1.234432697296143,
+					1.234432697296143,
+					2.234432697296143,
+					2.234432697296143
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				15.87000846862793,
+				1.234432697296143,
+				17.89000892639160,
+				1.234432697296143,
+				17.89000892639160,
+				2.234432697296143,
+				15.87000846862793,
+				2.234432697296143
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 1
+		},
+		
+		{
+			"angle" : 1.570796251296997,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 9.673936843872070,
+				"y" : 3.310371398925781
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					9.923936843872070,
+					9.923936843872070,
+					9.423936843872070,
+					9.423936843872070
+				],
+				"y" : 
+				[
+					2.805371284484863,
+					3.815371513366699,
+					3.815371513366699,
+					2.805371284484863
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				9.923936843872070,
+				2.805371284484863,
+				9.923936843872070,
+				3.815371513366699,
+				9.423936843872070,
+				3.815371513366699,
+				9.423936843872070,
+				2.805371284484863
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 0.5
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 11.68853950500488,
+				"y" : -4.262621402740479
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					9.835809707641602,
+					13.54126930236816,
+					13.54126930236816,
+					9.835809707641602
+				],
+				"y" : 
+				[
+					-5.179814815521240,
+					-5.179814815521240,
+					-3.345428228378296,
+					-3.345428228378296
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				9.835809707641602,
+				-5.179814815521240,
+				13.54126930236816,
+				-5.179814815521240,
+				13.54126930236816,
+				-3.345428228378296,
+				9.835809707641602,
+				-3.345428228378296
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 1.834386467933655
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 12.87047767639160,
+				"y" : 0.7666550874710083
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					11.86047744750977,
+					13.88047790527344,
+					13.88047790527344,
+					11.86047744750977
+				],
+				"y" : 
+				[
+					0.2666550874710083,
+					0.2666550874710083,
+					1.266655087471008,
+					1.266655087471008
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				11.86047744750977,
+				0.2666550874710083,
+				13.88047790527344,
+				0.2666550874710083,
+				13.88047790527344,
+				1.266655087471008,
+				11.86047744750977,
+				1.266655087471008
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 1
+		},
+		
+		{
+			"angle" : 0.05163383483886719,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 38.74665069580078,
+				"y" : -0.1450021117925644
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					37.76380157470703,
+					39.78110885620117,
+					39.72949981689453,
+					37.71219253540039
+				],
+				"y" : 
+				[
+					-0.6964627504348755,
+					-0.5922087430953979,
+					0.4064584970474243,
+					0.3022044897079468
+				]
+			},
+			"file" : "images/planetcute-grass.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				37.76380157470703,
+				-0.6964627504348755,
+				39.78110885620117,
+				-0.5922087430953979,
+				39.72949981689453,
+				0.4064584970474243,
+				37.71219253540039,
+				0.3022044897079468
+			],
+			"name" : "image1",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 1
+		},
+		
+		{
+			"angle" : 0.05163383483886719,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 35.16265487670898,
+				"y" : -0.1904436945915222
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					34.17980575561523,
+					36.19711303710938,
+					36.14550399780273,
+					34.12819671630859
+				],
+				"y" : 
+				[
+					-0.7419043183326721,
+					-0.6376503109931946,
+					0.3610169291496277,
+					0.2567629218101501
+				]
+			},
+			"file" : "images/planetcute-grass.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				34.17980575561523,
+				-0.7419043183326721,
+				36.19711303710938,
+				-0.6376503109931946,
+				36.14550399780273,
+				0.3610169291496277,
+				34.12819671630859,
+				0.2567629218101501
+			],
+			"name" : "image1",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 1
+		},
+		
+		{
+			"angle" : 1.570796251296997,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 34.24304199218750,
+				"y" : 5.342579841613770
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					34.49304199218750,
+					34.49304199218750,
+					33.99304199218750,
+					33.99304199218750
+				],
+				"y" : 
+				[
+					4.837579727172852,
+					5.847579956054688,
+					5.847579956054688,
+					4.837579727172852
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				34.49304199218750,
+				4.837579727172852,
+				34.49304199218750,
+				5.847579956054688,
+				33.99304199218750,
+				5.847579956054688,
+				33.99304199218750,
+				4.837579727172852
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 0.5
+		},
+		
+		{
+			"angle" : 1.570796251296997,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 34.24304199218750,
+				"y" : 6.347690105438232
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					34.49304199218750,
+					34.49304199218750,
+					33.99304199218750,
+					33.99304199218750
+				],
+				"y" : 
+				[
+					5.842689990997314,
+					6.852690219879150,
+					6.852690219879150,
+					5.842689990997314
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				34.49304199218750,
+				5.842689990997314,
+				34.49304199218750,
+				6.852690219879150,
+				33.99304199218750,
+				6.852690219879150,
+				33.99304199218750,
+				5.842689990997314
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 0.5
+		},
+		
+		{
+			"angle" : -0.02004313468933105,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -1.950939893722534,
+				"y" : -0.1682152450084686
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-2.970757961273193,
+					-0.9511637091636658,
+					-0.9311219453811646,
+					-2.950716018676758
+				],
+				"y" : 
+				[
+					-0.6478725671768188,
+					-0.6883569955825806,
+					0.3114421069622040,
+					0.3519265353679657
+				]
+			},
+			"file" : "images/planetcute-grass.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-2.970757961273193,
+				-0.6478725671768188,
+				-0.9511637091636658,
+				-0.6883569955825806,
+				-0.9311219453811646,
+				0.3114421069622040,
+				-2.950716018676758,
+				0.3519265353679657
+			],
+			"name" : "image1",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 1
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 11.42665386199951,
+				"y" : 5.577017784118652
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					10.92165374755859,
+					11.93165397644043,
+					11.93165397644043,
+					10.92165374755859
+				],
+				"y" : 
+				[
+					5.327017784118652,
+					5.327017784118652,
+					5.827017784118652,
+					5.827017784118652
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				10.92165374755859,
+				5.327017784118652,
+				11.93165397644043,
+				5.327017784118652,
+				11.93165397644043,
+				5.827017784118652,
+				10.92165374755859,
+				5.827017784118652
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 0.5
+		},
+		
+		{
+			"angle" : 0.05163383483886719,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -0.1377079486846924,
+				"y" : -0.1450021117925644
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-1.120556354522705,
+					0.8967514038085938,
+					0.8451404571533203,
+					-1.172167301177979
+				],
+				"y" : 
+				[
+					-0.6964627504348755,
+					-0.5922087430953979,
+					0.4064584970474243,
+					0.3022044897079468
+				]
+			},
+			"file" : "images/planetcute-grass.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-1.120556354522705,
+				-0.6964627504348755,
+				0.8967514038085938,
+				-0.5922087430953979,
+				0.8451404571533203,
+				0.4064584970474243,
+				-1.172167301177979,
+				0.3022044897079468
+			],
+			"name" : "image1",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 1
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 33.44565963745117,
+				"y" : 3.775326967239380
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					32.43566131591797,
+					34.45565795898438,
+					34.45565795898438,
+					32.43566131591797
+				],
+				"y" : 
+				[
+					3.275326967239380,
+					3.275326967239380,
+					4.275326728820801,
+					4.275326728820801
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				32.43566131591797,
+				3.275326967239380,
+				34.45565795898438,
+				3.275326967239380,
+				34.45565795898438,
+				4.275326728820801,
+				32.43566131591797,
+				4.275326728820801
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 1
+		},
+		
+		{
+			"angle" : -1.570796251296997,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 30.61520385742188,
+				"y" : -5.852901458740234
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					28.84772872924805,
+					28.84772872924805,
+					32.38267898559570,
+					32.38267898559570
+				],
+				"y" : 
+				[
+					-2.282601356506348,
+					-9.423202514648438,
+					-9.423201560974121,
+					-2.282600879669189
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				28.84772872924805,
+				-2.282601356506348,
+				28.84772872924805,
+				-9.423202514648438,
+				32.38267898559570,
+				-9.423201560974121,
+				32.38267898559570,
+				-2.282600879669189
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 3.534950971603394
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 16.04624557495117,
+				"y" : -5.305261611938477
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					14.19351577758789,
+					17.89897537231445,
+					17.89897537231445,
+					14.19351577758789
+				],
+				"y" : 
+				[
+					-6.222455024719238,
+					-6.222455024719238,
+					-4.388068199157715,
+					-4.388068199157715
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				14.19351577758789,
+				-6.222455024719238,
+				17.89897537231445,
+				-6.222455024719238,
+				17.89897537231445,
+				-4.388068199157715,
+				14.19351577758789,
+				-4.388068199157715
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 1.834386467933655
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 16.44157028198242,
+				"y" : 5.577018737792969
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					15.93657016754150,
+					16.94656944274902,
+					16.94656944274902,
+					15.93657016754150
+				],
+				"y" : 
+				[
+					5.327018737792969,
+					5.327018737792969,
+					5.827018737792969,
+					5.827018737792969
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				15.93657016754150,
+				5.327018737792969,
+				16.94656944274902,
+				5.327018737792969,
+				16.94656944274902,
+				5.827018737792969,
+				15.93657016754150,
+				5.827018737792969
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 0.5
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 14.43413639068604,
+				"y" : 5.577018737792969
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					13.92913627624512,
+					14.93913650512695,
+					14.93913650512695,
+					13.92913627624512
+				],
+				"y" : 
+				[
+					5.327018737792969,
+					5.327018737792969,
+					5.827018737792969,
+					5.827018737792969
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				13.92913627624512,
+				5.327018737792969,
+				14.93913650512695,
+				5.327018737792969,
+				14.93913650512695,
+				5.827018737792969,
+				13.92913627624512,
+				5.827018737792969
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 0.5
+		},
+		
+		{
+			"aspectScale" : 2.300655603408813,
+			"body" : 16,
+			"center" : 
+			{
+				"x" : -0.002395193325355649,
+				"y" : -1.531888723373413
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-1.188742399215698,
+					1.183952093124390,
+					1.183952093124390,
+					-1.188742399215698
+				],
+				"y" : 
+				[
+					-1.659526348114014,
+					-1.659526348114014,
+					-1.404251098632812,
+					-1.404251098632812
+				]
+			},
+			"file" : "images/planetcute-narrowwood.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-1.188742399215698,
+				-1.659526348114014,
+				1.183952093124390,
+				-1.659526348114014,
+				1.183952093124390,
+				-1.404251098632812,
+				-1.188742399215698,
+				-1.404251098632812
+			],
+			"name" : "image13",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 0.2552753388881683
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 11.68853950500488,
+				"y" : -2.430614471435547
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					9.835809707641602,
+					13.54126930236816,
+					13.54126930236816,
+					9.835809707641602
+				],
+				"y" : 
+				[
+					-3.347807645797729,
+					-3.347807645797729,
+					-1.513421297073364,
+					-1.513421297073364
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				9.835809707641602,
+				-3.347807645797729,
+				13.54126930236816,
+				-3.347807645797729,
+				13.54126930236816,
+				-1.513421297073364,
+				9.835809707641602,
+				-1.513421297073364
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 1.834386467933655
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 16.02304077148438,
+				"y" : -3.469806432723999
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					14.17031097412109,
+					17.87577056884766,
+					17.87577056884766,
+					14.17031097412109
+				],
+				"y" : 
+				[
+					-4.386999607086182,
+					-4.386999607086182,
+					-2.552613258361816,
+					-2.552613258361816
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				14.17031097412109,
+				-4.386999607086182,
+				17.87577056884766,
+				-4.386999607086182,
+				17.87577056884766,
+				-2.552613258361816,
+				14.17031097412109,
+				-2.552613258361816
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 1.834386467933655
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 13.43525218963623,
+				"y" : 5.577017784118652
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					12.93025207519531,
+					13.94025230407715,
+					13.94025230407715,
+					12.93025207519531
+				],
+				"y" : 
+				[
+					5.327017784118652,
+					5.327017784118652,
+					5.827017784118652,
+					5.827017784118652
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				12.93025207519531,
+				5.327017784118652,
+				13.94025230407715,
+				5.327017784118652,
+				13.94025230407715,
+				5.827017784118652,
+				12.93025207519531,
+				5.827017784118652
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 0.5
+		},
+		
+		{
+			"angle" : -0.03803014755249023,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 1.607144117355347,
+				"y" : -0.1325236409902573
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					0.5788638591766357,
+					2.597403287887573,
+					2.635424375534058,
+					0.6168848872184753
+				],
+				"y" : 
+				[
+					-0.5937609076499939,
+					-0.6705633401870728,
+					0.3287136554718018,
+					0.4055160284042358
+				]
+			},
+			"file" : "images/planetcute-grass.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				0.5788638591766357,
+				-0.5937609076499939,
+				2.597403287887573,
+				-0.6705633401870728,
+				2.635424375534058,
+				0.3287136554718018,
+				0.6168848872184753,
+				0.4055160284042358
+			],
+			"name" : "image1",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 1
+		},
+		
+		{
+			"angle" : 0.1209083795547485,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -7.378499507904053,
+				"y" : -0.07536017894744873
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-8.320818901062012,
+					-6.315566062927246,
+					-6.436180114746094,
+					-8.441432952880859
+				],
+				"y" : 
+				[
+					-0.6935300827026367,
+					-0.4498897790908813,
+					0.5428097248077393,
+					0.2991694211959839
+				]
+			},
+			"file" : "images/planetcute-grass.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-8.320818901062012,
+				-0.6935300827026367,
+				-6.315566062927246,
+				-0.4498897790908813,
+				-6.436180114746094,
+				0.5428097248077393,
+				-8.441432952880859,
+				0.2991694211959839
+			],
+			"name" : "image1",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 1
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 16.03558349609375,
+				"y" : -1.664241313934326
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					14.18285369873047,
+					17.88831329345703,
+					17.88831329345703,
+					14.18285369873047
+				],
+				"y" : 
+				[
+					-2.581434488296509,
+					-2.581434488296509,
+					-0.7470480799674988,
+					-0.7470480799674988
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				14.18285369873047,
+				-2.581434488296509,
+				17.88831329345703,
+				-2.581434488296509,
+				17.88831329345703,
+				-0.7470480799674988,
+				14.18285369873047,
+				-0.7470480799674988
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 1.834386467933655
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 15.44268608093262,
+				"y" : 5.577017784118652
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					14.93768596649170,
+					15.94768619537354,
+					15.94768619537354,
+					14.93768596649170
+				],
+				"y" : 
+				[
+					5.327017784118652,
+					5.327017784118652,
+					5.827017784118652,
+					5.827017784118652
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				14.93768596649170,
+				5.327017784118652,
+				15.94768619537354,
+				5.327017784118652,
+				15.94768619537354,
+				5.827017784118652,
+				14.93768596649170,
+				5.827017784118652
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 0.5
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 11.68853950500488,
+				"y" : -0.598607599735260
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					9.835809707641602,
+					13.54126930236816,
+					13.54126930236816,
+					9.835809707641602
+				],
+				"y" : 
+				[
+					-1.515800833702087,
+					-1.515800833702087,
+					0.3185856342315674,
+					0.3185856342315674
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				9.835809707641602,
+				-1.515800833702087,
+				13.54126930236816,
+				-1.515800833702087,
+				13.54126930236816,
+				0.3185856342315674,
+				9.835809707641602,
+				0.3185856342315674
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 1.834386467933655
+		},
+		
+		{
+			"angle" : 0.05163383483886719,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -3.721701145172119,
+				"y" : -0.1904436945915222
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-4.704549789428711,
+					-2.687241792678833,
+					-2.738852739334106,
+					-4.756160736083984
+				],
+				"y" : 
+				[
+					-0.7419043183326721,
+					-0.6376503109931946,
+					0.3610169291496277,
+					0.2567629218101501
+				]
+			},
+			"file" : "images/planetcute-grass.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-4.704549789428711,
+				-0.7419043183326721,
+				-2.687241792678833,
+				-0.6376503109931946,
+				-2.738852739334106,
+				0.3610169291496277,
+				-4.756160736083984,
+				0.2567629218101501
+			],
+			"name" : "image1",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 1
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 31.39315223693848,
+				"y" : 1.727003812789917
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					30.38315200805664,
+					32.40315246582031,
+					32.40315246582031,
+					30.38315200805664
+				],
+				"y" : 
+				[
+					1.227003812789917,
+					1.227003812789917,
+					2.227003812789917,
+					2.227003812789917
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				30.38315200805664,
+				1.227003812789917,
+				32.40315246582031,
+				1.227003812789917,
+				32.40315246582031,
+				2.227003812789917,
+				30.38315200805664,
+				2.227003812789917
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 1
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 14.88163566589355,
+				"y" : 1.740810275077820
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					13.87163543701172,
+					15.89163589477539,
+					15.89163589477539,
+					13.87163543701172
+				],
+				"y" : 
+				[
+					1.240810275077820,
+					1.240810275077820,
+					2.240810394287109,
+					2.240810394287109
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				13.87163543701172,
+				1.240810275077820,
+				15.89163589477539,
+				1.240810275077820,
+				15.89163589477539,
+				2.240810394287109,
+				13.87163543701172,
+				2.240810394287109
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 1
+		},
+		
+		{
+			"angle" : 1.570796251296997,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 9.673936843872070,
+				"y" : 5.308572292327881
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					9.923936843872070,
+					9.923936843872070,
+					9.423936843872070,
+					9.423936843872070
+				],
+				"y" : 
+				[
+					4.803572177886963,
+					5.813572406768799,
+					5.813572406768799,
+					4.803572177886963
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				9.923936843872070,
+				4.803572177886963,
+				9.923936843872070,
+				5.813572406768799,
+				9.423936843872070,
+				5.813572406768799,
+				9.423936843872070,
+				4.803572177886963
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 0.5
+		},
+		
+		{
+			"angle" : 1.570796251296997,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 9.673936843872070,
+				"y" : 4.309688568115234
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					9.923936843872070,
+					9.923936843872070,
+					9.423936843872070,
+					9.423936843872070
+				],
+				"y" : 
+				[
+					3.804688453674316,
+					4.814688682556152,
+					4.814688682556152,
+					3.804688453674316
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				9.923936843872070,
+				3.804688453674316,
+				9.923936843872070,
+				4.814688682556152,
+				9.423936843872070,
+				4.814688682556152,
+				9.423936843872070,
+				3.804688453674316
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 0.5
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : 7,
+			"center" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-0.5049999952316284,
+					0.5049999952316284,
+					0.5049999952316284,
+					-0.5049999952316284
+				],
+				"y" : [ -0.25, -0.25, 0.25, 0.25 ]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-0.5049999952316284,
+				-0.25,
+				0.5049999952316284,
+				-0.25,
+				0.5049999952316284,
+				0.25,
+				-0.5049999952316284,
+				0.25
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 0.5
+		},
+		
+		{
+			"aspectScale" : 2.300655603408813,
+			"body" : 17,
+			"center" : 
+			{
+				"x" : -0.002395193325355649,
+				"y" : -1.531888723373413
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-1.188742399215698,
+					1.183952093124390,
+					1.183952093124390,
+					-1.188742399215698
+				],
+				"y" : 
+				[
+					-1.659526348114014,
+					-1.659526348114014,
+					-1.404251098632812,
+					-1.404251098632812
+				]
+			},
+			"file" : "images/planetcute-narrowwood.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-1.188742399215698,
+				-1.659526348114014,
+				1.183952093124390,
+				-1.659526348114014,
+				1.183952093124390,
+				-1.404251098632812,
+				-1.188742399215698,
+				-1.404251098632812
+			],
+			"name" : "image13",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 0.2552753388881683
+		},
+		
+		{
+			"angle" : 1.570796251296997,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 9.673936843872070,
+				"y" : 6.313684463500977
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					9.923936843872070,
+					9.923936843872070,
+					9.423936843872070,
+					9.423936843872070
+				],
+				"y" : 
+				[
+					5.808684349060059,
+					6.818684577941895,
+					6.818684577941895,
+					5.808684349060059
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				9.923936843872070,
+				5.808684349060059,
+				9.923936843872070,
+				6.818684577941895,
+				9.423936843872070,
+				6.818684577941895,
+				9.423936843872070,
+				5.808684349060059
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 0.5
+		},
+		
+		{
+			"angle" : -0.02004313468933105,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 36.93341827392578,
+				"y" : -0.1682152450084686
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					35.91360092163086,
+					37.93319320678711,
+					37.95323562622070,
+					35.93364334106445
+				],
+				"y" : 
+				[
+					-0.6478725671768188,
+					-0.6883569955825806,
+					0.3114421069622040,
+					0.3519265353679657
+				]
+			},
+			"file" : "images/planetcute-grass.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				35.91360092163086,
+				-0.6478725671768188,
+				37.93319320678711,
+				-0.6883569955825806,
+				37.95323562622070,
+				0.3114421069622040,
+				35.93364334106445,
+				0.3519265353679657
+			],
+			"name" : "image1",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 1
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 12.42553806304932,
+				"y" : 5.577018737792969
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					11.92053794860840,
+					12.93053817749023,
+					12.93053817749023,
+					11.92053794860840
+				],
+				"y" : 
+				[
+					5.327018737792969,
+					5.327018737792969,
+					5.827018737792969,
+					5.827018737792969
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				11.92053794860840,
+				5.327018737792969,
+				12.93053817749023,
+				5.327018737792969,
+				12.93053817749023,
+				5.827018737792969,
+				11.92053794860840,
+				5.827018737792969
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 0.5
+		},
+		
+		{
+			"aspectScale" : 2.300655603408813,
+			"body" : 15,
+			"center" : 
+			{
+				"x" : -0.002395193325355649,
+				"y" : -1.531888723373413
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-1.188742399215698,
+					1.183952093124390,
+					1.183952093124390,
+					-1.188742399215698
+				],
+				"y" : 
+				[
+					-1.659526348114014,
+					-1.659526348114014,
+					-1.404251098632812,
+					-1.404251098632812
+				]
+			},
+			"file" : "images/planetcute-narrowwood.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-1.188742399215698,
+				-1.659526348114014,
+				1.183952093124390,
+				-1.659526348114014,
+				1.183952093124390,
+				-1.404251098632812,
+				-1.188742399215698,
+				-1.404251098632812
+			],
+			"name" : "image13",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 0.2552753388881683
+		},
+		
+		{
+			"angle" : -0.03803014755249023,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 40.49150085449219,
+				"y" : -0.1325236409902573
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					39.46321868896484,
+					41.48176193237305,
+					41.51978302001953,
+					39.50123977661133
+				],
+				"y" : 
+				[
+					-0.5937609076499939,
+					-0.6705633401870728,
+					0.3287136554718018,
+					0.4055160284042358
+				]
+			},
+			"file" : "images/planetcute-grass.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				39.46321868896484,
+				-0.5937609076499939,
+				41.48176193237305,
+				-0.6705633401870728,
+				41.51978302001953,
+				0.3287136554718018,
+				39.50123977661133,
+				0.4055160284042358
+			],
+			"name" : "image1",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 1
+		},
+		
+		{
+			"angle" : -0.1505519151687622,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -5.613048076629639,
+				"y" : -0.1236408948898315
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-6.686615467071533,
+					-4.689464569091797,
+					-4.539480686187744,
+					-6.536631584167480
+				],
+				"y" : 
+				[
+					-0.4665014743804932,
+					-0.7694687843322754,
+					0.2192196846008301,
+					0.5221869945526123
+				]
+			},
+			"file" : "images/planetcute-grass.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-6.686615467071533,
+				-0.4665014743804932,
+				-4.689464569091797,
+				-0.7694687843322754,
+				-4.539480686187744,
+				0.2192196846008301,
+				-6.536631584167480,
+				0.5221869945526123
+			],
+			"name" : "image1",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 1
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 15.84098052978516,
+				"y" : 0.2651356458663940
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					13.79541587829590,
+					17.88654518127441,
+					17.88654518127441,
+					13.79541587829590
+				],
+				"y" : 
+				[
+					-0.7475202083587646,
+					-0.7475202083587646,
+					1.277791500091553,
+					1.277791500091553
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				13.79541587829590,
+				-0.7475202083587646,
+				17.88654518127441,
+				-0.7475202083587646,
+				17.88654518127441,
+				1.277791500091553,
+				13.79541587829590,
+				1.277791500091553
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 2.025311708450317
+		},
+		
+		{
+			"angle" : 1.570796251296997,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 34.24304199218750,
+				"y" : 4.343689918518066
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					34.49304199218750,
+					34.49304199218750,
+					33.99304199218750,
+					33.99304199218750
+				],
+				"y" : 
+				[
+					3.838689804077148,
+					4.848690032958984,
+					4.848690032958984,
+					3.838689804077148
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				34.49304199218750,
+				3.838689804077148,
+				34.49304199218750,
+				4.848690032958984,
+				33.99304199218750,
+				4.848690032958984,
+				33.99304199218750,
+				3.838689804077148
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 10,
+			"scale" : 0.5
+		},
+		
+		{
+			"angle" : 1.413891792297363,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -10.86862564086914,
+				"y" : 1.801248073577881
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-7.364404201507568,
+					-6.642014503479004,
+					-14.37284660339355,
+					-15.09523677825928
+				],
+				"y" : 
+				[
+					-1.093362331390381,
+					3.472802162170410,
+					4.695858478546143,
+					0.1296938657760620
+				]
+			},
+			"file" : "images/planetcute-tree.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-7.364404201507568,
+				-1.093362331390381,
+				-6.642014503479004,
+				3.472802162170410,
+				-14.37284660339355,
+				4.695858478546143,
+				-15.09523677825928,
+				0.1296938657760620
+			],
+			"name" : "image8",
+			"opacity" : 1,
+			"renderOrder" : 11.0,
+			"scale" : 7.826981544494629
+		},
+		
+		{
+			"angle" : 2.19619894027710,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -8.993830680847168,
+				"y" : 0.4552409648895264
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-5.551099777221680,
+					-7.609745025634766,
+					-12.43656158447266,
+					-10.37791633605957
+				],
+				"y" : 
+				[
+					0.7724919319152832,
+					3.623418807983398,
+					0.1379899978637695,
+					-2.712936878204346
+				]
+			},
+			"file" : "images/planetcute-tree.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-5.551099777221680,
+				0.7724919319152832,
+				-7.609745025634766,
+				3.623418807983398,
+				-12.43656158447266,
+				0.1379899978637695,
+				-10.37791633605957,
+				-2.712936878204346
+			],
+			"name" : "image8",
+			"opacity" : 1,
+			"renderOrder" : 11.0,
+			"scale" : 5.953685760498047
+		},
+		
+		{
+			"angle" : 1.413891792297363,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -10.86862564086914,
+				"y" : 1.801248073577881
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-7.364404201507568,
+					-6.642014503479004,
+					-14.37284660339355,
+					-15.09523677825928
+				],
+				"y" : 
+				[
+					-1.093362331390381,
+					3.472802162170410,
+					4.695858478546143,
+					0.1296938657760620
+				]
+			},
+			"file" : "images/planetcute-tree.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-7.364404201507568,
+				-1.093362331390381,
+				-6.642014503479004,
+				3.472802162170410,
+				-14.37284660339355,
+				4.695858478546143,
+				-15.09523677825928,
+				0.1296938657760620
+			],
+			"name" : "image8",
+			"opacity" : 1,
+			"renderOrder" : 11.0,
+			"scale" : 7.826981544494629
+		},
+		
+		{
+			"angle" : 2.19619894027710,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -8.993830680847168,
+				"y" : 0.4552409648895264
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-5.551099777221680,
+					-7.609745025634766,
+					-12.43656158447266,
+					-10.37791633605957
+				],
+				"y" : 
+				[
+					0.7724919319152832,
+					3.623418807983398,
+					0.1379899978637695,
+					-2.712936878204346
+				]
+			},
+			"file" : "images/planetcute-tree.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-5.551099777221680,
+				0.7724919319152832,
+				-7.609745025634766,
+				3.623418807983398,
+				-12.43656158447266,
+				0.1379899978637695,
+				-10.37791633605957,
+				-2.712936878204346
+			],
+			"name" : "image8",
+			"opacity" : 1,
+			"renderOrder" : 11.0,
+			"scale" : 5.953685760498047
+		},
+		
+		{
+			"angle" : -3.140288829803467,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 23.19184112548828,
+				"y" : -4.925717353820801
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					28.95033073425293,
+					17.42591285705566,
+					17.43335151672363,
+					28.95776939392090
+				],
+				"y" : 
+				[
+					-2.065625905990601,
+					-2.080651521682739,
+					-7.785808563232422,
+					-7.770783424377441
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				28.95033073425293,
+				-2.065625905990601,
+				17.42591285705566,
+				-2.080651521682739,
+				17.43335151672363,
+				-7.785808563232422,
+				28.95776939392090,
+				-7.770783424377441
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 11.0,
+			"scale" : 5.705162048339844
+		},
+		
+		{
+			"angle" : 1.570796251296997,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 33.45285415649414,
+				"y" : -1.727370738983154
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					34.46551132202148,
+					34.46551132202148,
+					32.44019699096680,
+					32.44019699096680
+				],
+				"y" : 
+				[
+					-3.772935628890991,
+					0.3181941509246826,
+					0.3181941509246826,
+					-3.772935628890991
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				34.46551132202148,
+				-3.772935628890991,
+				34.46551132202148,
+				0.3181941509246826,
+				32.44019699096680,
+				0.3181941509246826,
+				32.44019699096680,
+				-3.772935628890991
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 11.0,
+			"scale" : 2.025311708450317
+		},
+		
+		{
+			"angle" : -1.563080787658691,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 13.75029563903809,
+				"y" : -3.040204524993896
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					12.13326263427734,
+					12.18289375305176,
+					15.36732864379883,
+					15.31769752502441
+				],
+				"y" : 
+				[
+					0.1637902259826660,
+					-6.268769264221191,
+					-6.244199275970459,
+					0.1883602142333984
+				]
+			},
+			"file" : "images/planetcute-stone.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				12.13326263427734,
+				0.1637902259826660,
+				12.18289375305176,
+				-6.268769264221191,
+				15.36732864379883,
+				-6.244199275970459,
+				15.31769752502441,
+				0.1883602142333984
+			],
+			"name" : "image7",
+			"opacity" : 1,
+			"renderOrder" : 11.0,
+			"scale" : 3.184530019760132
+		},
+		
+		{
+			"angle" : -0.02788573503494263,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -2.034805059432983,
+				"y" : 0.2997424006462097
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-2.523258924484253,
+					-1.559788227081299,
+					-1.546351194381714,
+					-2.509821891784668
+				],
+				"y" : 
+				[
+					0.07231174409389496,
+					0.04543769359588623,
+					0.5271730422973633,
+					0.5540471076965332
+				]
+			},
+			"file" : "images/shadow.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-2.523258924484253,
+				0.07231174409389496,
+				-1.559788227081299,
+				0.04543769359588623,
+				-1.546351194381714,
+				0.5271730422973633,
+				-2.509821891784668,
+				0.5540471076965332
+			],
+			"name" : "shadow",
+			"opacity" : 1,
+			"renderOrder" : 14.0,
+			"scale" : 0.4819227457046509
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : 24,
+			"center" : 
+			{
+				"x" : 0,
+				"y" : 0.1864646673202515
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-0.6424143314361572,
+					0.6424143314361572,
+					0.6424143314361572,
+					-0.6424143314361572
+				],
+				"y" : 
+				[
+					-0.9011873006820679,
+					-0.9011873006820679,
+					1.274116635322571,
+					1.274116635322571
+				]
+			},
+			"file" : "images/planetcute-player.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-0.6424143314361572,
+				-0.9011873006820679,
+				0.6424143314361572,
+				-0.9011873006820679,
+				0.6424143314361572,
+				1.274116635322571,
+				-0.6424143314361572,
+				1.274116635322571
+			],
+			"name" : "image11",
+			"opacity" : 1,
+			"renderOrder" : 15.0,
+			"scale" : 2.175303936004639
+		},
+		
+		{
+			"angle" : -1.938814759254456,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -6.110330104827881,
+				"y" : 1.329145431518555
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-6.140600204467773,
+					-6.35384988784790,
+					-6.080060005187988,
+					-5.866810321807861
+				],
+				"y" : 
+				[
+					1.658457756042480,
+					1.105402350425720,
+					0.9998331069946289,
+					1.552888512611389
+				]
+			},
+			"file" : "images/planetcute-wood.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-6.140600204467773,
+				1.658457756042480,
+				-6.35384988784790,
+				1.105402350425720,
+				-6.080060005187988,
+				0.9998331069946289,
+				-5.866810321807861,
+				1.552888512611389
+			],
+			"name" : "image10",
+			"opacity" : 1,
+			"renderOrder" : 18.0,
+			"scale" : 0.2934377789497375
+		},
+		
+		{
+			"angle" : -1.443815469741821,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -5.310596942901611,
+				"y" : 0.6101534366607666
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-5.492359161376953,
+					-5.417830467224121,
+					-5.128834724426270,
+					-5.203363418579102
+				],
+				"y" : 
+				[
+					0.8835915327072144,
+					0.2998198866844177,
+					0.3367153406143188,
+					0.9204869866371155
+				]
+			},
+			"file" : "images/planetcute-wood.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-5.492359161376953,
+				0.8835915327072144,
+				-5.417830467224121,
+				0.2998198866844177,
+				-5.128834724426270,
+				0.3367153406143188,
+				-5.203363418579102,
+				0.9204869866371155
+			],
+			"name" : "image10",
+			"opacity" : 1,
+			"renderOrder" : 18.0,
+			"scale" : 0.2913415133953094
+		},
+		
+		{
+			"angle" : 0.2828656435012817,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 1.592470407485962,
+				"y" : 0.2058937549591064
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					1.560946941375732,
+					1.685081243515015,
+					1.623993873596191,
+					1.499859571456909
+				],
+				"y" : 
+				[
+					0.08276928216218948,
+					0.1188501194119453,
+					0.3290182352066040,
+					0.2929373979568481
+				]
+			},
+			"file" : "images/planetcute-rock.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				1.560946941375732,
+				0.08276928216218948,
+				1.685081243515015,
+				0.1188501194119453,
+				1.623993873596191,
+				0.3290182352066040,
+				1.499859571456909,
+				0.2929373979568481
+			],
+			"name" : "image5",
+			"opacity" : 1,
+			"renderOrder" : 19.0,
+			"scale" : 0.2188659310340881
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -3.696832656860352,
+				"y" : 0.3463429212570190
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-3.856133460998535,
+					-3.537531852722168,
+					-3.537531852722168,
+					-3.856133460998535
+				],
+				"y" : 
+				[
+					0.07663547992706299,
+					0.07663547992706299,
+					0.6160503625869751,
+					0.6160503625869751
+				]
+			},
+			"file" : "images/planetcute-rock.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-3.856133460998535,
+				0.07663547992706299,
+				-3.537531852722168,
+				0.07663547992706299,
+				-3.537531852722168,
+				0.6160503625869751,
+				-3.856133460998535,
+				0.6160503625869751
+			],
+			"name" : "image5",
+			"opacity" : 1,
+			"renderOrder" : 19.0,
+			"scale" : 0.5394148826599121
+		},
+		
+		{
+			"angle" : 0.6217955350875854,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -3.896545648574829,
+				"y" : 0.2610334157943726
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-3.878947257995605,
+					-3.713930368423462,
+					-3.914144039154053,
+					-4.079160690307617
+				],
+				"y" : 
+				[
+					0.06221354007720947,
+					0.1804684102535248,
+					0.4598532915115356,
+					0.3415984213352203
+				]
+			},
+			"file" : "images/planetcute-rock.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-3.878947257995605,
+				0.06221354007720947,
+				-3.713930368423462,
+				0.1804684102535248,
+				-3.914144039154053,
+				0.4598532915115356,
+				-4.079160690307617,
+				0.3415984213352203
+			],
+			"name" : "image5",
+			"opacity" : 1,
+			"renderOrder" : 19.0,
+			"scale" : 0.3437170982360840
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 1.295855045318604,
+				"y" : 0.3368793725967407
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					1.136554121971130,
+					1.455155968666077,
+					1.455155968666077,
+					1.136554121971130
+				],
+				"y" : 
+				[
+					0.06717193126678467,
+					0.06717193126678467,
+					0.6065868139266968,
+					0.6065868139266968
+				]
+			},
+			"file" : "images/planetcute-rock.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				1.136554121971130,
+				0.06717193126678467,
+				1.455155968666077,
+				0.06717193126678467,
+				1.455155968666077,
+				0.6065868139266968,
+				1.136554121971130,
+				0.6065868139266968
+			],
+			"name" : "image5",
+			"opacity" : 1,
+			"renderOrder" : 19.0,
+			"scale" : 0.5394148826599121
+		},
+		
+		{
+			"angle" : -0.3181394338607788,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -5.363426685333252,
+				"y" : 1.400296688079834
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-6.132880687713623,
+					-5.144863128662109,
+					-4.593972682952881,
+					-5.581990242004395
+				],
+				"y" : 
+				[
+					0.7265953421592712,
+					0.4012156128883362,
+					2.073997974395752,
+					2.399377822875977
+				]
+			},
+			"file" : "images/planetcute-tree.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-6.132880687713623,
+				0.7265953421592712,
+				-5.144863128662109,
+				0.4012156128883362,
+				-4.593972682952881,
+				2.073997974395752,
+				-5.581990242004395,
+				2.399377822875977
+			],
+			"name" : "image8",
+			"opacity" : 1,
+			"renderOrder" : 20.0,
+			"scale" : 1.761159062385559
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -3.375022411346436,
+				"y" : 0.6013553142547607
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-3.780547618865967,
+					-2.969497203826904,
+					-2.969497203826904,
+					-3.780547618865967
+				],
+				"y" : 
+				[
+					-0.08522695302963257,
+					-0.08522695302963257,
+					1.287937641143799,
+					1.287937641143799
+				]
+			},
+			"file" : "images/planetcute-tree.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-3.780547618865967,
+				-0.08522695302963257,
+				-2.969497203826904,
+				-0.08522695302963257,
+				-2.969497203826904,
+				1.287937641143799,
+				-3.780547618865967,
+				1.287937641143799
+			],
+			"name" : "image8",
+			"opacity" : 1,
+			"renderOrder" : 20.0,
+			"scale" : 1.373164534568787
+		},
+		
+		{
+			"angle" : 0.07906955480575562,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -7.117411136627197,
+				"y" : 1.530857563018799
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-7.882380008697510,
+					-6.115402698516846,
+					-6.352442264556885,
+					-8.119420051574707
+				],
+				"y" : 
+				[
+					-0.03495299816131592,
+					0.1050530672073364,
+					3.096668243408203,
+					2.956662178039551
+				]
+			},
+			"file" : "images/planetcute-tree.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-7.882380008697510,
+				-0.03495299816131592,
+				-6.115402698516846,
+				0.1050530672073364,
+				-6.352442264556885,
+				3.096668243408203,
+				-8.119420051574707,
+				2.956662178039551
+			],
+			"name" : "image8",
+			"opacity" : 1,
+			"renderOrder" : 20.0,
+			"scale" : 3.000991106033325
+		},
+		
+		{
+			"angle" : -0.3070548176765442,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -2.853523254394531,
+				"y" : 0.4029088020324707
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-3.232994794845581,
+					-2.739162445068359,
+					-2.474051713943481,
+					-2.967884063720703
+				],
+				"y" : 
+				[
+					0.06315568089485168,
+					-0.09343019127845764,
+					0.7426619529724121,
+					0.8992477655410767
+				]
+			},
+			"file" : "images/planetcute-tree.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-3.232994794845581,
+				0.06315568089485168,
+				-2.739162445068359,
+				-0.09343019127845764,
+				-2.474051713943481,
+				0.7426619529724121,
+				-2.967884063720703,
+				0.8992477655410767
+			],
+			"name" : "image8",
+			"opacity" : 1,
+			"renderOrder" : 20.0,
+			"scale" : 0.8771167397499084
+		},
+		
+		{
+			"angle" : -0.5048942565917969,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -5.595876216888428,
+				"y" : 2.623481512069702
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-7.344028949737549,
+					-5.537821292877197,
+					-3.847723484039307,
+					-5.653931140899658
+				],
+				"y" : 
+				[
+					1.593586564064026,
+					0.5953414440155029,
+					3.653376579284668,
+					4.651621818542480
+				]
+			},
+			"file" : "images/planetcute-tree.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-7.344028949737549,
+				1.593586564064026,
+				-5.537821292877197,
+				0.5953414440155029,
+				-3.847723484039307,
+				3.653376579284668,
+				-5.653931140899658,
+				4.651621818542480
+			],
+			"name" : "image8",
+			"opacity" : 1,
+			"renderOrder" : 20.0,
+			"scale" : 3.493996143341064
+		},
+		
+		{
+			"angle" : 0.6354659795761108,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -5.096024513244629,
+				"y" : 0.4064064025878906
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-5.028070926666260,
+					-4.481540203094482,
+					-5.163978099822998,
+					-5.710508823394775
+				],
+				"y" : 
+				[
+					-0.2577896118164062,
+					0.1452878713607788,
+					1.070602416992188,
+					0.6675249338150024
+				]
+			},
+			"file" : "images/planetcute-tree.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-5.028070926666260,
+				-0.2577896118164062,
+				-4.481540203094482,
+				0.1452878713607788,
+				-5.163978099822998,
+				1.070602416992188,
+				-5.710508823394775,
+				0.6675249338150024
+			],
+			"name" : "image8",
+			"opacity" : 1,
+			"renderOrder" : 20.0,
+			"scale" : 1.149751663208008
+		},
+		
+		{
+			"angle" : 0.07906955480575562,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -7.127541542053223,
+				"y" : 2.556189298629761
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-7.819641590118408,
+					-6.220981121063232,
+					-6.435441493988037,
+					-8.034101486206055
+				],
+				"y" : 
+				[
+					1.139533162117004,
+					1.266202569007874,
+					3.972845554351807,
+					3.846176147460938
+				]
+			},
+			"file" : "images/planetcute-tree.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-7.819641590118408,
+				1.139533162117004,
+				-6.220981121063232,
+				1.266202569007874,
+				-6.435441493988037,
+				3.972845554351807,
+				-8.034101486206055,
+				3.846176147460938
+			],
+			"name" : "image8",
+			"opacity" : 1,
+			"renderOrder" : 20.0,
+			"scale" : 2.715125799179077
+		},
+		
+		{
+			"angle" : -5.827229499816895,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -8.674018859863281,
+				"y" : 3.326366424560547
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-8.821446418762207,
+					-7.083755493164062,
+					-8.526591300964355,
+					-10.26428222656250
+				],
+				"y" : 
+				[
+					1.429250478744507,
+					2.281451940536499,
+					5.223482131958008,
+					4.371280670166016
+				]
+			},
+			"file" : "images/planetcute-tree.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-8.821446418762207,
+				1.429250478744507,
+				-7.083755493164062,
+				2.281451940536499,
+				-8.526591300964355,
+				5.223482131958008,
+				-10.26428222656250,
+				4.371280670166016
+			],
+			"name" : "image8",
+			"opacity" : 1,
+			"renderOrder" : 20.0,
+			"scale" : 3.276784658432007
+		},
+		
+		{
+			"angle" : -0.2428995966911316,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -6.864258289337158,
+				"y" : 3.863491296768188
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-8.197619438171387,
+					-6.319023132324219,
+					-5.530897140502930,
+					-7.409493446350098
+				],
+				"y" : 
+				[
+					2.505945205688477,
+					2.040443897247314,
+					5.22103738784790,
+					5.686538696289062
+				]
+			},
+			"file" : "images/planetcute-tree.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-8.197619438171387,
+				2.505945205688477,
+				-6.319023132324219,
+				2.040443897247314,
+				-5.530897140502930,
+				5.22103738784790,
+				-7.409493446350098,
+				5.686538696289062
+			],
+			"name" : "image8",
+			"opacity" : 1,
+			"renderOrder" : 20.0,
+			"scale" : 3.276784658432007
+		},
+		
+		{
+			"angle" : -2.934077501296997,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -5.989027976989746,
+				"y" : 0.2361347675323486
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-5.491773128509521,
+					-7.037168502807617,
+					-6.486282825469971,
+					-4.940887451171875
+				],
+				"y" : 
+				[
+					1.707054018974304,
+					1.381677031517029,
+					-1.234784483909607,
+					-0.9094074964523315
+				]
+			},
+			"file" : "images/planetcute-tree.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-5.491773128509521,
+				1.707054018974304,
+				-7.037168502807617,
+				1.381677031517029,
+				-6.486282825469971,
+				-1.234784483909607,
+				-4.940887451171875,
+				-0.9094074964523315
+			],
+			"name" : "image8",
+			"opacity" : 1,
+			"renderOrder" : 20.0,
+			"scale" : 2.673825979232788
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : -0.9184411764144897,
+				"y" : 2.345563650131226
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-3.140663623809814,
+					1.303781151771545,
+					1.303781151771545,
+					-3.140663623809814
+				],
+				"y" : 
+				[
+					1.845563650131226,
+					1.845563650131226,
+					2.845563650131226,
+					2.845563650131226
+				]
+			},
+			"file" : "images/planetcute-instructions1.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-3.140663623809814,
+				1.845563650131226,
+				1.303781151771545,
+				1.845563650131226,
+				1.303781151771545,
+				2.845563650131226,
+				-3.140663623809814,
+				2.845563650131226
+			],
+			"name" : "instructions1",
+			"opacity" : 1,
+			"renderOrder" : 30.0,
+			"scale" : 1
+		},
+		
+		{
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 2.629724502563477,
+				"y" : 2.066436529159546
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					0.4075021743774414,
+					4.851946830749512,
+					4.851946830749512,
+					0.4075021743774414
+				],
+				"y" : 
+				[
+					1.566436529159546,
+					1.566436529159546,
+					2.566436529159546,
+					2.566436529159546
+				]
+			},
+			"file" : "images/planetcute-instructions2.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				0.4075021743774414,
+				1.566436529159546,
+				4.851946830749512,
+				1.566436529159546,
+				4.851946830749512,
+				2.566436529159546,
+				0.4075021743774414,
+				2.566436529159546
+			],
+			"name" : "instructions2",
+			"opacity" : 1,
+			"renderOrder" : 30.0,
+			"scale" : 1
+		},
+		
+		{
+			"angle" : 0.07147133350372314,
+			"aspectScale" : 1,
+			"body" : -1,
+			"center" : 
+			{
+				"x" : 32.85420227050781,
+				"y" : 6.961632728576660
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					31.73291206359863,
+					34.01686477661133,
+					33.97549057006836,
+					31.69154167175293
+				],
+				"y" : 
+				[
+					6.590941429138184,
+					6.754456996917725,
+					7.332324028015137,
+					7.168808460235596
+				]
+			},
+			"file" : "images/planetcute-instructions3.png",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				31.73291206359863,
+				6.590941429138184,
+				34.01686477661133,
+				6.754456996917725,
+				33.97549057006836,
+				7.332324028015137,
+				31.69154167175293,
+				7.168808460235596
+			],
+			"name" : "instructions3",
+			"opacity" : 1,
+			"renderOrder" : 40.0,
+			"scale" : 0.5793463587760925
+		}
+	],
+	"joint" : 
+	[
+		
+		{
+			"anchorA" : 
+			{
+				"x" : 0,
+				"y" : -3.954530000686646
+			},
+			"anchorB" : 
+			{
+				"x" : 3.051757812500000e-05,
+				"y" : 0
+			},
+			"bodyA" : 20,
+			"bodyB" : 15,
+			"enableLimit" : false,
+			"enableMotor" : false,
+			"jointSpeed" : 0.2181661576032639,
+			"lowerLimit" : 0,
+			"maxMotorTorque" : 0,
+			"motorSpeed" : 0,
+			"name" : "joint6",
+			"refAngle" : 0,
+			"type" : "revolute",
+			"upperLimit" : 0
+		},
+		
+		{
+			"anchorA" : 
+			{
+				"x" : 9.872709274291992,
+				"y" : -0.3320179581642151
+			},
+			"anchorB" : 
+			{
+				"x" : 0.6918849945068359,
+				"y" : 0.1315246820449829
+			},
+			"bodyA" : 25,
+			"bodyB" : 9,
+			"enableLimit" : false,
+			"enableMotor" : false,
+			"jointSpeed" : 0,
+			"lowerLimit" : 0,
+			"maxMotorTorque" : 0,
+			"motorSpeed" : 0,
+			"name" : "joint2",
+			"refAngle" : 0,
+			"type" : "revolute",
+			"upperLimit" : 0
+		},
+		
+		{
+			"anchorA" : 
+			{
+				"x" : 2.589359760284424,
+				"y" : 0.06848300993442535
+			},
+			"anchorB" : 
+			{
+				"x" : -0.7009403705596924,
+				"y" : 0.1560877263545990
+			},
+			"bodyA" : 25,
+			"bodyB" : 23,
+			"enableLimit" : false,
+			"enableMotor" : false,
+			"jointSpeed" : 0,
+			"lowerLimit" : 0,
+			"maxMotorTorque" : 0,
+			"motorSpeed" : 0,
+			"name" : "joint1",
+			"refAngle" : 0,
+			"type" : "revolute",
+			"upperLimit" : 0
+		},
+		
+		{
+			"anchorA" : 
+			{
+				"x" : 0.6051511764526367,
+				"y" : 0
+			},
+			"anchorB" : 
+			{
+				"x" : -0.6051521301269531,
+				"y" : 0
+			},
+			"bodyA" : 10,
+			"bodyB" : 9,
+			"enableLimit" : false,
+			"enableMotor" : false,
+			"jointSpeed" : 0,
+			"lowerLimit" : 0,
+			"maxMotorTorque" : 0,
+			"motorSpeed" : 0,
+			"name" : "joint0",
+			"refAngle" : 0,
+			"type" : "revolute",
+			"upperLimit" : 0
+		},
+		
+		{
+			"anchorA" : 
+			{
+				"x" : 0.6051526069641113,
+				"y" : 0
+			},
+			"anchorB" : 
+			{
+				"x" : -0.6051530838012695,
+				"y" : 0
+			},
+			"bodyA" : 11,
+			"bodyB" : 10,
+			"enableLimit" : false,
+			"enableMotor" : false,
+			"jointSpeed" : 0,
+			"lowerLimit" : 0,
+			"maxMotorTorque" : 0,
+			"motorSpeed" : 0,
+			"name" : "joint0",
+			"refAngle" : 0,
+			"type" : "revolute",
+			"upperLimit" : 0
+		},
+		
+		{
+			"anchorA" : 
+			{
+				"x" : 0.6051521301269531,
+				"y" : 0
+			},
+			"anchorB" : 
+			{
+				"x" : -0.6051521301269531,
+				"y" : 0
+			},
+			"bodyA" : 12,
+			"bodyB" : 11,
+			"enableLimit" : false,
+			"enableMotor" : false,
+			"jointSpeed" : 0,
+			"lowerLimit" : 0,
+			"maxMotorTorque" : 0,
+			"motorSpeed" : 0,
+			"name" : "joint0",
+			"refAngle" : 0,
+			"type" : "revolute",
+			"upperLimit" : 0
+		},
+		
+		{
+			"anchorA" : 
+			{
+				"x" : 0.6051530838012695,
+				"y" : 0
+			},
+			"anchorB" : 
+			{
+				"x" : -0.6051516532897949,
+				"y" : 0
+			},
+			"bodyA" : 22,
+			"bodyB" : 12,
+			"enableLimit" : false,
+			"enableMotor" : false,
+			"jointSpeed" : 0,
+			"lowerLimit" : 0,
+			"maxMotorTorque" : 0,
+			"motorSpeed" : 0,
+			"name" : "joint0",
+			"refAngle" : 0,
+			"type" : "revolute",
+			"upperLimit" : 0
+		},
+		
+		{
+			"anchorA" : 
+			{
+				"x" : 0,
+				"y" : 3.954610347747803
+			},
+			"anchorB" : 
+			{
+				"x" : 3.051757812500000e-05,
+				"y" : 3.814697265625000e-06
+			},
+			"bodyA" : 20,
+			"bodyB" : 16,
+			"enableLimit" : false,
+			"enableMotor" : false,
+			"jointSpeed" : 0.2181661576032639,
+			"lowerLimit" : 0,
+			"maxMotorTorque" : 0,
+			"motorSpeed" : 0,
+			"name" : "joint5",
+			"refAngle" : 0,
+			"type" : "revolute",
+			"upperLimit" : 0
+		},
+		
+		{
+			"anchorA" : 
+			{
+				"x" : 3.954420089721680,
+				"y" : 0
+			},
+			"anchorB" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"bodyA" : 20,
+			"bodyB" : 17,
+			"enableLimit" : false,
+			"enableMotor" : false,
+			"jointSpeed" : 0.2181661576032639,
+			"lowerLimit" : 0,
+			"maxMotorTorque" : 0,
+			"motorSpeed" : 0,
+			"name" : "joint4",
+			"refAngle" : 0,
+			"type" : "revolute",
+			"upperLimit" : 0
+		},
+		
+		{
+			"anchorA" : 
+			{
+				"x" : -3.954620361328125,
+				"y" : 0
+			},
+			"anchorB" : 
+			{
+				"x" : 0,
+				"y" : 0
+			},
+			"bodyA" : 20,
+			"bodyB" : 19,
+			"enableLimit" : false,
+			"enableMotor" : false,
+			"jointSpeed" : 0.2181661576032639,
+			"lowerLimit" : 0,
+			"maxMotorTorque" : 0,
+			"motorSpeed" : 0,
+			"name" : "joint3",
+			"refAngle" : 0,
+			"type" : "revolute",
+			"upperLimit" : 0
+		},
+		
+		{
+			"anchorA" : 
+			{
+				"x" : 0.6051521301269531,
+				"y" : 0
+			},
+			"anchorB" : 
+			{
+				"x" : -0.6051516532897949,
+				"y" : 0
+			},
+			"bodyA" : 23,
+			"bodyB" : 22,
+			"enableLimit" : false,
+			"enableMotor" : false,
+			"jointSpeed" : 0,
+			"lowerLimit" : 0,
+			"maxMotorTorque" : 0,
+			"motorSpeed" : 0,
+			"name" : "joint0",
+			"refAngle" : 0,
+			"type" : "revolute",
+			"upperLimit" : 0
+		}
+	],
+	"positionIterations" : 3,
+	"stepsPerSecond" : 60.0,
+	"subStepping" : false,
+	"velocityIterations" : 8,
+	"warmStarting" : true
+}

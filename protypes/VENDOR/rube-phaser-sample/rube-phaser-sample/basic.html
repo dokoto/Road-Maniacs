@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>RUBE with Phaser.js basic demo (box2dweb)</title>
+        <script src="phaser.min.js"></script>
+        <script src="box2dweb.min.js"></script>
+        <script src="loadrube.js"></script>
+        <script src="rube-phaser.js"></script>
+        <script src="basic.js"></script>
+    </head>
+    <body style="font-family: Verdana, Arial, sans-serif">
+        <div style="margin: auto;width: 1000px;text-align: center">
+            <h3>R.U.B.E scene loaded in Phaser.js using box2dweb</h3>
+        </div>
+        
+        <div id="phaser-container" style="margin:auto;width:800px;"></div>
+        
+        <div style="margin: auto;width:800px;text-align: center">
+            <br>
+            <b>Desktop browser:</b> Left mouse button to drag dynamic bodies or pan the view. Mouse wheel to zoom.<br>
+            <b>Mobile browser:</b> Two touches to pinch-zoom the view. One touch to drag dynamic bodies or pan the view.<br>
+            <br>
+            <hr>                
+            Tested on Chrome (desktop and Android) and Firefox (desktop only).<br>
+            <br>
+            <b>Chrome desktop</b> : everything works great.<br>
+            <b>Firefox desktop</b> : mousewheel zoom does not zoom into the point where the mouse cursor is.<br>
+            <b>Chrome Android</b>: touch positions are a little off. However, this also seems to work ok when the canvas is positioned
+            in the very top-left of the page.<br>
+            <br>
+        </div>
+    </body>
+</html>
