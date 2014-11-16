@@ -1,1 +1,2 @@
-//Restarted script log at 11/11/14 14:28:52
+//Restarted script log at Sat Nov 15 21:54:32 2014
+setCursor(22.5505, 18.521);
